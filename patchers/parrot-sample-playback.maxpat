@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 79.0, 1007.0, 784.0 ],
+		"rect" : [ 696.0, 82.0, 1007.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -19,7 +19,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
-		"objectsnaponopen" : 1,
+		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 45.0, 132.0, 20.0 ],
+					"patching_rect" : [ 8.0, 8.0, 132.0, 20.0 ],
 					"text" : "loadmess setsize 320 128"
 				}
 
@@ -60,7 +60,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 255.0, 25.0, 25.0 ]
+					"patching_rect" : [ 24.0, 200.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -72,7 +72,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 360.0, 25.0, 25.0 ]
+					"patching_rect" : [ 72.0, 328.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 360.0, 25.0, 25.0 ]
+					"patching_rect" : [ 8.0, 328.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "float" ],
-					"patching_rect" : [ 15.0, 300.0, 145.0, 36.0 ],
+					"patching_rect" : [ 8.0, 264.0, 145.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 135.0, 144.0, 33.0 ],
 					"viewvisibility" : 1
@@ -125,7 +125,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "float", "float", "float", "float" ],
-					"patching_rect" : [ 15.0, 90.0, 337.0, 142.0 ],
+					"patching_rect" : [ 8.0, 40.0, 337.0, 142.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 344.0, 144.0 ],
 					"varname" : "Sample View",
@@ -135,6 +135,20 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 2 ],
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 0 ]
