@@ -166,8 +166,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 176.0, 101.0, 20.0 ],
-					"text" : "bgcolor 66 66 66 $1"
+					"patching_rect" : [ 136.0, 176.0, 109.0, 20.0 ],
+					"text" : "bgcolor 0.2 0.2 0.2 $1"
 				}
 
 			}
@@ -854,13 +854,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-37", 3 ]
 				}
 
 			}
