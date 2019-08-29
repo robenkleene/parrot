@@ -808,7 +808,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.0, 15.0, 60.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.0, 8.0, 29.0, 18.0 ],
+					"presentation_rect" : [ 32.0, 32.0, 29.0, 18.0 ],
 					"text" : "Rev"
 				}
 
@@ -823,7 +823,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 135.0, 15.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.0, 8.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 8.0, 32.0, 24.0, 24.0 ]
 				}
 
 			}
