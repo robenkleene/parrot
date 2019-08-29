@@ -39,6 +39,22 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium Regular",
+					"fontsize" : 11.0,
+					"hidden" : 1,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 170.0, 133.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 170.0, 133.0, 20.0 ],
+					"text" : "Device vertical limit"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
