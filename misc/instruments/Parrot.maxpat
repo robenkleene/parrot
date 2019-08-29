@@ -113,13 +113,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Sample View.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Packages/roben-kleene-max/patchers",
-				"patcherrelativepath" : "../../../roben-kleene-max/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "parrot-sample-transport.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : "../../patchers",

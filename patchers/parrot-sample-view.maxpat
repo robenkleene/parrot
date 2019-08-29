@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 550.0, 310.0, 1027.0, 675.0 ],
+		"rect" : [ 379.0, 310.0, 1027.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -515,7 +515,6 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"buffername" : "#0sample",
-					"chanoffset" : 0,
 					"id" : "obj-1",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,

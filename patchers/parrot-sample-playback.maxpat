@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 92.0, 82.0, 1007.0, 784.0 ],
+		"rect" : [ 651.0, 82.0, 1007.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,15 +39,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 8.0, 132.0, 20.0 ],
-					"text" : "loadmess setsize 320 128"
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "parrot-sample-view.maxpat",
+					"numinlets" : 4,
+					"numoutlets" : 5,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "float", "float", "float", "float" ],
+					"patching_rect" : [ 8.0, 72.0, 336.0, 160.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 80.0, 0.0, 336.0, 160.0 ],
+					"varname" : "parrot-sample-view",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -60,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 200.0, 25.0, 25.0 ]
+					"patching_rect" : [ 24.0, 248.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -72,7 +81,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 360.0, 25.0, 25.0 ]
+					"patching_rect" : [ 72.0, 400.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -84,7 +93,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 360.0, 25.0, 25.0 ]
+					"patching_rect" : [ 8.0, 400.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -103,59 +112,15 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "float" ],
-					"patching_rect" : [ 8.0, 264.0, 88.0, 64.0 ],
+					"patching_rect" : [ 8.0, 304.0, 88.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 88.0, 88.0, 65.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "parrot-sample-view.maxpat",
-					"numinlets" : 4,
-					"numoutlets" : 5,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "float", "float", "float", "float" ],
-					"patching_rect" : [ 8.0, 40.0, 336.0, 160.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 0.0, 336.0, 160.0 ],
-					"varname" : "Sample View",
+					"presentation_rect" : [ 0.0, 0.0, 88.0, 65.0 ],
 					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
-					"source" : [ "obj-1", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-16", 0 ]
@@ -178,21 +143,35 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-2", 2 ],
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "parrot-sample-view.maxpat",
+				"name" : "parrot-sample-transport.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-sample-transport.maxpat",
+				"name" : "parrot-sample-view.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
