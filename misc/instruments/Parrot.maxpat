@@ -120,6 +120,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "parrot-sample-view.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "parrot-ad-envelope.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : "../../patchers",
