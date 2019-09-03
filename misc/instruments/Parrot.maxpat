@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 42.0, 79.0, 1097.0, 173.0 ],
+		"openrect" : [ 42.0, 79.0, 1083.0, 171.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 1097.0,
+		"devicewidth" : 1083.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
