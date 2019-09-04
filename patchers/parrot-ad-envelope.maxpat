@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 233.0, 118.0, 771.0, 597.0 ],
+		"rect" : [ 201.0, 141.0, 771.0, 597.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,64 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 480.0, 64.0, 132.0, 20.0 ],
+					"restore" : [ 127 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Decay",
+							"parameter_shortname" : "Stored_Decay",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Decay Decay",
+					"varname" : "Stored_Decay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 480.0, 40.0, 134.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Attack",
+							"parameter_shortname" : "Stored_Attack",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr Stored_Attack Attack",
+					"varname" : "Stored_Attack"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
@@ -160,26 +218,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 435.0, 80.0, 20.0 ],
 					"text" : "pvar Attack 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 435.0, 15.0, 59.5, 20.0 ],
-					"restore" : 					{
-						"Attack" : [ 0 ],
-						"Decay" : [ 1000 ]
-					}
-,
-					"text" : "autopattr",
-					"varname" : "u062004475"
 				}
 
 			}
@@ -311,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 45.0, 30.0, 18.0 ],
+					"patching_rect" : [ 144.0, 40.0, 30.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 32.0, 25.0, 18.0 ],
 					"text" : "ms"
@@ -326,7 +364,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 45.0, 30.0, 18.0 ],
+					"patching_rect" : [ 56.0, 40.0, 30.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 8.0, 25.0, 18.0 ],
 					"text" : "ms"
@@ -344,7 +382,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 45.0, 50.0, 20.0 ],
+					"patching_rect" : [ 96.0, 40.0, 48.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 32.0, 48.0, 20.0 ],
 					"varname" : "Decay"
@@ -362,7 +400,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 45.0, 50.0, 20.0 ],
+					"patching_rect" : [ 8.0, 40.0, 48.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 48.0, 20.0 ],
 					"varname" : "Attack"
@@ -508,6 +546,15 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
