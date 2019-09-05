@@ -66,7 +66,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 90.0, 55.0, 20.0 ],
+					"patching_rect" : [ 32.0, 96.0, 55.0, 20.0 ],
 					"text" : "s #0size"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 60.0, 79.0, 20.0 ],
+					"patching_rect" : [ 32.0, 66.0, 79.0, 20.0 ],
 					"text" : "route setsize"
 				}
 
@@ -359,7 +359,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 672.0, 56.0, 60.0, 20.0 ],
+					"patching_rect" : [ 664.0, 72.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -451,7 +451,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 30.0, 22.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -520,7 +520,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 136.0, 152.0, 495.0, 120.0 ],
+					"patching_rect" : [ 24.0, 152.0, 256.0, 120.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 320.0, 144.0 ],
 					"varname" : "WaveformPattr"
@@ -548,7 +548,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 660.0, 152.0, 495.0, 120.0 ],
+					"patching_rect" : [ 288.0, 152.0, 248.0, 120.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 8.0, 320.0, 144.0 ],
 					"varname" : "DropfilePattr"
