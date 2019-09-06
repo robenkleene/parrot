@@ -39,6 +39,18 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 520.0, 104.0, 32.0, 20.0 ],
+					"text" : "adc~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -189,7 +201,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "parrot-player.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
@@ -220,6 +232,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 2 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -273,6 +299,20 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1::obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-1::obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-1::obj-6" : [ "Stored_Type", "Stored_Type", 0 ],
+			"obj-1::obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-1::obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
+			"obj-1::obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1::obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "parrot-player.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",

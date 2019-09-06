@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1234.0, 787.0 ],
+		"rect" : [ 389.0, 163.0, 1234.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,32 @@
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-30",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 456.0, 8.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-28",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 392.0, 8.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
@@ -638,18 +664,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 464.0, 112.0, 32.0, 20.0 ],
-					"text" : "adc~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-34",
@@ -741,20 +755,6 @@
 					"destination" : [ "obj-20", 1 ],
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -882,6 +882,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-29", 1 ]
 				}
@@ -891,6 +898,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1033,12 +1047,12 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-6" : [ "Stored_Type", "Stored_Type", 0 ],
-			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
-			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
-			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
+			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
 			"parameterbanks" : 			{
 
