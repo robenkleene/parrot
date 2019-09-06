@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 389.0, 163.0, 1234.0, 787.0 ],
+		"rect" : [ 172.0, 163.0, 1234.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -213,7 +213,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.0, 80.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 8.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 8.0, 8.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -276,7 +276,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 992.0, 48.0, 80.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 416.0, 96.0, 64.0, 56.0 ],
+					"presentation_rect" : [ 408.0, 96.0, 64.0, 56.0 ],
 					"tabs" : [ "Spectrum", "Meter" ],
 					"varname" : "Type"
 				}
@@ -292,7 +292,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 528.0, 48.0, 56.0, 72.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 416.0, 8.0, 64.0, 80.0 ],
+					"presentation_rect" : [ 408.0, 8.0, 64.0, 80.0 ],
 					"tabs" : [ "Both", "DAC", "Sample" ],
 					"varname" : "Input"
 				}
@@ -482,7 +482,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 464.0, 400.0, 512.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 480.0, 0.0, 512.0, 160.0 ],
+					"presentation_rect" : [ 472.0, 0.0, 512.0, 160.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -511,7 +511,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 80.0, 568.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 72.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 8.0, 72.0, 24.0, 24.0 ],
 					"varname" : "Mute"
 				}
 
@@ -524,7 +524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.0, 568.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 72.0, 32.0, 18.0 ],
+					"presentation_rect" : [ 32.0, 72.0, 32.0, 18.0 ],
 					"text" : "Mute"
 				}
 
@@ -578,7 +578,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 96.0, 400.0, 160.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 992.0, 8.0, 24.0, 144.0 ],
+					"presentation_rect" : [ 984.0, 8.0, 24.0, 144.0 ],
 					"varname" : "Gain"
 				}
 
@@ -612,7 +612,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 8.0, 368.0, 80.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 96.0, 80.0, 56.0 ],
+					"presentation_rect" : [ 0.0, 96.0, 80.0, 56.0 ],
 					"varname" : "parrot-ad-envelope",
 					"viewvisibility" : 1
 				}
@@ -635,7 +635,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 32.0, 184.0, 336.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 0.0, 336.0, 160.0 ],
+					"presentation_rect" : [ 72.0, 0.0, 336.0, 160.0 ],
 					"varname" : "parrot-sample-playback",
 					"viewvisibility" : 1
 				}
@@ -657,7 +657,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 464.0, 184.0, 512.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 480.0, 0.0, 512.0, 160.0 ],
+					"presentation_rect" : [ 472.0, 0.0, 512.0, 160.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -692,7 +692,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 464.0, 344.0, 512.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 480.0, 152.0, 512.0, 16.0 ],
+					"presentation_rect" : [ 472.0, 152.0, 512.0, 16.0 ],
 					"viewvisibility" : 1
 				}
 
