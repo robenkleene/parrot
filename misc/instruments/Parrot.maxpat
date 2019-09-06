@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 42.0, 79.0, 1083.0, 171.0 ],
+		"openrect" : [ 42.0, 79.0, 1073.0, 170.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 1083.0,
+		"devicewidth" : 1073.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -69,7 +69,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 328.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1024.0, 104.0, 48.0, 48.0 ]
+					"presentation_rect" : [ 1016.0, 104.0, 48.0, 48.0 ]
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 80.0, 8.0, 67.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 40.0, 23.0, 18.0 ],
+					"presentation_rect" : [ 32.0, 40.0, 23.0, 18.0 ],
 					"text" : "BG"
 				}
 
@@ -108,7 +108,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 56.0, 8.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 40.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 8.0, 40.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -207,7 +207,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 8.0, 144.0, 1040.0, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1024.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 1016.0, 168.0 ],
 					"varname" : "parrot-player",
 					"viewvisibility" : 1
 				}
