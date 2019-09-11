@@ -25,15 +25,14 @@ done
 
 cd "$(dirname "$0")"
 
-dir=~/Music/Ableton/User\ Library/Presets/Instruments/Max\ Instrument/
-if [[ ! -d "$dir" ]]; then
-  echo "Directory doesn't exist $dir" >&2
-  exit 1
-fi
+install() {
+  filename=$1
+  dir=$2
+  if [[ ! -d "$dir" ]]; then
+    echo "Directory doesn't exist $dir" >&2
+    exit 1
+  fi
 
-declare -a filenames=("Parrot.amxd" "ParrotNote.amxd")
-
-for filename in "${filenames[@]}"; do
   file=max-for-live/instruments/$filename
   if [[ ! -f "$file" ]]; then
     echo "File doesn't exist $file" >&2
@@ -47,4 +46,7 @@ for filename in "${filenames[@]}"; do
   fi
 
   cp "$file" "$destination"
-done
+}
+
+install "Parrot.amxd" ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/
+install "ParrotNote.amxd" ~/Music/Ableton/User\ Library/Presets/MIDI\ Effects/Max\ MIDI\ Effect/
