@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 96.0, 8.0, 80.0, 20.0 ],
+					"text" : "loadmess 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -498,6 +510,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -547,8 +566,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"parameterbanks" : 			{
 
 			}
