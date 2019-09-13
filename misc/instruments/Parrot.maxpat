@@ -93,7 +93,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 80.0, 8.0, 67.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 40.0, 23.0, 18.0 ],
+					"presentation_rect" : [ 608.0, 40.0, 23.0, 18.0 ],
 					"text" : "BG"
 				}
 
@@ -108,7 +108,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 56.0, 8.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 40.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 584.0, 40.0, 24.0, 24.0 ]
 				}
 
 			}
