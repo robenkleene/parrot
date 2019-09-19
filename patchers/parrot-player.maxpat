@@ -39,6 +39,18 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 720.0, 128.0, 42.0, 20.0 ],
+					"text" : "full red"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
 					"index" : 0,
@@ -353,7 +365,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 128.0, 29.5, 20.0 ],
+					"patching_rect" : [ 832.0, 128.0, 29.5, 20.0 ],
 					"text" : "hide"
 				}
 
@@ -365,8 +377,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 816.0, 128.0, 29.5, 20.0 ],
-					"text" : "full"
+					"patching_rect" : [ 872.0, 128.0, 56.0, 20.0 ],
+					"text" : "half green"
 				}
 
 			}
@@ -377,7 +389,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 128.0, 29.5, 20.0 ],
+					"patching_rect" : [ 776.0, 128.0, 29.5, 20.0 ],
 					"text" : "hide"
 				}
 
@@ -389,8 +401,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 128.0, 29.5, 20.0 ],
-					"text" : "half"
+					"patching_rect" : [ 632.0, 128.0, 56.0, 20.0 ],
+					"text" : "half green"
 				}
 
 			}
@@ -401,8 +413,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 128.0, 29.5, 20.0 ],
-					"text" : "full"
+					"patching_rect" : [ 584.0, 128.0, 42.0, 20.0 ],
+					"text" : "full red"
 				}
 
 			}
@@ -836,15 +848,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"order" : 1,
-					"source" : [ "obj-25", 1 ]
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-32", 0 ],
 					"order" : 1,
-					"source" : [ "obj-25", 0 ]
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
@@ -912,6 +924,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 1 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1047,13 +1066,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
 			"obj-6" : [ "Stored_Type", "Stored_Type", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
-			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
 			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
-			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1069,6 +1088,13 @@
 			}
 , 			{
 				"name" : "parrot-analyzer.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "parrot-color.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
