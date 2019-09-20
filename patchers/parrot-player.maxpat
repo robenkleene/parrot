@@ -377,8 +377,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.0, 128.0, 56.0, 20.0 ],
-					"text" : "half green"
+					"patching_rect" : [ 872.0, 128.0, 54.0, 20.0 ],
+					"text" : "full green"
 				}
 
 			}
@@ -1066,13 +1066,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
-			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-6" : [ "Stored_Type", "Stored_Type", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
-			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}
