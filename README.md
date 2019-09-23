@@ -1,3 +1,3 @@
 # Parrot
 
-![Parrot](Thwomp.png)
+![Parrot](Parrot.png)
