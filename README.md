@@ -25,4 +25,18 @@ To use Parrot, insert ParrotNote to the left of the synthesizer, and Parrot to t
 
 ### ParrotNote
 
-ParrotNote's interface is very simple.
+ParrotNote's interface is very simple. It shows the pitch and velocity of the incoming note. You can also press the button to output the last played note.
+
+### Parrot
+
+#### Analyzer
+
+- `Both` / `DAC` / `Sample`: Determine whether to show the DAC and Sample overlaid (`Both`) or just the DAC or sample.
+- `Spectrum` / `Meter`: Choose between two ways of visualizing the spectral output.
+
+#### Sample Playback
+
+- The button plays the sample.
+- Drag a sample into the waveform box to load a sample.
+- `Mute`: Toggle whether the sample audio is output.
+- Attack and decay envelope in `ms`.
