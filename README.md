@@ -2,9 +2,11 @@
 
 ![Parrot](Parrot.png)
 
-Parrot is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) analyzer that overlays the spectral output of an instrument (for example, a synthesizer) and a sample, with the intention of making it easier to synthesize sampled sounds by manipulating the synthesizer until the spectral outputs match.
+Parrot is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) analyzer designed to assist in recreating sampled sounds with a synthesizer.
 
-For example, to synthesize a snare drum, you'd setup a snare sample in Parrot and adjust your synthesizer until its spectral output matches the sample.
+It overlays the spectral output of an instrument (for example, a synthesizer) and a sample. The idea is to then manually manipulate the synthesizer until the spectral output matches the sample.  The full documentation is at the URL. For example, to synthesize a snare drum, you'd setup a snare sample in Parrot and adjust your synthesizer until its spectral output matches the sample.
+
+The technique of using the spectral output of a sound to replicate it through synthesis is inspired by [*Welsh's Synthesizer Cookbook*](http://synthesizer-cookbook.com/).
 
 ## Details
 
@@ -20,7 +22,10 @@ ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to
 
 ## Setup
 
-To use Parrot, insert ParrotNote to the left of an instrument and Parrot to the right of the instrument. To load a sample, drag it onto the waveform box.
+1. Insert ParrotNote to the left of an instrument on a MIDI channel.
+2. Insert Parrot to the right of the instrument.
+3. Load a sample by dragging it onto the waveform box.
+4. When playing a MIDI note plays, the spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
 
 ## Interface
 
