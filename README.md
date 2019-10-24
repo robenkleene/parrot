@@ -4,7 +4,7 @@
 
 Parrot is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) analyzer designed to assist in recreating sampled sounds with a synthesizer.
 
-It overlays the spectral output of an instrument (for example, a synthesizer) and a sample. The idea is to then manually manipulate the synthesizer until the spectral output matches the sample.  The full documentation is at the URL. For example, to synthesize a snare drum, you'd setup a snare sample in Parrot and adjust your synthesizer until its spectral output matches the sample.
+It overlays the spectral output of an instrument (for example, a synthesizer) and a sample. The idea is to then manually manipulate the synthesizer until the spectral output matches the sample.  For example, to synthesize a snare drum, you'd setup a snare sample in Parrot and adjust your synthesizer until its spectral output matches the sample.
 
 The technique of using the spectral output of a sound to replicate it through synthesis is inspired by [*Welsh's Synthesizer Cookbook*](http://synthesizer-cookbook.com/).
 
