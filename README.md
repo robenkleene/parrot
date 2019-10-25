@@ -18,12 +18,12 @@ Parrot is a Max for Live *audio effect* that includes the main interface with sa
 
 ## ParrotNote
 
-ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to Parrot, the audio effect, so that Parrot can play the sample at the same time that the synthesizer receives the incoming MIDI note. In other words, ParrotNote works around the fact that Max for Live audio effects cannot receive MIDI input directly.
+ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to the Parrot audio effect so that it can play the sample at the same time that the synthesizer receives the incoming MIDI note. In other words, ParrotNote works around the fact that Max for Live audio effects cannot receive MIDI input directly.
 
 ## Setup
 
-1. Insert ParrotNote to the left of an instrument on a MIDI channel.
-2. Insert Parrot to the right of the instrument.
+1. Insert **ParrotNote** to the left of an instrument on a MIDI channel.
+2. Insert **Parrot** to the right of the instrument.
 3. Load a sample by dragging it onto the waveform box.
 4. When playing a MIDI note plays, the spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
 
