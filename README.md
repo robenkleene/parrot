@@ -31,7 +31,7 @@ ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to
 
 ### ParrotNote
 
-ParrotNote's interface shows the pitch and velocity of the most recent MIDI note. The button outputs the MIDI note.
+ParrotNote's interface shows the pitch and velocity of the most recent MIDI note. The button outputs the MIDI note. The duration of the note can also be set.
 
 ### Parrot
 
