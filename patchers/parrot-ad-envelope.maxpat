@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,7 +57,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 64.0, 132.0, 20.0 ],
-					"restore" : [ 127 ],
+					"restore" : [ 1000 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -389,6 +389,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-18",
 					"maxclass" : "number",
+					"maximum" : 15000,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -566,8 +567,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}
