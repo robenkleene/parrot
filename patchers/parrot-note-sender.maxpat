@@ -238,6 +238,7 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "number",
+					"maximum" : 15000,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
