@@ -46,8 +46,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 112.0, 149.0, 20.0 ],
 					"restore" : [ 127 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Velocity",
+							"parameter_shortname" : "Stored_Velocity",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -65,8 +75,18 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 88.0, 122.0, 20.0 ],
 					"restore" : [ 62 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Stored_Pitch",
+							"parameter_shortname" : "Stored_Pitch",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
 ,
@@ -549,6 +569,8 @@
  ],
 		"parameters" : 		{
 			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-34" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-33" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
 			"parameterbanks" : 			{
 
 			}
