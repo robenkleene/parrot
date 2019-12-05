@@ -46,3 +46,10 @@ ParrotNote's interface shows the pitch and velocity of the most recent MIDI note
 - To load a sample, drag it onto the waveform box.
 - `Mute`: Toggle whether the sample's audio is output.
 - Attack and decay envelope in `ms`.
+
+#### Standalone Mode
+
+Parrot can also be opened in standalone mode by opening the `misc/instruments/Parrot.maxpat`  outside of Ableton Live, it offers some additional features.
+
+- Typing the `s` will play the sample
+- **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
