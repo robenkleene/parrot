@@ -307,6 +307,7 @@
 			"obj-1::obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-1::obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"obj-1::obj-3" : [ "Input", "Input", 0 ],
+			"obj-1::obj-6" : [ "Gain", "Gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
