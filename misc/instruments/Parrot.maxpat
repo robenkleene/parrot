@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -300,12 +300,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-6" : [ "Stored_Type", "Stored_Type", 0 ],
-			"obj-1::obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-1::obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"obj-1::obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
+			"obj-1::obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1::obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-1::obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
-			"obj-1::obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-1::obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"parameterbanks" : 			{
 
@@ -329,6 +328,13 @@
 			}
 , 			{
 				"name" : "parrot-analyzer.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "parrot-color.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",

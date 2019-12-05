@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 172.0, 163.0, 1234.0, 787.0 ],
+		"rect" : [ 89.0, 79.0, 1234.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 168.0, 128.0, 120.0, 20.0 ],
+					"patching_rect" : [ 168.0, 104.0, 120.0, 20.0 ],
 					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -111,7 +111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 168.0, 104.0, 118.0, 20.0 ],
+					"patching_rect" : [ 168.0, 80.0, 118.0, 20.0 ],
 					"restore" : [ 100 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -130,35 +130,6 @@
 ,
 					"text" : "pattr Stored_Gain Gain",
 					"varname" : "Stored_Gain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 168.0, 80.0, 119.0, 20.0 ],
-					"restore" : [ 0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Stored_Type",
-							"parameter_shortname" : "Stored_Type",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Stored_Type Type",
-					"varname" : "Stored_Type"
 				}
 
 			}
@@ -188,18 +159,6 @@
 ,
 					"text" : "pattr Stored_Input Input",
 					"varname" : "Stored_Input"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 992.0, 16.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
 				}
 
 			}
@@ -280,22 +239,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "tab",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 992.0, 48.0, 80.0, 56.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 96.0, 64.0, 56.0 ],
-					"tabs" : [ "Spectrum", "Meter" ],
-					"varname" : "Type"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -307,54 +250,6 @@
 					"presentation_rect" : [ 8.0, 8.0, 64.0, 80.0 ],
 					"tabs" : [ "Both", "DAC", "Sample" ],
 					"varname" : "Input"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1032.0, 192.0, 30.0, 20.0 ],
-					"text" : "* -16"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1032.0, 232.0, 58.0, 20.0 ],
-					"text" : "offset 0 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 992.0, 144.0, 58.0, 20.0 ],
-					"text" : "offset 0 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 992.0, 112.0, 35.0, 20.0 ],
-					"text" : "* -168"
 				}
 
 			}
@@ -908,13 +803,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -950,22 +838,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"order" : 0,
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-38", 0 ]
 				}
@@ -994,38 +866,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 1 ],
 					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"order" : 0,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -1066,13 +908,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
-			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
-			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-6" : [ "Stored_Type", "Stored_Type", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
+			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
+			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
