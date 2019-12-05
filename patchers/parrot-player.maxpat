@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 89.0, 79.0, 1234.0, 787.0 ],
+		"rect" : [ 89.0, 79.0, 869.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,35 @@
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "live.tab",
+					"num_lines_patching" : 3,
+					"num_lines_presentation" : 3,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 528.0, 48.0, 48.0, 104.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 48.0, 168.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "Input",
+							"parameter_enum" : [ "Both", "DAC", "Sample" ],
+							"parameter_type" : 2,
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "Input",
+							"parameter_mmax" : 2
+						}
+
+					}
+,
+					"varname" : "Input"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "message",
@@ -234,22 +263,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 8.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "tab",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 528.0, 48.0, 56.0, 72.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 64.0, 80.0 ],
-					"tabs" : [ "Both", "DAC", "Sample" ],
-					"varname" : "Input"
 				}
 
 			}
@@ -607,7 +620,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -797,7 +810,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-29", 1 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -914,6 +927,7 @@
 			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-3" : [ "Input", "Input", 0 ],
 			"parameterbanks" : 			{
 
 			}
