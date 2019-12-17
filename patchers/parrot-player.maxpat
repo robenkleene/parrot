@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 152.0, 32.0, 20.0 ],
+					"patching_rect" : [ 352.0, 144.0, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 616.0, 40.0, 32.0, 20.0 ],
 					"text" : "clear"
@@ -629,7 +629,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-17", 0 ]
 				}
 

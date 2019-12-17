@@ -46,7 +46,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 8.0, 30.0, 30.0 ]
+					"patching_rect" : [ 64.0, 40.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "float", "float", "float", "float" ],
-					"patching_rect" : [ 16.0, 112.0, 336.0, 160.0 ],
+					"patching_rect" : [ 64.0, 112.0, 336.0, 160.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 336.0, 160.0 ],
 					"varname" : "parrot-sample-view",
@@ -82,7 +82,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 288.0, 25.0, 25.0 ]
+					"patching_rect" : [ 16.0, 40.0, 25.0, 25.0 ]
 				}
 
 			}
