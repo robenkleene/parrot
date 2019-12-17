@@ -39,6 +39,20 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 176.0, 152.0, 32.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 616.0, 40.0, 32.0, 20.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
@@ -523,7 +537,7 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "parrot-sample-playback.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
@@ -610,6 +624,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -872,14 +893,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
-			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
-			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
-			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-3" : [ "Input", "Input", 0 ],
 			"obj-6" : [ "Gain", "Gain", 0 ],
+			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"obj-3" : [ "Input", "Input", 0 ],
+			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"parameterbanks" : 			{
 
 			}
