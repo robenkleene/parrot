@@ -39,6 +39,32 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "live.button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 8.0, 80.0, 15.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 584.0, 16.0, 15.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.button",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "live.button",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.button"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -65,12 +91,12 @@
 					"presentation_rect" : [ 976.0, 16.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "Gain",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Gain",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "Gain",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -94,12 +120,12 @@
 					"presentation_rect" : [ 0.0, 0.0, 48.0, 168.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "Input",
+							"parameter_mmax" : 2,
 							"parameter_shortname" : "Input",
 							"parameter_enum" : [ "Both", "DAC", "Sample" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "Input",
-							"parameter_mmax" : 2
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -242,20 +268,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.0, 16.0, 63.0, 20.0 ],
 					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 80.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 8.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -518,7 +530,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 8.0, 368.0, 80.0, 56.0 ],
+					"patching_rect" : [ 8.0, 368.0, 80.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 576.0, 96.0, 80.0, 56.0 ],
 					"varname" : "parrot-ad-envelope",
@@ -615,6 +627,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -631,13 +650,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -680,7 +692,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -893,15 +905,26 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-3" : [ "Input", "Input", 0 ],
+			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-6" : [ "Gain", "Gain", 0 ],
-			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
-			"obj-3" : [ "Input", "Input", 0 ],
 			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-10" : [ "live.button", "live.button", 0 ],
+			"obj-7::obj-23" : [ "Decay", "Decay", 0 ],
+			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"obj-7::obj-24" : [ "live.dial", "live.dial", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-7::obj-24" : 				{
+					"parameter_longname" : "live.dial",
+					"parameter_shortname" : "live.dial"
+				}
 
 			}
 
