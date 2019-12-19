@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 89.0, 79.0, 1284.0, 787.0 ],
+		"rect" : [ 89.0, 79.0, 989.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,6 +38,62 @@
 		"style" : "",
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 352.0, 120.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 576.0, 56.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "Clear",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Clear",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Clear",
+					"varname" : "Clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 80.0, 576.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 576.0, 40.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "Mute",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "Mute",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Mute",
+					"texton" : "Mute",
+					"varname" : "Mute"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "live.button",
@@ -71,8 +127,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 352.0, 144.0, 32.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 616.0, 40.0, 32.0, 20.0 ],
 					"text" : "clear"
 				}
 
@@ -394,18 +448,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 536.0, 63.0, 20.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -472,34 +514,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 464.0, 368.0, 32.5, 20.0 ],
 					"text" : "/~ 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 80.0, 568.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 72.0, 24.0, 24.0 ],
-					"varname" : "Mute"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 568.0, 32.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 608.0, 72.0, 32.0, 18.0 ],
-					"text" : "Mute"
 				}
 
 			}
@@ -635,7 +649,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-14", 0 ]
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -680,13 +701,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -905,17 +919,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "Input", "Input", 0 ],
-			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
-			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-6" : [ "Gain", "Gain", 0 ],
 			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
+			"obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-13" : [ "Clear", "Clear", 0 ],
 			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-10" : [ "live.button", "live.button", 0 ],
-			"obj-7::obj-23" : [ "Decay", "Decay", 0 ],
-			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
-			"obj-7::obj-24" : [ "live.dial", "live.dial", 0 ],
+			"obj-6" : [ "Gain", "Gain", 0 ],
+			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-7::obj-23" : [ "Decay", "Decay", 0 ],
+			"obj-7::obj-24" : [ "live.dial", "live.dial", 0 ],
+			"obj-3" : [ "Input", "Input", 0 ],
+			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
 			"parameterbanks" : 			{
 
 			}
