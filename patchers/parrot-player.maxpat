@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 89.0, 79.0, 989.0, 787.0 ],
+		"rect" : [ 89.0, 79.0, 1290.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -519,9 +519,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 464.0, 400.0, 512.0, 160.0 ],
+					"patching_rect" : [ 464.0, 400.0, 496.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 0.0, 512.0, 160.0 ],
+					"presentation_rect" : [ 72.0, 0.0, 512.0, 144.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -567,9 +567,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 32.0, 184.0, 336.0, 160.0 ],
+					"patching_rect" : [ 32.0, 184.0, 320.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 648.0, 0.0, 336.0, 160.0 ],
+					"presentation_rect" : [ 648.0, 0.0, 320.0, 144.0 ],
 					"varname" : "parrot-sample-playback",
 					"viewvisibility" : 1
 				}
@@ -589,9 +589,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 464.0, 184.0, 512.0, 160.0 ],
+					"patching_rect" : [ 464.0, 184.0, 496.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 0.0, 512.0, 160.0 ],
+					"presentation_rect" : [ 72.0, 0.0, 512.0, 144.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -624,9 +624,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 464.0, 344.0, 512.0, 16.0 ],
+					"patching_rect" : [ 464.0, 328.0, 496.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 152.0, 512.0, 16.0 ],
+					"presentation_rect" : [ 72.0, 144.0, 496.0, 16.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -919,8 +919,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
 			"obj-2::obj-24" : [ "Attack", "Attack", 0 ],
+			"obj-2::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
 			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-12" : [ "Mute", "Mute", 0 ],

@@ -67,7 +67,7 @@
 					"outlettype" : [ "", "float", "float", "float", "float" ],
 					"patching_rect" : [ 64.0, 112.0, 336.0, 160.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 336.0, 160.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 320.0, 144.0 ],
 					"varname" : "parrot-sample-view",
 					"viewvisibility" : 1
 				}

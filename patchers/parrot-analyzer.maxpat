@@ -952,7 +952,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 136.0, 465.0, 105.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 496.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 496.0, 144.0 ],
 					"range" : [ 0.0, 1.0 ]
 				}
 

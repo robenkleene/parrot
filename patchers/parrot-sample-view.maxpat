@@ -85,13 +85,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 8.0, 344.0, 320.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 320.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 320.0, 144.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.drop",
-							"parameter_type" : 4,
 							"parameter_longname" : "live.drop",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "live.drop",
+							"parameter_type" : 4
 						}
 
 					}
@@ -110,7 +110,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 768.0, 678.0, 249.0, 20.0 ],
-					"restore" : [ 8.0, 8.0, 320.0, 144.0 ],
+					"restore" : [ 0.0, 0.0, 320.0, 144.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -242,7 +242,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 768.0, 528.0, 274.0, 20.0 ],
-					"restore" : [ 8.0, 8.0, 320.0, 144.0 ],
+					"restore" : [ 0.0, 0.0, 320.0, 144.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -557,7 +557,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 424.0, 344.0, 400.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 8.0, 320.0, 144.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 320.0, 144.0 ],
 					"varname" : "WaveformPattr"
 				}
 
