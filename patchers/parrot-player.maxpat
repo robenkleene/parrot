@@ -39,6 +39,29 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "parrot-ad-envelope.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 8.0, 368.0, 40.0, 96.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 576.0, 72.0, 40.0, 96.0 ],
+					"varname" : "parrot-ad-envelope[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -536,29 +559,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-7",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "parrot-ad-envelope.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 8.0, 360.0, 40.0, 104.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 72.0, 40.0, 96.0 ],
-					"varname" : "parrot-ad-envelope",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
@@ -671,6 +671,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -824,14 +838,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -884,15 +898,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"source" : [ "obj-7", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
@@ -905,13 +912,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -919,17 +919,17 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
+			"obj-2::obj-24" : [ "Attack", "Attack", 0 ],
 			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-13" : [ "Clear", "Clear", 0 ],
 			"obj-10" : [ "live.button", "live.button", 0 ],
-			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-6" : [ "Gain", "Gain", 0 ],
-			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-7::obj-23" : [ "Decay", "Decay", 0 ],
-			"obj-7::obj-24" : [ "live.dial", "live.dial", 0 ],
+			"obj-2::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
+			"obj-2::obj-23" : [ "Decay[1]", "Decay", 0 ],
 			"obj-3" : [ "Input", "Input", 0 ],
 			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
 			"parameterbanks" : 			{
@@ -937,9 +937,8 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-7::obj-24" : 				{
-					"parameter_longname" : "live.dial",
-					"parameter_shortname" : "live.dial"
+				"obj-2::obj-23" : 				{
+					"parameter_longname" : "Decay[1]"
 				}
 
 			}
