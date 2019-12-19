@@ -140,7 +140,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 16.0, 448.0, 48.0, 136.0 ],
+					"patching_rect" : [ 8.0, 480.0, 48.0, 136.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 976.0, 16.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
@@ -234,7 +234,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 168.0, 104.0, 120.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -544,9 +544,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 8.0, 368.0, 80.0, 48.0 ],
+					"patching_rect" : [ 8.0, 360.0, 40.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 96.0, 80.0, 56.0 ],
+					"presentation_rect" : [ 576.0, 72.0, 40.0, 96.0 ],
 					"varname" : "parrot-ad-envelope",
 					"viewvisibility" : 1
 				}
@@ -923,8 +923,8 @@
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-13" : [ "Clear", "Clear", 0 ],
-			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-10" : [ "live.button", "live.button", 0 ],
+			"obj-7::obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-6" : [ "Gain", "Gain", 0 ],
 			"obj-7::obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],

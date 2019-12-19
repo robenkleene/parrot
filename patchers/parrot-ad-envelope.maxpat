@@ -74,7 +74,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 48.0, 40.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 0.0, 41.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 48.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
@@ -454,9 +454,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
-			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
 			"obj-24" : [ "Attack", "Attack", 0 ],
+			"obj-21" : [ "Stored_Decay", "Stored_Decay", 0 ],
+			"obj-1" : [ "Stored_Attack", "Stored_Attack", 0 ],
 			"obj-23" : [ "Decay", "Decay", 0 ],
 			"parameterbanks" : 			{
 
