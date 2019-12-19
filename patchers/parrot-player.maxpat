@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 89.0, 79.0, 1290.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 995.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -39,6 +39,71 @@
 		"subpatcher_template" : "roben-kleene-max-for-live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 80.0, 544.0, 63.0, 20.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 8.0, 480.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "live.gain~[4]",
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 80.0, 392.0, 41.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 536.0, 96.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_mmin" : -70.0,
+							"parameter_longname" : "Gain",
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "Gain",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "Gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -54,7 +119,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 8.0, 368.0, 40.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 72.0, 40.0, 96.0 ],
+					"presentation_rect" : [ 536.0, 0.0, 40.0, 96.0 ],
 					"varname" : "parrot-ad-envelope[1]",
 					"viewvisibility" : 1
 				}
@@ -71,7 +136,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 352.0, 120.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 56.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 632.0, 152.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Clear",
@@ -98,7 +163,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 80.0, 576.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 576.0, 40.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 592.0, 152.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Mute",
@@ -126,7 +191,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 8.0, 80.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 584.0, 16.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 576.0, 152.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.button",
@@ -156,34 +221,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 8.0, 480.0, 48.0, 136.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 976.0, 16.0, 48.0, 136.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "Gain",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Gain",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "Gain"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 3,
@@ -194,7 +231,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 528.0, 48.0, 48.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 48.0, 168.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 40.0, 168.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Input",
@@ -257,7 +294,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 168.0, 104.0, 120.0, 20.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 1.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -521,7 +558,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 464.0, 400.0, 496.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 0.0, 512.0, 144.0 ],
+					"presentation_rect" : [ 40.0, 0.0, 496.0, 152.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -569,7 +606,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 32.0, 184.0, 320.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 648.0, 0.0, 320.0, 144.0 ],
+					"presentation_rect" : [ 576.0, 0.0, 320.0, 152.0 ],
 					"varname" : "parrot-sample-playback",
 					"viewvisibility" : 1
 				}
@@ -591,7 +628,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 464.0, 184.0, 496.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 0.0, 512.0, 144.0 ],
+					"presentation_rect" : [ 40.0, 0.0, 496.0, 152.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -626,7 +663,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 464.0, 328.0, 496.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 144.0, 496.0, 16.0 ],
+					"presentation_rect" : [ 40.0, 152.0, 496.0, 16.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -662,6 +699,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -676,14 +720,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -868,7 +919,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"order" : 0,
-					"source" : [ "obj-6", 1 ]
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
@@ -876,7 +927,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"order" : 0,
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -884,7 +935,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
 					"order" : 1,
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -892,7 +943,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"order" : 1,
-					"source" : [ "obj-6", 1 ]
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
@@ -919,15 +970,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-24" : [ "Attack", "Attack", 0 ],
 			"obj-2::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
+			"obj-2::obj-24" : [ "Attack", "Attack", 0 ],
 			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-13" : [ "Clear", "Clear", 0 ],
 			"obj-10" : [ "live.button", "live.button", 0 ],
-			"obj-6" : [ "Gain", "Gain", 0 ],
+			"obj-14" : [ "Gain", "Gain", 0 ],
 			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-7" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-2::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
 			"obj-2::obj-23" : [ "Decay[1]", "Decay", 0 ],
 			"obj-3" : [ "Input", "Input", 0 ],
