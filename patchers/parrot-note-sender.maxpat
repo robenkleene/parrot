@@ -54,6 +54,7 @@
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2,
 							"parameter_mmin" : 10.0,
+							"parameter_exponent" : 3.0,
 							"parameter_longname" : "Duration",
 							"parameter_mmax" : 60000.0
 						}
@@ -160,7 +161,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 112.0, 149.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 127.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -189,7 +190,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 88.0, 122.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 62.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -218,7 +219,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 216.0, 64.0, 156.0, 20.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -587,13 +588,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "live.button", "live.button", 0 ],
 			"obj-20" : [ "Velocity", "Velocity", 0 ],
-			"obj-29" : [ "Duration", "Duration", 0 ],
-			"obj-33" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
-			"obj-9" : [ "Pitch", "Pitch", 0 ],
 			"obj-34" : [ "Stored_Velocity", "Stored_Velocity", 0 ],
+			"obj-9" : [ "Pitch", "Pitch", 0 ],
+			"obj-33" : [ "Stored_Pitch", "Stored_Pitch", 0 ],
+			"obj-23" : [ "live.button", "live.button", 0 ],
 			"obj-32" : [ "Stored_Duration", "Stored_Duration", 0 ],
+			"obj-29" : [ "Duration", "Duration", 0 ],
 			"parameterbanks" : 			{
 
 			}
