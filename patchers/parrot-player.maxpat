@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 995.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 1162.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -61,12 +61,12 @@
 					"patching_rect" : [ 8.0, 480.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0
 						}
 
 					}
@@ -88,12 +88,12 @@
 					"presentation_rect" : [ 536.0, 96.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmin" : -70.0,
 							"parameter_longname" : "Gain",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0
 						}
 
 					}
@@ -294,7 +294,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 168.0, 104.0, 120.0, 20.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -841,7 +841,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-3", 1 ]
 				}
 
 			}
@@ -970,20 +970,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
-			"obj-2::obj-24" : [ "Attack", "Attack", 0 ],
-			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-2::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
+			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"obj-13" : [ "Clear", "Clear", 0 ],
+			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
+			"obj-14" : [ "Gain", "Gain", 0 ],
 			"obj-5" : [ "Stored_Input", "Stored_Input", 0 ],
 			"obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-13" : [ "Clear", "Clear", 0 ],
-			"obj-10" : [ "live.button", "live.button", 0 ],
-			"obj-14" : [ "Gain", "Gain", 0 ],
-			"obj-11" : [ "Stored_Gain", "Stored_Gain", 0 ],
-			"obj-7" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-2::obj-1" : [ "Stored_Attack[1]", "Stored_Attack", 0 ],
 			"obj-2::obj-23" : [ "Decay[1]", "Decay", 0 ],
+			"obj-4::obj-4::obj-35" : [ "live.drop", "live.drop", 0 ],
+			"obj-10" : [ "live.button", "live.button", 0 ],
 			"obj-3" : [ "Input", "Input", 0 ],
-			"obj-26" : [ "Stored_Mute", "Stored_Mute", 0 ],
+			"obj-7" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-2::obj-21" : [ "Stored_Decay[1]", "Stored_Decay", 0 ],
+			"obj-2::obj-24" : [ "Attack", "Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}
