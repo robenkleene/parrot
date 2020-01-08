@@ -16,7 +16,7 @@ Parrot includes two Max for Live patches: **Parrot** and **ParrotNote**.
 
 Parrot is a Max for Live *audio effect* that includes the main interface with sample playback controls, and the overlaid spectral output.
 
-## ParrotNote
+### ParrotNote
 
 ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to the Parrot audio effect so that it can play the sample at the same time that the synthesizer receives the incoming MIDI note. In other words, ParrotNote works around the fact that Max for Live audio effects cannot receive MIDI input directly.
 
