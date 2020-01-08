@@ -16,7 +16,7 @@ Parrot includes two Max for Live patches: **Parrot** and **ParrotNote**.
 
 Parrot is a Max for Live *audio effect* that includes the main interface with sample playback controls, and the overlaid spectral output.
 
-## ParrotNote
+### ParrotNote
 
 ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to the Parrot audio effect so that it can play the sample at the same time that the synthesizer receives the incoming MIDI note. In other words, ParrotNote works around the fact that Max for Live audio effects cannot receive MIDI input directly.
 
@@ -38,11 +38,20 @@ ParrotNote's interface shows the pitch and velocity of the most recent MIDI note
 #### Analyzer
 
 - `Both` / `DAC` / `Sample`: Select whether to overlay the DAC and Sample (`Both`), or display only the DAC or sample.
-- `Spectrum` / `Meter`: Choose between two ways of visualizing the spectral output.
 
 #### Sample Playback
 
-- The button plays the sample.
 - To load a sample, drag it onto the waveform box.
+- `Attack`: The sample envelope attack.
+- `Decay`: The sample envelope decay.
+- `Gain`: The sample playback volume.
+- The button plays the sample.
 - `Mute`: Toggle whether the sample's audio is output.
-- Attack and decay envelope in `ms`.
+- `Clear`: Clear the sample.
+
+#### Standalone Mode
+
+Parrot can also be opened in standalone mode by opening the `misc/instruments/Parrot.maxpat`  outside of Ableton Live, it offers some additional features.
+
+- Typing the `s` will play the sample
+- **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
