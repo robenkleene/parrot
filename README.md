@@ -38,14 +38,16 @@ ParrotNote's interface shows the pitch and velocity of the most recent MIDI note
 #### Analyzer
 
 - `Both` / `DAC` / `Sample`: Select whether to overlay the DAC and Sample (`Both`), or display only the DAC or sample.
-- `Spectrum` / `Meter`: Choose between two ways of visualizing the spectral output.
 
 #### Sample Playback
 
 - The button plays the sample.
 - To load a sample, drag it onto the waveform box.
+- `Attack`: The sample envelope attack.
+- `Decay`: The sample envelope decay.
+- `Gain`: The sample playback volume.
 - `Mute`: Toggle whether the sample's audio is output.
-- Attack and decay envelope in `ms`.
+- `Clear`: Clear the sample.
 
 #### Standalone Mode
 
