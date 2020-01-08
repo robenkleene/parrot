@@ -41,11 +41,11 @@ ParrotNote's interface shows the pitch and velocity of the most recent MIDI note
 
 #### Sample Playback
 
-- The button plays the sample.
 - To load a sample, drag it onto the waveform box.
 - `Attack`: The sample envelope attack.
 - `Decay`: The sample envelope decay.
 - `Gain`: The sample playback volume.
+- The button plays the sample.
 - `Mute`: Toggle whether the sample's audio is output.
 - `Clear`: Clear the sample.
 
