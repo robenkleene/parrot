@@ -27,6 +27,20 @@ ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to
 3. Load a sample by dragging it onto the waveform box.
 4. When playing a MIDI note plays, the spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
 
+## Installation
+
+1. Drag `max-for-live/ParrotNote.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`
+2. Drag `max-for-live/Parrot.amxd` to `Ableton/User Library/Presets/Audio Effects/Max Audio Effect/`
+
+There's an optional `install.sh` script that will do this automatically.
+
+### Stand-Alone Mode
+
+Parrot can also be opened in standalone mode by opening the `misc/instruments/Parrot.maxpat`  outside of Ableton Live, it offers some additional features.
+
+- Typing the `s` will play the sample
+- **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
+
 ## Interface
 
 ### ParrotNote
@@ -48,10 +62,3 @@ ParrotNote's interface shows the pitch and velocity of the most recent MIDI note
 - The button plays the sample.
 - `Mute`: Toggle whether the sample's audio is output.
 - `Clear`: Clear the sample.
-
-#### Standalone Mode
-
-Parrot can also be opened in standalone mode by opening the `misc/instruments/Parrot.maxpat`  outside of Ableton Live, it offers some additional features.
-
-- Typing the `s` will play the sample
-- **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
