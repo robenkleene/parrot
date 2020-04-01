@@ -38,6 +38,8 @@ There's an optional `install.sh` script that will do this automatically.
 
 Parrot can also be opened in standalone mode by opening the `misc/instruments/Parrot.maxpat`  outside of Ableton Live, it offers some additional features.
 
+To open any of the `maxpat` files, the Sidewinder folder should be in your [Project Search Paths](https://docs.cycling74.com/max8/vignettes/projects_searchpath), `~/Documents/Max 8/Projects` by default, so that referenced files can be found.
+
 - Typing the `s` will play the sample
 - **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
 
