@@ -2,6 +2,8 @@
 
 set -e
 
+cd "$(dirname "$0")" || exit 1
+
 force=false
 while getopts ":fh" option; do
   case "$option" in
@@ -33,7 +35,7 @@ install() {
     exit 1
   fi
 
-  file=max-for-live/instruments/$filename
+  file=max-for-live/$filename
   if [[ ! -f "$file" ]]; then
     echo "File doesn't exist $file" >&2
     exit 1
