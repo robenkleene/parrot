@@ -65,7 +65,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 624.0, 464.0, 50.5, 20.0 ],
-                                    "text": "UiColor"
+                                    "text": "ColorSetter"
                                 }
                             },
                             {
