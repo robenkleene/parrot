@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 801.0, 164.0, 640.0, 480.0 ],
+        "rect": [ 162.0, 374.0, 640.0, 480.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -53,7 +53,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float) blue",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "inlet",
@@ -65,7 +65,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float) green",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -77,7 +77,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float) red",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "inlet",
@@ -89,7 +89,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(float) opacity, triggers output",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "inlet",

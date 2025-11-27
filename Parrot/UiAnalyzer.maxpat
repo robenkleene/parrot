@@ -48,7 +48,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 250.0, 96.0, 1135.0, 753.0 ],
+                        "rect": [ 707.0, 173.0, 1135.0, 753.0 ],
                         "default_fontsize": 10.0,
                         "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
@@ -64,7 +64,7 @@
                                     "numinlets": 4,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 624.0, 464.0, 50.5, 20.0 ],
+                                    "patching_rect": [ 624.0, 464.0, 63.0, 20.0 ],
                                     "text": "ColorSetter"
                                 }
                             },
@@ -775,7 +775,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(symbol) color name",
                     "id": "obj-41",
                     "index": 0,
                     "maxclass": "inlet",
@@ -787,7 +787,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(signal) mono",
                     "id": "obj-36",
                     "index": 0,
                     "maxclass": "inlet",
