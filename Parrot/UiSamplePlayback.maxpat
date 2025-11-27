@@ -60,7 +60,7 @@
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-sample-view.maxpat",
+					"name" : "UiSampleView.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
@@ -68,7 +68,7 @@
 					"patching_rect" : [ 64.0, 112.0, 320.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 152.0 ],
-					"varname" : "parrot-sample-view",
+					"varname" : "UiSampleView",
 					"viewvisibility" : 1
 				}
 
@@ -120,7 +120,7 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-sample-transport.maxpat",
+					"name" : "UiSampleTransport.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
@@ -190,14 +190,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "parrot-sample-transport.maxpat",
+				"name" : "UiSampleTransport.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-sample-view.maxpat",
+				"name" : "UiSampleView.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

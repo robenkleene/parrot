@@ -223,7 +223,7 @@
 									"id" : "obj-68",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "parrot-color.maxpat",
+									"name" : "UiColor.maxpat",
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
@@ -995,7 +995,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "parrot-color.maxpat",
+				"name" : "UiColor.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

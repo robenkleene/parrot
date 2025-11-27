@@ -112,7 +112,7 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-ad-envelope.maxpat",
+					"name" : "UiAdEnv.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -120,7 +120,7 @@
 					"patching_rect" : [ 8.0, 368.0, 40.0, 96.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 536.0, 0.0, 40.0, 96.0 ],
-					"varname" : "parrot-ad-envelope[1]",
+					"varname" : "UiAdEnv[1]",
 					"viewvisibility" : 1
 				}
 
@@ -552,7 +552,7 @@
 					"id" : "obj-15",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-analyzer.maxpat",
+					"name" : "UiAnalyzer.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -599,7 +599,7 @@
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-sample-playback.maxpat",
+					"name" : "UiSamplePlayback.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -607,7 +607,7 @@
 					"patching_rect" : [ 32.0, 184.0, 320.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 576.0, 0.0, 320.0, 152.0 ],
-					"varname" : "parrot-sample-playback",
+					"varname" : "UiSamplePlayback",
 					"viewvisibility" : 1
 				}
 
@@ -622,7 +622,7 @@
 					"id" : "obj-35",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-analyzer.maxpat",
+					"name" : "UiAnalyzer.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -657,7 +657,7 @@
 					"id" : "obj-27",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "parrot-analyzer-labels.maxpat",
+					"name" : "UiAnalyzerLabels.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -998,49 +998,49 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "parrot-analyzer-labels.maxpat",
+				"name" : "UiAnalyzerLabels.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-analyzer.maxpat",
+				"name" : "UiAnalyzer.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-color.maxpat",
+				"name" : "UiColor.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-sample-playback.maxpat",
+				"name" : "UiSamplePlayback.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-sample-transport.maxpat",
+				"name" : "UiSampleTransport.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-sample-view.maxpat",
+				"name" : "UiSampleView.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "parrot-ad-envelope.maxpat",
+				"name" : "UiAdEnv.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/parrot/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
