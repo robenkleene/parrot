@@ -55,6 +55,8 @@
             },
             {
                 "box": {
+                    "annotation": "This changes sample playback volume.",
+                    "annotation_name": "Gain",
                     "id": "obj-14",
                     "maxclass": "live.dial",
                     "numinlets": 1,
@@ -884,14 +886,6 @@
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-5": [ "Stored_Input", "Stored_Input", 0 ],
             "obj-7": [ "live.gain~[4]", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
