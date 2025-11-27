@@ -29,16 +29,28 @@ ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to
 
 ## Installation
 
-1. Drag `max-for-live/ParrotNote.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`
-2. Drag `max-for-live/Parrot.amxd` to `Ableton/User Library/Presets/Audio Effects/Max Audio Effect/`
+### Freezing the Devices
 
-There's an optional `install.sh` script that will do this automatically.
+Before the device is added to the `User Library` in Ableton Live or Ableton Push, the devices (`.amxd`) should be frozen.
 
-### Stand-Alone Mode
+The latest version of the frozen device can be downloaded from [the Parrot page on the Max for Live site](https://maxforlive.com/library/device/5797/parrot).
 
-Parrot can also be opened in standalone mode by opening the `misc/instruments/Parrot.maxpat`  outside of Ableton Live, it offers some additional features.
+The device can be frozen manually by following these steps:
 
-To open any of the `maxpat` files, the Sidewinder folder should be in your [Project Search Paths](https://docs.cycling74.com/max8/vignettes/projects_searchpath), `~/Documents/Max 8/Projects` by default, so that referenced files can be found.
+1. Open Ableton Live and drag `Parrot/Parrot.amxd` and `Parrot/ParrotNote.amxd` to the Device area (where it says `Drop an instrument or Sample here`).
+2. Click the disclosure icon in the upper right of each device and choose `Edit in Max`.
+3. For each device, in the Max window, click the `Freeze Device` icon in the bottom bar that looks like a snow flake, then choose `File > Save As...` to save the frozen device to a temporary location.
+
+Note that the frozen files can be deleted after the devices has been added to the `User Library`.
+
+### Installing in Ableton Live
+
+1. Drag the frozen `ParrotNote.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`
+2. Drag the frozen `Parrot.amxd` to `Ableton/User Library/Presets/Audio Effects/Max Audio Effect/`
+
+### Standalone Mode
+
+Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpat`  outside of Ableton Live, it offers some additional features:
 
 - Typing the `s` will play the sample
 - **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
