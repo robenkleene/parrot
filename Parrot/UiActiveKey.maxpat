@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1151.0, 436.0, 1148.0, 911.0 ],
+        "rect": [ 382.0, 310.0, 1148.0, 911.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -52,7 +52,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) 0 closes background gate, 1 opens background gate",
                     "id": "obj-6",
                     "index": 0,
                     "maxclass": "inlet",
@@ -114,7 +114,7 @@
             },
             {
                 "box": {
-                    "comment": "(int) 0 gate close, 1 gate open",
+                    "comment": "(int) 0 closes foreground gate, 1 opens foreground gate",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "inlet",
@@ -140,7 +140,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(symbol) keyboard letter pressed",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "outlet",

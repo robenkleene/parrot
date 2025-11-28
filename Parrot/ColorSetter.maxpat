@@ -19,7 +19,7 @@
         "boxes": [
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(message) set color message",
                     "id": "obj-8",
                     "index": 0,
                     "maxclass": "outlet",

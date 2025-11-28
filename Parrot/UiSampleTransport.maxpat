@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 189.0, 225.0, 1004.0, 706.0 ],
+        "rect": [ 593.0, 207.0, 1447.0, 1021.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -1339,7 +1339,7 @@
             },
             {
                 "box": {
-                    "comment": "Messages",
+                    "comment": "(message) control messages",
                     "id": "obj-17",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1350,7 +1350,7 @@
             },
             {
                 "box": {
-                    "comment": "End",
+                    "comment": "(float, ms) end",
                     "id": "obj-16",
                     "index": 0,
                     "maxclass": "inlet",
@@ -1362,7 +1362,7 @@
             },
             {
                 "box": {
-                    "comment": "Start",
+                    "comment": "(float, ms) start",
                     "id": "obj-15",
                     "index": 0,
                     "maxclass": "inlet",
@@ -1374,7 +1374,7 @@
             },
             {
                 "box": {
-                    "comment": "Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1385,7 +1385,7 @@
             },
             {
                 "box": {
-                    "comment": "Ch 1",
+                    "comment": "(signal) ch 1",
                     "id": "obj-2",
                     "index": 0,
                     "maxclass": "outlet",
@@ -1396,7 +1396,7 @@
             },
             {
                 "box": {
-                    "comment": "Bang Plays, Stop Stops",
+                    "comment": "(bang) play",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "inlet",

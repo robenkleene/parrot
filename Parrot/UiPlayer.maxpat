@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 73.0, 184.0, 1162.0, 787.0 ],
+        "rect": [ 73.0, 184.0, 1715.0, 1061.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -345,7 +345,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(signal) ch 2",
                     "id": "obj-44",
                     "index": 0,
                     "maxclass": "outlet",
@@ -356,7 +356,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(signal) ch 1",
                     "id": "obj-43",
                     "index": 0,
                     "maxclass": "outlet",
@@ -886,6 +886,14 @@
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-5": [ "Stored_Input", "Stored_Input", 0 ],
             "obj-7": [ "live.gain~[4]", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"

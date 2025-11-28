@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 201.0, 141.0, 905.0, 576.0 ],
+        "rect": [ 201.0, 141.0, 1299.0, 814.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -227,7 +227,7 @@
             },
             {
                 "box": {
-                    "comment": "Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-10",
                     "index": 0,
                     "maxclass": "outlet",
@@ -264,7 +264,7 @@
             },
             {
                 "box": {
-                    "comment": "Ch 2",
+                    "comment": "(signal) ch 2",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "inlet",
@@ -276,7 +276,7 @@
             },
             {
                 "box": {
-                    "comment": "Ch 1",
+                    "comment": "(signal) ch 1",
                     "id": "obj-4",
                     "index": 0,
                     "maxclass": "outlet",
@@ -287,7 +287,7 @@
             },
             {
                 "box": {
-                    "comment": "Ch 1, Trigger",
+                    "comment": "(signal) ch 1",
                     "id": "obj-3",
                     "index": 0,
                     "maxclass": "inlet",
@@ -403,6 +403,14 @@
             "obj-21": [ "Stored_Decay", "Stored_Decay", 0 ],
             "obj-23": [ "Decay", "Decay", 0 ],
             "obj-24": [ "Attack", "Attack", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
