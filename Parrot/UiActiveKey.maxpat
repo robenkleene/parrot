@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 55.0, 267.0, 640.0, 480.0 ],
+        "rect": [ 1151.0, 436.0, 1148.0, 911.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -95,8 +95,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 136.0, 80.0, 32.5, 20.0 ],
-                    "text": "> 0"
+                    "patching_rect": [ 136.0, 80.0, 29.5, 20.0 ],
+                    "text": "!= 0"
                 }
             },
             {
@@ -114,7 +114,7 @@
             },
             {
                 "box": {
-                    "comment": "",
+                    "comment": "(int) 0 gate close, 1 gate open",
                     "id": "obj-5",
                     "index": 0,
                     "maxclass": "inlet",
