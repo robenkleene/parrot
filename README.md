@@ -65,7 +65,7 @@ ParrotNote's interface shows the pitch and velocity of the most recent MIDI note
 
 #### Analyzer
 
-- `Both` / `DAC` / `Sample`: Select whether to overlay the DAC and Sample (`Both`), or display only the DAC or sample.
+- `Both` / `Audio` / `Sample`: Select whether to overlay the audio and sample (`Both`), or display only the audio or the sample.
 
 #### Sample Playback
 

@@ -1,0 +1,168 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 0,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [ 134.0, 165.0, 1007.0, 784.0 ],
+        "openinpresentation": 1,
+        "default_fontsize": 10.0,
+        "default_fontname": "Arial Bold",
+        "gridsize": [ 8.0, 8.0 ],
+        "gridsnaponopen": 2,
+        "objectsnaponopen": 0,
+        "boxes": [
+            {
+                "box": {
+                    "comment": "(message) control messages",
+                    "id": "obj-1",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 64.0, 40.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-4",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiSampleView.maxpat",
+                    "numinlets": 4,
+                    "numoutlets": 5,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "", "float", "float", "float", "float" ],
+                    "patching_rect": [ 64.0, 112.0, 320.0, 144.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "varname": "UiSampleView",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "comment": "(bang) play",
+                    "id": "obj-16",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 16.0, 40.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) ch 2",
+                    "id": "obj-15",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 80.0, 440.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "(signal) ch 1",
+                    "id": "obj-14",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 16.0, 440.0, 25.0, 25.0 ]
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-2",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiSampleTransport.maxpat",
+                    "numinlets": 3,
+                    "numoutlets": 3,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal", "signal", "float" ],
+                    "patching_rect": [ 16.0, 344.0, 88.0, 64.0 ],
+                    "viewvisibility": 1
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-14", 0 ],
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-2", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 2 ],
+                    "source": [ "obj-4", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 1 ],
+                    "source": [ "obj-4", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-4", 0 ]
+                }
+            }
+        ],
+        "parameters": {
+            "obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0
+    }
+}
