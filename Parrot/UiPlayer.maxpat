@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 388.0, 218.0, 1109.0, 1061.0 ],
+        "rect": [ 443.0, 217.0, 1109.0, 1061.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -27,7 +27,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 520.0, 36.0, 20.0 ],
+                    "patching_rect": [ 8.0, 368.0, 36.0, 20.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -40,7 +40,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 56.0, 520.0, 36.0, 20.0 ],
+                    "patching_rect": [ 56.0, 368.0, 36.0, 20.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -51,7 +51,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 840.0, 63.0, 20.0 ],
+                    "patching_rect": [ 80.0, 568.0, 63.0, 20.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -64,7 +64,7 @@
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "", "float", "list" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 688.0, 48.0, 136.0 ],
+                    "patching_rect": [ 8.0, 416.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.gain~[4]",
@@ -89,7 +89,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 72.0, 624.0, 41.0, 48.0 ],
+                    "patching_rect": [ 112.0, 368.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 536.0, 96.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -163,7 +163,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 80.0, 872.0, 44.0, 15.0 ],
+                    "patching_rect": [ 80.0, 600.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 592.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -377,7 +377,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 80.0, 992.0, 30.0, 30.0 ]
+                    "patching_rect": [ 80.0, 720.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -388,7 +388,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 24.0, 992.0, 30.0, 30.0 ]
+                    "patching_rect": [ 24.0, 720.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -487,7 +487,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 80.0, 936.0, 53.0, 20.0 ],
+                    "patching_rect": [ 80.0, 664.0, 53.0, 20.0 ],
                     "text": "selector~"
                 }
             },
@@ -498,7 +498,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 80.0, 896.0, 29.5, 20.0 ],
+                    "patching_rect": [ 80.0, 624.0, 29.5, 20.0 ],
                     "text": "== 0"
                 }
             },
@@ -509,7 +509,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 24.0, 936.0, 53.0, 20.0 ],
+                    "patching_rect": [ 24.0, 664.0, 53.0, 20.0 ],
                     "text": "selector~"
                 }
             },
