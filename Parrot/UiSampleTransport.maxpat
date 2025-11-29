@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 593.0, 207.0, 1447.0, 1021.0 ],
+        "rect": [ 247.0, 96.0, 1447.0, 928.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -1478,7 +1478,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-17", 0 ],
                     "source": [ "obj-12", 0 ]
                 }
             },
@@ -1578,7 +1578,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-17", 0 ],
                     "source": [ "obj-21", 0 ]
                 }
             },
