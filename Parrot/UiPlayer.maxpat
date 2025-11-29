@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 73.0, 184.0, 1715.0, 1061.0 ],
+        "rect": [ 388.0, 218.0, 1109.0, 1061.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -20,12 +20,38 @@
         "boxes": [
             {
                 "box": {
+                    "fontname": "Arial Bold",
+                    "fontsize": 10.0,
+                    "id": "obj-6",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 8.0, 520.0, 36.0, 20.0 ],
+                    "text": "*~ 0."
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Arial Bold",
+                    "fontsize": 10.0,
+                    "id": "obj-19",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 56.0, 520.0, 36.0, 20.0 ],
+                    "text": "*~ 0."
+                }
+            },
+            {
+                "box": {
                     "id": "obj-18",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 544.0, 63.0, 20.0 ],
+                    "patching_rect": [ 80.0, 840.0, 63.0, 20.0 ],
                     "text": "loadmess 0"
                 }
             },
@@ -38,7 +64,7 @@
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "", "float", "list" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 480.0, 48.0, 136.0 ],
+                    "patching_rect": [ 8.0, 688.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.gain~[4]",
@@ -63,7 +89,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 80.0, 392.0, 41.0, 48.0 ],
+                    "patching_rect": [ 72.0, 624.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 536.0, 96.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -92,11 +118,11 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiAdEnv.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 2,
+                    "numinlets": 1,
+                    "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 8.0, 368.0, 40.0, 96.0 ],
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 336.0, 192.0, 40.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 536.0, 0.0, 40.0, 96.0 ],
                     "varname": "UiAdEnv[1]",
@@ -137,7 +163,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 80.0, 576.0, 44.0, 15.0 ],
+                    "patching_rect": [ 80.0, 872.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 592.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -351,7 +377,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 80.0, 696.0, 30.0, 30.0 ]
+                    "patching_rect": [ 80.0, 992.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -362,7 +388,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 24.0, 696.0, 30.0, 30.0 ]
+                    "patching_rect": [ 24.0, 992.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -461,7 +487,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 80.0, 640.0, 53.0, 20.0 ],
+                    "patching_rect": [ 80.0, 936.0, 53.0, 20.0 ],
                     "text": "selector~"
                 }
             },
@@ -472,7 +498,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
-                    "patching_rect": [ 80.0, 600.0, 29.5, 20.0 ],
+                    "patching_rect": [ 80.0, 896.0, 29.5, 20.0 ],
                     "text": "== 0"
                 }
             },
@@ -483,7 +509,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 24.0, 640.0, 53.0, 20.0 ],
+                    "patching_rect": [ 24.0, 936.0, 53.0, 20.0 ],
                     "text": "selector~"
                 }
             },
@@ -528,7 +554,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "bang" ],
-                    "patching_rect": [ 8.0, 120.0, 30.0, 20.0 ],
+                    "patching_rect": [ 8.0, 136.0, 30.0, 20.0 ],
                     "text": "t b b"
                 }
             },
@@ -548,7 +574,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 32.0, 184.0, 320.0, 144.0 ],
+                    "patching_rect": [ 8.0, 192.0, 320.0, 144.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 576.0, 0.0, 320.0, 152.0 ],
                     "varname": "UiSamplePlayback",
@@ -663,12 +689,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-7", 1 ],
-                    "source": [ "obj-2", 1 ]
+                    "source": [ "obj-19", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 0 ],
+                    "destination": [ "obj-19", 1 ],
+                    "order": 0,
+                    "source": [ "obj-2", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-6", 1 ],
+                    "order": 1,
                     "source": [ "obj-2", 0 ]
                 }
             },
@@ -802,13 +836,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 1 ],
+                    "destination": [ "obj-19", 0 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-6", 0 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -822,6 +856,12 @@
                 "patchline": {
                     "destination": [ "obj-35", 1 ],
                     "source": [ "obj-42", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-6", 0 ]
                 }
             },
             {
@@ -886,14 +926,6 @@
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-5": [ "Stored_Input", "Stored_Input", 0 ],
             "obj-7": [ "live.gain~[4]", "live.gain~", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
