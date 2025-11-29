@@ -8,58 +8,44 @@ It overlays the spectral output of an instrument (for example, a synthesizer) an
 
 The technique of using the spectral output of a sound to replicate it through synthesis is inspired by [*Welsh's Synthesizer Cookbook*](http://synthesizer-cookbook.com/).
 
-## Details
-
-Parrot includes two Max for Live patches: **Parrot** and **ParrotNote**.
-
 ### Parrot
 
 Parrot is a Max for Live *audio effect* that includes the main interface with sample playback controls, and the overlaid spectral output.
 
-### ParrotNote
-
-ParrotNote is a Max for Live *MIDI effect* that routes the incoming MIDI note to the Parrot audio effect so that it can play the sample at the same time that the synthesizer receives the incoming MIDI note. In other words, ParrotNote works around the fact that Max for Live audio effects cannot receive MIDI input directly.
-
 ## Setup
 
-1. Insert **ParrotNote** to the left of an instrument on a MIDI channel.
-2. Insert **Parrot** to the right of the instrument.
-3. Load a sample by dragging it onto the waveform box.
-4. When playing a MIDI note plays, the spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
+1. Insert **Parrot** to the right of the instrument.
+2. Load a sample by dragging it onto the waveform box.
+3. The spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
+
+## Syncing Playback
+
+To sync the two waveforms, playback is triggered on transient detection for the initial playback, and then it waits until the envelope has finished before triggering playback again. So set the envelope to the duration of the sample to be able to trigger playback in succession quickly.
 
 ## Installation
 
 ### Freezing the Devices
 
-Before the device is added to the `User Library` in Ableton Live or Ableton Push, the devices (`.amxd`) should be frozen.
+Before the device is added to the `User Library` in Ableton Live or Ableton Push, the device (`.amxd`) should be frozen.
 
 The latest version of the frozen device can be downloaded from [the Parrot page on the Max for Live site](https://maxforlive.com/library/device/5797/parrot).
 
 The device can be frozen manually by following these steps:
 
-1. Open Ableton Live and drag `Parrot/Parrot.amxd` and `Parrot/ParrotNote.amxd` to the Device area (where it says `Drop an instrument or Sample here`).
-2. Click the disclosure icon in the upper right of each device and choose `Edit in Max`.
-3. For each device, in the Max window, click the `Freeze Device` icon in the bottom bar that looks like a snow flake, then choose `File > Save As...` to save the frozen device to a temporary location.
+1. Click the disclosure icon in the upper right of each device and choose `Edit in Max`.
+2. In the Max window, click the `Freeze Device` icon in the bottom bar that looks like a snow flake, then choose `File > Save As...` to save the frozen device to a temporary location.
 
 Note that the frozen files can be deleted after the devices has been added to the `User Library`.
 
 ### Installing in Ableton Live
 
-1. Drag the frozen `ParrotNote.amxd` to `Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect/`
-2. Drag the frozen `Parrot.amxd` to `Ableton/User Library/Presets/Audio Effects/Max Audio Effect/`
+Drag the frozen `Parrot.amxd` to `Ableton/User Library/Presets/Audio Effects/Max Audio Effect/`
 
 ### Standalone Mode
 
-Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpat`  outside of Ableton Live, it offers some additional features:
-
-- Typing the `s` will play the sample
-- **BG**: Toggle whether typing `s` should also play the sample when Max is not in the foreground
+Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpat`  outside of Ableton Live.
 
 ## Interface
-
-### ParrotNote
-
-ParrotNote's interface shows the pitch and velocity of the most recent MIDI note. The button outputs the MIDI note. The duration of the note can also be set.
 
 ### Parrot
 
