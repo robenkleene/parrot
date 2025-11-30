@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 197.0, 96.0, 1109.0, 894.0 ],
+        "rect": [ 600.0, 308.0, 1315.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -18,6 +18,25 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 128.0, 16.0, 52.0, 20.0 ],
+                    "restore": {
+                        "Clear": [ 0.0 ],
+                        "Gain": [ 0.0 ],
+                        "GainSlider": [ 0.0 ],
+                        "Mute": [ 0.0 ],
+                        "View": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u895019474"
+                }
+            },
             {
                 "box": {
                     "id": "obj-29",
@@ -202,21 +221,21 @@
                     "patching_rect": [ 8.0, 416.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_longname": "live.gain~[4]",
+                            "parameter_longname": "GainSlider",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "live.gain~",
+                            "parameter_shortname": "GainSlider",
                             "parameter_type": 0,
                             "parameter_unitstyle": 4
                         }
                     },
-                    "varname": "live.gain~"
+                    "varname": "GainSlider"
                 }
             },
             {
                 "box": {
-                    "annotation": "This changes sample playback volume.",
+                    "annotation": "This is the gain for the audio input.",
                     "annotation_name": "Gain",
                     "id": "obj-14",
                     "maxclass": "live.dial",
@@ -266,6 +285,8 @@
             },
             {
                 "box": {
+                    "automation": "Off",
+                    "automationon": "On",
                     "id": "obj-13",
                     "maxclass": "live.text",
                     "mode": 0,
@@ -278,7 +299,7 @@
                     "presentation_rect": [ 632.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "Clear",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -345,15 +366,15 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Both", "Audio", "Sample" ],
-                            "parameter_longname": "Input",
+                            "parameter_longname": "View",
                             "parameter_mmax": 2,
                             "parameter_modmode": 0,
-                            "parameter_shortname": "Input",
+                            "parameter_shortname": "View",
                             "parameter_type": 2,
                             "parameter_unitstyle": 9
                         }
                     },
-                    "varname": "Input"
+                    "varname": "View"
                 }
             },
             {
@@ -389,84 +410,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 16.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-26",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 168.0, 104.0, 120.0, 20.0 ],
-                    "restore": [ 0.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_invisible": 1,
-                            "parameter_longname": "Stored_Mute",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Stored_Mute",
-                            "parameter_type": 3
-                        }
-                    },
-                    "saved_object_attributes": {
-                        "parameter_enable": 1,
-                        "parameter_mappable": 0
-                    },
-                    "text": "pattr Stored_Mute Mute",
-                    "varname": "Stored_Mute"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-11",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 168.0, 80.0, 118.0, 20.0 ],
-                    "restore": [ 0.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_invisible": 1,
-                            "parameter_longname": "Stored_Gain",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Stored_Gain",
-                            "parameter_type": 3
-                        }
-                    },
-                    "saved_object_attributes": {
-                        "parameter_enable": 1,
-                        "parameter_mappable": 0
-                    },
-                    "text": "pattr Stored_Gain Gain",
-                    "varname": "Stored_Gain"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-5",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 168.0, 56.0, 122.0, 20.0 ],
-                    "restore": [ 0.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_invisible": 1,
-                            "parameter_longname": "Stored_Input",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Stored_Input",
-                            "parameter_type": 3
-                        }
-                    },
-                    "saved_object_attributes": {
-                        "parameter_enable": 1,
-                        "parameter_mappable": 0
-                    },
-                    "text": "pattr Stored_Input Input",
-                    "varname": "Stored_Input"
                 }
             },
             {
@@ -997,22 +940,20 @@
             }
         ],
         "parameters": {
-            "obj-11": [ "Stored_Gain", "Stored_Gain", 0 ],
             "obj-12": [ "Mute", "Mute", 0 ],
             "obj-13": [ "Clear", "Clear", 0 ],
             "obj-14": [ "Gain", "Gain", 0 ],
-            "obj-26": [ "Stored_Mute", "Stored_Mute", 0 ],
-            "obj-2::obj-1": [ "Stored_Attack[1]", "Stored_Attack", 0 ],
-            "obj-2::obj-21": [ "Stored_Decay[1]", "Stored_Decay", 0 ],
             "obj-2::obj-23": [ "Decay[1]", "Decay", 0 ],
             "obj-2::obj-24": [ "Attack", "Attack", 0 ],
-            "obj-3": [ "Input", "Input", 0 ],
+            "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
-            "obj-5": [ "Stored_Input", "Stored_Input", 0 ],
-            "obj-7": [ "live.gain~[4]", "live.gain~", 0 ],
+            "obj-7": [ "GainSlider", "GainSlider", 0 ],
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
+                },
+                "obj-4::obj-4::obj-35": {
+                    "parameter_longname": "live.drop"
                 }
             },
             "inherited_shortname": 1

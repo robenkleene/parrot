@@ -716,7 +716,8 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 135.0, 15.0, 20.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 32.0, 24.0, 24.0 ]
+                    "presentation_rect": [ 8.0, 32.0, 24.0, 24.0 ],
+                    "varname": "Reverse"
                 }
             },
             {
@@ -1420,7 +1421,7 @@
                     "patching_rect": [ 15.0, 15.0, 50.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 8.0, 48.0, 20.0 ],
-                    "varname": "speed"
+                    "varname": "Speed"
                 }
             },
             {
@@ -1741,14 +1742,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-47", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-69", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-69", 0 ]
                 }
             },

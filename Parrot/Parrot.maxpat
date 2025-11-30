@@ -39,7 +39,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 472.0, 272.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 120.0, 48.0, 48.0 ]
+                    "presentation_rect": [ 8.0, 8.0, 48.0, 48.0 ]
                 }
             },
             {
@@ -58,7 +58,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 0.0, 0.0, 1040.0, 168.0 ],
+                    "patching_rect": [ 8.0, -8.0, 896.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 64.0, 0.0, 896.0, 168.0 ],
                     "varname": "Player",
@@ -93,19 +93,14 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-11": [ "Stored_Gain", "Stored_Gain", 0 ],
             "obj-1::obj-12": [ "Mute", "Mute", 0 ],
             "obj-1::obj-13": [ "Clear", "Clear", 0 ],
             "obj-1::obj-14": [ "Gain", "Gain", 0 ],
-            "obj-1::obj-26": [ "Stored_Mute", "Stored_Mute", 0 ],
-            "obj-1::obj-2::obj-1": [ "Stored_Attack", "Stored_Attack", 0 ],
-            "obj-1::obj-2::obj-21": [ "Stored_Decay", "Stored_Decay", 0 ],
             "obj-1::obj-2::obj-23": [ "Decay", "Decay", 0 ],
             "obj-1::obj-2::obj-24": [ "Attack", "Attack", 0 ],
-            "obj-1::obj-3": [ "Input", "Input", 0 ],
-            "obj-1::obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
-            "obj-1::obj-5": [ "Stored_Input", "Stored_Input", 0 ],
-            "obj-1::obj-7": [ "live.gain~[4]", "live.gain~", 0 ],
+            "obj-1::obj-3": [ "View", "View", 0 ],
+            "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
+            "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

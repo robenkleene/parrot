@@ -19,6 +19,22 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 208.0, 40.0, 52.0, 20.0 ],
+                    "restore": {
+                        "Attack": [ 0.0 ],
+                        "Decay": [ 0.0 ]
+                    },
+                    "text": "autopattr",
+                    "varname": "u901024343"
+                }
+            },
+            {
+                "box": {
                     "comment": "(signal) env",
                     "id": "obj-2",
                     "index": 0,
@@ -91,58 +107,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 104.0, 40.0, 80.0, 20.0 ],
                     "text": "loadmess 1000"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-21",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 200.0, 64.0, 132.0, 20.0 ],
-                    "restore": [ 1000.0000000000002 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_invisible": 1,
-                            "parameter_longname": "Stored_Decay",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Stored_Decay",
-                            "parameter_type": 3
-                        }
-                    },
-                    "saved_object_attributes": {
-                        "parameter_enable": 1,
-                        "parameter_mappable": 0
-                    },
-                    "text": "pattr Stored_Decay Decay",
-                    "varname": "Stored_Decay"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-1",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 200.0, 40.0, 134.0, 20.0 ],
-                    "restore": [ 0.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_invisible": 1,
-                            "parameter_longname": "Stored_Attack",
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "Stored_Attack",
-                            "parameter_type": 3
-                        }
-                    },
-                    "saved_object_attributes": {
-                        "parameter_enable": 1,
-                        "parameter_mappable": 0
-                    },
-                    "text": "pattr Stored_Attack Attack",
-                    "varname": "Stored_Attack"
                 }
             },
             {
@@ -261,8 +225,6 @@
             }
         ],
         "parameters": {
-            "obj-1": [ "Stored_Attack", "Stored_Attack", 0 ],
-            "obj-21": [ "Stored_Decay", "Stored_Decay", 0 ],
             "obj-23": [ "Decay", "Decay", 0 ],
             "obj-24": [ "Attack", "Attack", 0 ],
             "inherited_shortname": 1

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 134.0, 165.0, 1985.0, 1181.0 ],
+        "rect": [ 34.0, 145.0, 1183.0, 1181.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -52,6 +52,8 @@
             },
             {
                 "box": {
+                    "annotation": "Drop the sample here to overlay with the audio input.",
+                    "annotation_name": "Sample Drop",
                     "decodemode": 1,
                     "id": "obj-35",
                     "legend": "",
@@ -66,13 +68,13 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 1,
-                            "parameter_longname": "live.drop",
+                            "parameter_longname": "Sample",
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.drop",
                             "parameter_type": 4
                         }
                     },
-                    "varname": "DropfilePattr"
+                    "varname": "Sample"
                 }
             },
             {
@@ -84,14 +86,14 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 768.0, 678.0, 249.0, 20.0 ],
+                    "patching_rect": [ 768.0, 678.0, 221.0, 20.0 ],
                     "restore": [ 0.0, 0.0, 320.0, 152.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
                     },
-                    "text": "pattr Dropfile DropfilePattr::presentation_rect",
-                    "varname": "Dropfile"
+                    "text": "pattr SamplePattr Sample::presentation_rect",
+                    "varname": "SamplePattr"
                 }
             },
             {
@@ -206,14 +208,14 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 768.0, 528.0, 274.0, 20.0 ],
+                    "patching_rect": [ 768.0, 528.0, 246.0, 20.0 ],
                     "restore": [ 0.0, 0.0, 320.0, 152.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
                     },
-                    "text": "pattr Waveform WaveformPattr::presentation_rect",
-                    "varname": "Waveform"
+                    "text": "pattr WaveformPattr Waveform::presentation_rect",
+                    "varname": "WaveformPattr"
                 }
             },
             {
@@ -499,7 +501,7 @@
                     "patching_rect": [ 424.0, 344.0, 400.0, 120.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 320.0, 152.0 ],
-                    "varname": "WaveformPattr"
+                    "varname": "Waveform"
                 }
             },
             {
@@ -819,7 +821,7 @@
             }
         ],
         "parameters": {
-            "obj-35": [ "live.drop", "live.drop", 0 ],
+            "obj-35": [ "Sample", "live.drop", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0
