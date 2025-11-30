@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 336.0, 287.0, 1315.0, 894.0 ],
+        "rect": [ 406.0, 331.0, 1315.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -18,6 +18,28 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 152.0, 72.0, 111.0, 18.0 ],
+                    "text": "Test sample playback"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-9",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 128.0, 72.0, 24.0, 24.0 ],
+                    "varname": "Play"
+                }
+            },
             {
                 "box": {
                     "id": "obj-1",
@@ -39,9 +61,8 @@
                     "patching_rect": [ 128.0, 16.0, 52.0, 20.0 ],
                     "restore": {
                         "Clear": [ 0.0 ],
-                        "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
-                        "Mute": [ 0.0 ],
+                        "Play": [ 0.0 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -466,7 +487,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 8.0, 192.0, 320.0, 144.0 ],
+                    "patching_rect": [ 8.0, 192.0, 320.0, 152.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 576.0, 0.0, 320.0, 152.0 ],
                     "varname": "UiSamplePlayback",
@@ -779,6 +800,12 @@
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-8", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-9", 0 ]
+                }
             }
         ],
         "parameters": {
@@ -790,6 +817,14 @@
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
