@@ -200,17 +200,6 @@
             },
             {
                 "box": {
-                    "id": "obj-18",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 80.0, 568.0, 63.0, 20.0 ],
-                    "text": "loadmess 0"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-7",
                     "lastchannelcount": 0,
                     "maxclass": "live.gain~",
@@ -417,17 +406,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 8.0, 16.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-1",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 528.0, 16.0, 63.0, 20.0 ],
-                    "text": "loadmess 0"
                 }
             },
             {
@@ -678,12 +656,6 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-21", 0 ],
                     "source": [ "obj-12", 0 ]
                 }
@@ -710,12 +682,6 @@
                 "patchline": {
                     "destination": [ "obj-4", 1 ],
                     "source": [ "obj-17", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-12", 0 ],
-                    "source": [ "obj-18", 0 ]
                 }
             },
             {
@@ -955,14 +921,6 @@
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
