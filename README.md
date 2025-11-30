@@ -12,15 +12,13 @@ The technique of using the spectral output of a sound to replicate it through sy
 
 Parrot is a Max for Live *audio effect* that includes the main interface with sample playback controls, and the overlaid spectral output.
 
+Playback is triggered when audio input goes from silence to audible.
+
 ## Setup
 
 1. Insert **Parrot** to the right of the instrument.
 2. Load a sample by dragging it onto the waveform box.
 3. The spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
-
-## Syncing Playback
-
-To sync the two waveforms, playback is triggered on transient detection for the initial playback, and then it waits until the envelope has finished before triggering playback again. So set the envelope to the duration of the sample to be able to trigger playback in succession quickly.
 
 ## Installation
 
