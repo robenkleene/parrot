@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 600.0, 308.0, 1315.0, 894.0 ],
+        "rect": [ 336.0, 287.0, 1315.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -221,6 +221,7 @@
                     "patching_rect": [ 8.0, 416.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_invisible": 2,
                             "parameter_longname": "GainSlider",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
@@ -954,6 +955,14 @@
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
