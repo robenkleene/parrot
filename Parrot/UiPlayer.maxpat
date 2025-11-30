@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 406.0, 331.0, 1315.0, 894.0 ],
+        "rect": [ 542.0, 340.0, 1315.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -18,6 +18,69 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 224.0, 664.0, 53.0, 20.0 ],
+                    "text": "selector~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 224.0, 624.0, 29.5, 20.0 ],
+                    "text": "== 0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-29",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 168.0, 664.0, 53.0, 20.0 ],
+                    "text": "selector~"
+                }
+            },
+            {
+                "box": {
+                    "annotation": "Toggle muting the audio.",
+                    "annotation_name": "Mute Sample",
+                    "automation": "Off",
+                    "automationon": "On",
+                    "id": "obj-10",
+                    "maxclass": "live.text",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 224.0, 600.0, 44.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 152.0, 40.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_enum": [ "Off", "On" ],
+                            "parameter_longname": "AudioMute",
+                            "parameter_mmax": 1,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "Mute",
+                            "parameter_type": 2
+                        }
+                    },
+                    "text": "Mute",
+                    "texton": "Mute",
+                    "varname": "AudioMute"
+                }
+            },
             {
                 "box": {
                     "id": "obj-11",
@@ -60,9 +123,11 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 128.0, 16.0, 52.0, 20.0 ],
                     "restore": {
+                        "AudioMute": [ 0.0 ],
                         "Clear": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Play": [ 0.0 ],
+                        "SampleMute": [ 0.0 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -185,7 +250,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 352.0, 120.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 632.0, 152.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 856.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -202,7 +267,7 @@
             },
             {
                 "box": {
-                    "annotation": "Toggle on to mute the sample.",
+                    "annotation": "Toggle muting the sample.",
                     "annotation_name": "Mute Sample",
                     "automation": "Off",
                     "automationon": "On",
@@ -214,11 +279,11 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 600.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 592.0, 152.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 576.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "Mute",
+                            "parameter_longname": "SampleMute",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Mute",
@@ -227,7 +292,7 @@
                     },
                     "text": "Mute",
                     "texton": "Mute",
-                    "varname": "Mute"
+                    "varname": "SampleMute"
                 }
             },
             {
@@ -255,7 +320,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 48.0, 48.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 40.0, 152.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Both", "Audio", "Sample" ],
@@ -487,7 +552,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 8.0, 192.0, 320.0, 152.0 ],
+                    "patching_rect": [ 8.0, 192.0, 328.0, 152.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 576.0, 0.0, 320.0, 152.0 ],
                     "varname": "UiSamplePlayback",
@@ -555,6 +620,12 @@
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
                     "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-26", 0 ],
+                    "source": [ "obj-10", 0 ]
                 }
             },
             {
@@ -635,6 +706,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-44", 0 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-31", 0 ],
                     "order": 1,
                     "source": [ "obj-25", 0 ]
@@ -677,8 +754,36 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 0 ],
+                    "destination": [ "obj-24", 0 ],
+                    "order": 0,
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 0 ],
+                    "order": 1,
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 0 ],
+                    "order": 0,
                     "source": [ "obj-28", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "order": 1,
+                    "source": [ "obj-28", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-43", 0 ],
+                    "source": [ "obj-29", 0 ]
                 }
             },
             {
@@ -689,7 +794,15 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-24", 1 ],
+                    "order": 0,
+                    "source": [ "obj-30", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-34", 0 ],
+                    "order": 1,
                     "source": [ "obj-30", 0 ]
                 }
             },
@@ -809,7 +922,8 @@
             }
         ],
         "parameters": {
-            "obj-12": [ "Mute", "Mute", 0 ],
+            "obj-10": [ "AudioMute", "Mute", 0 ],
+            "obj-12": [ "SampleMute", "Mute", 0 ],
             "obj-13": [ "Clear", "Clear", 0 ],
             "obj-14": [ "Gain", "Gain", 0 ],
             "obj-2::obj-23": [ "Decay[1]", "Decay", 0 ],
