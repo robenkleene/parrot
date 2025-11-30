@@ -25,6 +25,10 @@
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 208.0, 40.0, 52.0, 20.0 ],
+                    "restore": {
+                        "Attack": [ 0.0 ],
+                        "Decay": [ 1000.0000000000002 ]
+                    },
                     "text": "autopattr",
                     "varname": "u901024343"
                 }
@@ -92,17 +96,6 @@
                         }
                     },
                     "varname": "Decay"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-22",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 104.0, 40.0, 80.0, 20.0 ],
-                    "text": "loadmess 1000"
                 }
             },
             {
@@ -191,12 +184,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-23", 0 ],
-                    "source": [ "obj-22", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-16", 3 ],
                     "source": [ "obj-23", 0 ]
                 }
@@ -223,14 +210,6 @@
         "parameters": {
             "obj-23": [ "Decay", "Decay", 0 ],
             "obj-24": [ "Attack", "Attack", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

@@ -101,6 +101,12 @@
             "obj-1::obj-3": [ "View", "View", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
+            "parameter_overrides": {
+                "obj-1::obj-2::obj-23": {
+                    "parameter_initial": 1000.0000000000002,
+                    "parameter_initial_enable": 1
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
