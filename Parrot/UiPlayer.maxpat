@@ -235,7 +235,7 @@
             },
             {
                 "box": {
-                    "annotation": "This is the gain for the audio input.",
+                    "annotation": "The gain for the sample.",
                     "annotation_name": "Gain",
                     "id": "obj-14",
                     "maxclass": "live.dial",
@@ -285,6 +285,8 @@
             },
             {
                 "box": {
+                    "annotation": "Remove the currently loaded sample.",
+                    "annotation_name": "Clear Sample",
                     "automation": "Off",
                     "automationon": "On",
                     "id": "obj-13",
@@ -313,6 +315,10 @@
             },
             {
                 "box": {
+                    "annotation": "Toggle on to mute the sample.",
+                    "annotation_name": "Mute Sample",
+                    "automation": "Off",
+                    "automationon": "On",
                     "id": "obj-12",
                     "maxclass": "live.text",
                     "numinlets": 1,
@@ -324,7 +330,7 @@
                     "presentation_rect": [ 592.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
+                            "parameter_enum": [ "Off", "On" ],
                             "parameter_longname": "Mute",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,

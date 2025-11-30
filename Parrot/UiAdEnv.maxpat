@@ -25,10 +25,6 @@
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 208.0, 40.0, 52.0, 20.0 ],
-                    "restore": {
-                        "Attack": [ 0.0 ],
-                        "Decay": [ 0.0 ]
-                    },
                     "text": "autopattr",
                     "varname": "u901024343"
                 }
@@ -46,7 +42,7 @@
             },
             {
                 "box": {
-                    "annotation": "This is the attack for the sample envelope.",
+                    "annotation": "The attack for the sample envelope.",
                     "annotation_name": "Attack",
                     "id": "obj-24",
                     "maxclass": "live.dial",
@@ -73,7 +69,7 @@
             },
             {
                 "box": {
-                    "annotation": "This is the decay for the sample envelope.",
+                    "annotation": "The decay for the sample envelope.",
                     "annotation_name": "Decay",
                     "id": "obj-23",
                     "maxclass": "live.dial",
@@ -227,6 +223,14 @@
         "parameters": {
             "obj-23": [ "Decay", "Decay", 0 ],
             "obj-24": [ "Attack", "Attack", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
