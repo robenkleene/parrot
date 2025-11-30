@@ -18,6 +18,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 136.0, 160.0, 63.0, 20.0 ],
+                    "text": "loadmess 1"
+                }
+            },
+            {
+                "box": {
                     "fontname": "Arial Bold",
                     "fontsize": 10.0,
                     "id": "obj-34",
@@ -1612,6 +1623,12 @@
                     "destination": [ "obj-51", 0 ],
                     "midpoints": [ 579.5, 690.0, 690.0, 690.0, 690.0, 657.0, 714.5, 657.0 ],
                     "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-69", 0 ],
+                    "source": [ "obj-26", 0 ]
                 }
             },
             {
