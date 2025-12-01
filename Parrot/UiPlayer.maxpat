@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 542.0, 340.0, 1315.0, 894.0 ],
+        "rect": [ 613.0, 307.0, 885.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -125,6 +125,7 @@
                     "restore": {
                         "AudioMute": [ 0.0 ],
                         "Clear": [ 0.0 ],
+                        "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "SampleMute": [ 0.0 ],
