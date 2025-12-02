@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 613.0, 307.0, 885.0, 894.0 ],
+        "rect": [ 553.0, 356.0, 1306.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -18,6 +18,52 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-37",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 208.0, 568.0, 58.0, 20.0 ],
+                    "text": "Slowdown"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-36",
+                    "maxclass": "newobj",
+                    "numinlets": 3,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 72.0, 568.0, 58.0, 20.0 ],
+                    "text": "Slowdown"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 160.0, 504.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 104.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "Speed",
+                            "parameter_mmax": 1.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "Speed",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 1
+                        }
+                    },
+                    "varname": "Speed"
+                }
+            },
             {
                 "box": {
                     "id": "obj-24",
@@ -125,10 +171,10 @@
                     "restore": {
                         "AudioMute": [ 0.0 ],
                         "Clear": [ 0.0 ],
-                        "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "SampleMute": [ 0.0 ],
+                        "Speed": [ 1.0 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -321,7 +367,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 48.0, 48.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 40.0, 104.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Both", "Audio", "Sample" ],
@@ -707,6 +753,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-36", 2 ],
+                    "order": 1,
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-37", 2 ],
+                    "order": 0,
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-44", 0 ],
                     "source": [ "obj-24", 0 ]
                 }
@@ -769,15 +829,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-29", 0 ],
-                    "order": 0,
+                    "destination": [ "obj-34", 0 ],
+                    "order": 1,
                     "source": [ "obj-28", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-37", 0 ],
+                    "order": 0,
                     "source": [ "obj-28", 0 ]
                 }
             },
@@ -795,15 +855,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-24", 1 ],
-                    "order": 0,
+                    "destination": [ "obj-34", 0 ],
+                    "order": 1,
                     "source": [ "obj-30", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-37", 1 ],
+                    "order": 0,
                     "source": [ "obj-30", 0 ]
                 }
             },
@@ -837,6 +897,30 @@
                     "destination": [ "obj-35", 0 ],
                     "order": 1,
                     "source": [ "obj-34", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-20", 1 ],
+                    "source": [ "obj-36", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 1 ],
+                    "source": [ "obj-36", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-24", 1 ],
+                    "source": [ "obj-37", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-29", 1 ],
+                    "source": [ "obj-37", 0 ]
                 }
             },
             {
@@ -891,16 +975,16 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 1 ],
+                    "destination": [ "obj-36", 1 ],
                     "order": 1,
-                    "source": [ "obj-7", 0 ]
+                    "source": [ "obj-7", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-22", 1 ],
+                    "destination": [ "obj-36", 0 ],
                     "order": 1,
-                    "source": [ "obj-7", 1 ]
+                    "source": [ "obj-7", 0 ]
                 }
             },
             {
@@ -927,19 +1011,12 @@
             "obj-12": [ "SampleMute", "Mute", 0 ],
             "obj-13": [ "Clear", "Clear", 0 ],
             "obj-14": [ "Gain", "Gain", 0 ],
+            "obj-23": [ "Speed", "Speed", 0 ],
             "obj-2::obj-23": [ "Decay[1]", "Decay", 0 ],
             "obj-2::obj-24": [ "Attack", "Attack", 0 ],
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
