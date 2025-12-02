@@ -9,8 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 888.0, 350.0, 1000.0, 780.0 ],
+        "rect": [ 396.0, 321.0, 1000.0, 780.0 ],
         "gridsize": [ 8.0, 8.0 ],
+        "gridsnaponopen": 2,
+        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
@@ -41,7 +43,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "float", "bang" ],
-                    "patching_rect": [ 552.0, 104.0, 119.0, 22.0 ],
+                    "patching_rect": [ 591.0, 64.0, 119.0, 22.0 ],
                     "text": "buffer~ #0buf 1000 2"
                 }
             },
@@ -162,8 +164,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 120.0, 96.0, 102.0, 22.0 ],
-                    "text": "mc.record~ #0buf"
+                    "patching_rect": [ 120.0, 96.0, 150.0, 22.0 ],
+                    "text": "mc.record~ #0buf @loop 1"
                 }
             },
             {
