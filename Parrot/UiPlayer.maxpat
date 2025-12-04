@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 192.0, 156.0, 1306.0, 894.0 ],
+        "rect": [ 1220.0, 324.0, 1620.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -20,12 +20,34 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-37",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1040.0, 128.0, 80.0, 20.0 ],
+                    "text": "prepend freeze"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-18",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "bang" ],
+                    "patching_rect": [ 984.0, 120.0, 30.0, 20.0 ],
+                    "text": "t b b"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-36",
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 976.0, 320.0, 37.0, 20.0 ],
+                    "patching_rect": [ 1040.0, 96.0, 37.0, 20.0 ],
                     "text": "round"
                 }
             },
@@ -37,11 +59,12 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 976.0, 256.0, 41.0, 48.0 ],
+                    "patching_rect": [ 1040.0, 40.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 104.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_exponent": 3.0,
                             "parameter_longname": "Freeze",
                             "parameter_mmax": 60000.0,
                             "parameter_modmode": 4,
@@ -697,6 +720,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-15", 2 ],
+                    "source": [ "obj-18", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 2 ],
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 1 ],
                     "source": [ "obj-19", 0 ]
                 }
@@ -883,8 +918,22 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-15", 2 ],
+                    "destination": [ "obj-37", 0 ],
                     "source": [ "obj-36", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 2 ],
+                    "order": 0,
+                    "source": [ "obj-37", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 2 ],
+                    "order": 1,
+                    "source": [ "obj-37", 0 ]
                 }
             },
             {
@@ -953,7 +1002,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-15", 2 ],
+                    "destination": [ "obj-18", 0 ],
                     "source": [ "obj-8", 2 ]
                 }
             },
@@ -987,6 +1036,14 @@
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 539.0, 354.0, 1182.0, 693.0 ],
+        "rect": [ 345.0, 390.0, 1182.0, 693.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -41,8 +41,18 @@
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
-                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-1",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 3,
+                                    "outlettype": [ "", "", "" ],
+                                    "patching_rect": [ 8.0, 72.0, 103.0, 22.0 ],
+                                    "text": "route bang freeze"
+                                }
+                            },
                             {
                                 "box": {
                                     "id": "obj-15",
@@ -61,7 +71,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "bang", "int" ],
-                                    "patching_rect": [ 48.0, 128.0, 32.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 192.0, 32.0, 22.0 ],
                                     "text": "t b 0"
                                 }
                             },
@@ -138,7 +148,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "bang", "" ],
-                                    "patching_rect": [ 48.0, 96.0, 50.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 160.0, 50.0, 22.0 ],
                                     "text": "select 0"
                                 }
                             },
@@ -149,19 +159,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 48.0, 160.0, 64.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 224.0, 64.0, 22.0 ],
                                     "text": "interval 20"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-2",
-                                    "maxclass": "newobj",
-                                    "numinlets": 3,
-                                    "numoutlets": 3,
-                                    "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 8.0, 56.0, 107.0, 22.0 ],
-                                    "text": "routepass bang int"
                                 }
                             },
                             {
@@ -189,6 +188,18 @@
                             }
                         ],
                         "lines": [
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-13", 1 ],
+                                    "source": [ "obj-1", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-1", 1 ]
+                                }
+                            },
                             {
                                 "patchline": {
                                     "destination": [ "obj-11", 0 ],
@@ -251,20 +262,8 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-2", 0 ],
+                                    "destination": [ "obj-1", 0 ],
                                     "source": [ "obj-16", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-13", 1 ],
-                                    "source": [ "obj-2", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-6", 0 ],
-                                    "source": [ "obj-2", 1 ]
                                 }
                             },
                             {
@@ -299,13 +298,13 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 232.0, 64.0, 49.0, 20.0 ],
+                    "patching_rect": [ 232.0, 104.0, 49.0, 20.0 ],
                     "text": "p Freeze"
                 }
             },
             {
                 "box": {
-                    "comment": "(int, ms) freeze, (bang) trigger",
+                    "comment": "(bang) trigger",
                     "id": "obj-1",
                     "index": 0,
                     "maxclass": "inlet",
