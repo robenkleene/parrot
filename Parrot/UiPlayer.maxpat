@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 571.0, 452.0, 1306.0, 894.0 ],
+        "rect": [ 1220.0, 324.0, 1620.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -18,6 +18,64 @@
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-37",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1040.0, 128.0, 80.0, 20.0 ],
+                    "text": "prepend freeze"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-18",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "bang", "bang" ],
+                    "patching_rect": [ 984.0, 120.0, 30.0, 20.0 ],
+                    "text": "t b b"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-36",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1040.0, 96.0, 37.0, 20.0 ],
+                    "text": "round"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-23",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1040.0, 40.0, 41.0, 48.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 104.0, 41.0, 48.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_exponent": 3.0,
+                            "parameter_longname": "Freeze",
+                            "parameter_mmax": 60000.0,
+                            "parameter_modmode": 4,
+                            "parameter_shortname": "Freeze",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 2
+                        }
+                    },
+                    "varname": "Freeze"
+                }
+            },
             {
                 "box": {
                     "id": "obj-24",
@@ -125,6 +183,7 @@
                     "restore": {
                         "AudioMute": [ 0.0 ],
                         "Clear": [ 0.0 ],
+                        "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Play": [ 0.0 ],
@@ -232,7 +291,7 @@
                     "patching_rect": [ 336.0, 240.0, 40.0, 96.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 536.0, 0.0, 40.0, 96.0 ],
-                    "varname": "UiAdEnv[1]",
+                    "varname": "UiAdEnv",
                     "viewvisibility": 1
                 }
             },
@@ -280,7 +339,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.0, 648.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 576.0, 152.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 536.0, 152.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -321,7 +380,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 528.0, 48.0, 48.0, 104.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 40.0, 104.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Both", "Audio", "Sample" ],
@@ -504,7 +563,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiAnalyzer.maxpat",
-                    "numinlets": 2,
+                    "numinlets": 3,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 464.0, 400.0, 496.0, 144.0 ],
@@ -531,10 +590,10 @@
                     "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "bang", "bang" ],
-                    "patching_rect": [ 8.0, 208.0, 30.0, 20.0 ],
-                    "text": "t b b"
+                    "numoutlets": 3,
+                    "outlettype": [ "bang", "bang", "bang" ],
+                    "patching_rect": [ 8.0, 208.0, 40.0, 20.0 ],
+                    "text": "t b b b"
                 }
             },
             {
@@ -572,7 +631,7 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "UiAnalyzer.maxpat",
-                    "numinlets": 2,
+                    "numinlets": 3,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 464.0, 184.0, 496.0, 144.0 ],
@@ -661,6 +720,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-15", 2 ],
+                    "source": [ "obj-18", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 2 ],
+                    "source": [ "obj-18", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 1 ],
                     "source": [ "obj-19", 0 ]
                 }
@@ -703,6 +774,12 @@
                 "patchline": {
                     "destination": [ "obj-44", 0 ],
                     "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-36", 0 ],
+                    "source": [ "obj-23", 0 ]
                 }
             },
             {
@@ -841,6 +918,26 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-37", 0 ],
+                    "source": [ "obj-36", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 2 ],
+                    "order": 0,
+                    "source": [ "obj-37", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-35", 2 ],
+                    "order": 1,
+                    "source": [ "obj-37", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-15", 1 ],
                     "source": [ "obj-38", 0 ]
                 }
@@ -905,6 +1002,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-18", 0 ],
+                    "source": [ "obj-8", 2 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-2", 0 ],
                     "source": [ "obj-8", 1 ]
                 }
@@ -927,6 +1030,7 @@
             "obj-12": [ "SampleMute", "Mute", 0 ],
             "obj-13": [ "Clear", "Clear", 0 ],
             "obj-14": [ "Gain", "Gain", 0 ],
+            "obj-23": [ "Freeze", "Freeze", 0 ],
             "obj-2::obj-23": [ "Decay[1]", "Decay", 0 ],
             "obj-2::obj-24": [ "Attack", "Attack", 0 ],
             "obj-3": [ "View", "View", 0 ],

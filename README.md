@@ -58,5 +58,6 @@ Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpa
 - `Decay`: The sample envelope decay.
 - `Gain`: The sample playback volume.
 - The button plays the sample.
-- `Mute`: Toggle whether the sample's audio is output.
+- `Mute`: The left mute toggles whether the audio's output is muted, the right mute does the same for the sample.
 - `Clear`: Clear the sample.
+- `Freeze`: Freeze the output of  spectral analyzer after this number of `ms` (this is useful for matching short sounds).

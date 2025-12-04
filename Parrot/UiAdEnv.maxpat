@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 737.0, 384.0, 1299.0, 814.0 ],
+        "rect": [ 673.0, 300.0, 526.0, 814.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -61,7 +61,7 @@
                         "valueof": {
                             "parameter_exponent": 3.0,
                             "parameter_longname": "Attack",
-                            "parameter_mmax": 5000.0,
+                            "parameter_mmax": 20000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Attack",
                             "parameter_type": 0,
@@ -88,7 +88,7 @@
                         "valueof": {
                             "parameter_exponent": 3.0,
                             "parameter_longname": "Decay",
-                            "parameter_mmax": 5000.0,
+                            "parameter_mmax": 60000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Decay",
                             "parameter_type": 0,
@@ -210,6 +210,14 @@
         "parameters": {
             "obj-23": [ "Decay", "Decay", 0 ],
             "obj-24": [ "Attack", "Attack", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
