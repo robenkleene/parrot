@@ -41,6 +41,7 @@
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -99,24 +100,13 @@
                             },
                             {
                                 "box": {
-                                    "id": "obj-11",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 312.0, 256.0, 95.0, 22.0 ],
-                                    "text": "prepend interval"
-                                }
-                            },
-                            {
-                                "box": {
                                     "id": "obj-10",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 3,
-                                    "outlettype": [ "bang", "int", "int" ],
+                                    "outlettype": [ "bang", "int", "bang" ],
                                     "patching_rect": [ 272.0, 224.0, 40.0, 22.0 ],
-                                    "text": "t b i i"
+                                    "text": "t b i b"
                                 }
                             },
                             {
@@ -159,7 +149,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 48.0, 224.0, 64.0, 22.0 ],
+                                    "patching_rect": [ 48.0, 336.0, 64.0, 22.0 ],
                                     "text": "interval 20"
                                 }
                             },
@@ -202,7 +192,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-11", 0 ],
+                                    "destination": [ "obj-5", 0 ],
                                     "source": [ "obj-10", 2 ]
                                 }
                             },
@@ -216,12 +206,6 @@
                                 "patchline": {
                                     "destination": [ "obj-9", 0 ],
                                     "source": [ "obj-10", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-17", 0 ],
-                                    "source": [ "obj-11", 0 ]
                                 }
                             },
                             {
