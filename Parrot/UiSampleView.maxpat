@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -56,7 +56,7 @@
                     "annotation_name": "Sample Drop",
                     "decodemode": 1,
                     "id": "obj-35",
-                    "legend": "",
+                    "legend": "Drop Sample Here!",
                     "maxclass": "live.drop",
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -822,6 +822,14 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
