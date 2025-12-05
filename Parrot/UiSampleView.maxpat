@@ -105,7 +105,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 360.0, 96.0, 55.0, 20.0 ],
-                    "text": "s #0size"
+                    "text": "s #1-size"
                 }
             },
             {
@@ -144,7 +144,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 888.0, 558.0, 53.0, 20.0 ],
-                    "text": "r #0size"
+                    "text": "r #1-size"
                 }
             },
             {
@@ -328,7 +328,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 208.0, 664.0, 92.0, 20.0 ],
-                    "text": "send #0reset"
+                    "text": "send #1-reset"
                 }
             },
             {
@@ -341,7 +341,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 840.0, 16.0, 105.0, 20.0 ],
-                    "text": "receive #0reset"
+                    "text": "receive #1-reset"
                 }
             },
             {
@@ -389,7 +389,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 112.0, 623.0, 112.0, 20.0 ],
-                    "text": "setbuffer #0sample"
+                    "text": "setbuffer #1-sample"
                 }
             },
             {
@@ -460,7 +460,7 @@
                     "numoutlets": 10,
                     "outlettype": [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
                     "patching_rect": [ 808.0, 48.0, 127.0, 20.0 ],
-                    "text": "info~ #0sample"
+                    "text": "info~ #1-sample"
                 }
             },
             {
@@ -473,7 +473,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 808.0, 80.0, 104.0, 20.0 ],
-                    "text": "set #0sample 1"
+                    "text": "set #1-sample 1"
                 }
             },
             {
@@ -492,7 +492,7 @@
             {
                 "box": {
                     "allowdrag": 0,
-                    "buffername": "#0sample",
+                    "buffername": "#1-sample",
                     "id": "obj-1",
                     "maxclass": "waveform~",
                     "numinlets": 5,
@@ -514,7 +514,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "float", "bang" ],
                     "patching_rect": [ 112.0, 578.0, 115.0, 20.0 ],
-                    "text": "buffer~ #0sample"
+                    "text": "buffer~ #1-sample"
                 }
             }
         ],

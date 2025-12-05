@@ -36,7 +36,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 540.0, 105.0, 97.0, 20.0 ],
-                    "text": "s #0setchannels"
+                    "text": "s #1-setchannels"
                 }
             },
             {
@@ -49,7 +49,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 135.0, 570.0, 95.0, 20.0 ],
-                    "text": "r #0setchannels"
+                    "text": "r #1-setchannels"
                 }
             },
             {
@@ -88,7 +88,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 825.0, 660.0, 133.0, 20.0 ],
-                    "text": "receive #0playbackend"
+                    "text": "receive #1-playbackend"
                 }
             },
             {
@@ -100,7 +100,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 180.0, 360.0, 121.0, 20.0 ],
-                    "text": "send #0playbackend"
+                    "text": "send #1-playbackend"
                 }
             },
             {
@@ -126,7 +126,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 225.0, 630.0, 119.0, 20.0 ],
-                    "text": "receive #0reverse"
+                    "text": "receive #1-reverse"
                 }
             },
             {
@@ -152,7 +152,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 105.0, 630.0, 99.0, 20.0 ],
-                    "text": "receive #0speed"
+                    "text": "receive #1-speed"
                 }
             },
             {
@@ -164,7 +164,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 135.0, 75.0, 86.0, 20.0 ],
-                    "text": "send #0speed"
+                    "text": "send #1-speed"
                 }
             },
             {
@@ -202,7 +202,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 840.0, 180.0, 89.0, 20.0 ],
-                    "text": "send #0stop"
+                    "text": "send #1-stop"
                 }
             },
             {
@@ -214,7 +214,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 300.0, 150.0, 89.0, 20.0 ],
-                    "text": "send #0stop"
+                    "text": "send #1-stop"
                 }
             },
             {
@@ -226,7 +226,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 75.0, 360.0, 89.0, 20.0 ],
-                    "text": "send #0stop"
+                    "text": "send #1-stop"
                 }
             },
             {
@@ -252,7 +252,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 165.0, 405.0, 102.0, 20.0 ],
-                    "text": "receive #0stop"
+                    "text": "receive #1-stop"
                 }
             },
             {
@@ -291,7 +291,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 510.0, 585.0, 119.0, 20.0 ],
-                    "text": "receive #0reverse"
+                    "text": "receive #1-reverse"
                 }
             },
             {
@@ -317,7 +317,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 840.0, 135.0, 119.0, 20.0 ],
-                    "text": "receive #0reverse"
+                    "text": "receive #1-reverse"
                 }
             },
             {
@@ -611,7 +611,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 135.0, 45.0, 107.0, 20.0 ],
-                    "text": "send #0reverse"
+                    "text": "send #1-reverse"
                 }
             },
             {
@@ -624,7 +624,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 720.0, 135.0, 106.0, 20.0 ],
-                    "text": "receive #0bang"
+                    "text": "receive #1-bang"
                 }
             },
             {
@@ -636,7 +636,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 270.0, 105.0, 93.0, 20.0 ],
-                    "text": "send #0bang"
+                    "text": "send #1-bang"
                 }
             },
             {
@@ -648,7 +648,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 720.0, 210.0, 102.0, 20.0 ],
-                    "text": "send #0groove"
+                    "text": "send #1-groove"
                 }
             },
             {
@@ -806,7 +806,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 30.0, 435.0, 115.0, 20.0 ],
-                    "text": "receive #0groove"
+                    "text": "receive #1-groove"
                 }
             },
             {
@@ -818,7 +818,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 405.0, 210.0, 102.0, 20.0 ],
-                    "text": "send #0groove"
+                    "text": "send #1-groove"
                 }
             },
             {
@@ -831,7 +831,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 510.0, 615.0, 127.0, 20.0 ],
-                    "text": "receive~ #0position"
+                    "text": "receive~ #1-position"
                 }
             },
             {
@@ -843,7 +843,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 105.0, 495.0, 114.0, 20.0 ],
-                    "text": "send~ #0position"
+                    "text": "send~ #1-position"
                 }
             },
             {
@@ -855,7 +855,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 705.0, 660.0, 114.0, 20.0 ],
-                    "text": "send~ #0inrange"
+                    "text": "send~ #1-inrange"
                 }
             },
             {
@@ -868,7 +868,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 60.0, 270.0, 126.0, 20.0 ],
-                    "text": "receive~ #0inrange"
+                    "text": "receive~ #1-inrange"
                 }
             },
             {
@@ -1308,7 +1308,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 30.0, 405.0, 125.0, 20.0 ],
-                    "text": "receive #0setbuffer"
+                    "text": "receive #1-setbuffer"
                 }
             },
             {
@@ -1321,7 +1321,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 690.0, 555.0, 125.0, 20.0 ],
-                    "text": "receive #0setbuffer"
+                    "text": "receive #1-setbuffer"
                 }
             },
             {
@@ -1333,7 +1333,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 525.0, 180.0, 112.0, 20.0 ],
-                    "text": "send #0setbuffer"
+                    "text": "send #1-setbuffer"
                 }
             },
             {
