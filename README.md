@@ -2,23 +2,21 @@
 
 ![Parrot](Parrot.png)
 
-Parrot is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) analyzer designed to assist in recreating sampled sounds with a synthesizer.
+Parrot is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) audio effect to assist in recreating sampled sounds with a synthesizer.
 
-It overlays the spectral output of an instrument (for example, a synthesizer) and a sample. The idea is to then manually manipulate the synthesizer until the spectral output matches the sample.  For example, to synthesize a snare drum, you'd setup a snare sample in Parrot and adjust your synthesizer until its spectral output matches the sample.
+It overlays the spectral output of an instrument (e.g., a synthesizer) over a sample. The idea is to then manually manipulate the controls of the synthesizer until the spectral output matches the sample.  For example, to synthesize a snare drum, you'd add a snare sample to Parrot and then adjust the synthesizer until the spectral output matches the sample.
 
 The technique of using the spectral output of a sound to replicate it through synthesis is inspired by [*Welsh's Synthesizer Cookbook*](http://synthesizer-cookbook.com/).
 
 ### Parrot
 
-Parrot is a Max for Live *audio effect* that includes the main interface with sample playback controls, and the overlaid spectral output.
-
-Playback is triggered when audio input goes from silence to audible.
+Parrot plays back the sample when the audio effect input goes from silence to audible, Parrot itself does not change the input audio at all, and only offers attack and decay controls for the sample.
 
 ## Setup
 
-1. Insert **Parrot** to the right of the instrument.
-2. Load a sample by dragging it onto the waveform box.
-3. The spectral output in Parrot will show the output of the synthesizer overlaid with the output of the sample.
+1. Add **Parrot** as an Audio Effect.
+2. Add a sample by dragging it onto the sample drop target.
+3. When Parrot detects audio input (its audio input goes from silence to audible), it will play back the sample and overlay the spectral output of the input sound and the sample.
 
 ## Installation
 
@@ -53,11 +51,9 @@ Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpa
 
 #### Sample Playback
 
-- To load a sample, drag it onto the waveform box.
 - `Attack`: The sample envelope attack.
-- `Decay`: The sample envelope decay.
-- `Gain`: The sample playback volume.
-- The button plays the sample.
-- `Mute`: The left mute toggles whether the audio's output is muted, the right mute does the same for the sample.
 - `Clear`: Clear the sample.
+- `Decay`: The sample envelope decay.
 - `Freeze`: Freeze the output of  spectral analyzer after this number of `ms` (this is useful for matching short sounds).
+- `Gain`: The sample playback volume.
+- `Mute`: The left mute toggles whether the audio's output is muted, the right mute does the same for the sample.
