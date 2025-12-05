@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -44,6 +44,7 @@
             },
             {
                 "box": {
+                    "args": [ "#0" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -97,20 +98,12 @@
             "obj-1::obj-12": [ "SampleMute", "Mute", 0 ],
             "obj-1::obj-13": [ "Clear", "Clear", 0 ],
             "obj-1::obj-14": [ "Gain", "Gain", 0 ],
-            "obj-1::obj-23": [ "Speed", "Speed", 0 ],
+            "obj-1::obj-23": [ "Speed", "Freeze", 0 ],
             "obj-1::obj-2::obj-23": [ "Decay", "Decay", 0 ],
             "obj-1::obj-2::obj-24": [ "Attack", "Attack", 0 ],
             "obj-1::obj-3": [ "View", "View", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-10": {
                     "parameter_initial": 0.0,
@@ -130,7 +123,8 @@
                 },
                 "obj-1::obj-23": {
                     "parameter_initial": 1.0,
-                    "parameter_initial_enable": 1
+                    "parameter_initial_enable": 1,
+                    "parameter_longname": "Speed"
                 },
                 "obj-1::obj-2::obj-23": {
                     "parameter_initial": 1000.0000000000002,

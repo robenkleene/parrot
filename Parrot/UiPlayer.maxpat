@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1220.0, 324.0, 1620.0, 894.0 ],
+        "rect": [ 333.0, 100.0, 1620.0, 894.0 ],
         "openinpresentation": 1,
         "default_fontsize": 10.0,
         "default_fontname": "Arial Bold",
@@ -598,6 +598,7 @@
             },
             {
                 "box": {
+                    "args": [ "#1" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -925,14 +926,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 2 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-37", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-35", 2 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-37", 0 ]
                 }
             },
@@ -1036,14 +1037,6 @@
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
