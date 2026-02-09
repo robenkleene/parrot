@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -376,7 +376,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 336.0, 264.0, 75.0, 29.0 ],
-                    "text": "Bug fix for \nNaN erro"
+                    "text": "Bug fix for \nNaN error"
                 }
             },
             {
@@ -822,14 +822,6 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
