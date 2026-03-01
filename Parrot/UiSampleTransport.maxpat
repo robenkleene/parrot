@@ -11,8 +11,6 @@
         "classnamespace": "box",
         "rect": [ 247.0, 96.0, 1447.0, 928.0 ],
         "openinpresentation": 1,
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "boxes": [
@@ -340,8 +338,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 800.0, 162.0, 640.0, 480.0 ],
-                        "default_fontsize": 10.0,
-                        "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "boxes": [
@@ -917,8 +913,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 394.0, 107.0, 543.0, 557.0 ],
-                        "default_fontsize": 10.0,
-                        "default_fontname": "Arial Bold",
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "boxes": [
