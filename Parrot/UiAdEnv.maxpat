@@ -11,8 +11,6 @@
         "classnamespace": "box",
         "rect": [ 673.0, 300.0, 526.0, 814.0 ],
         "openinpresentation": 1,
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -100,8 +98,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-20",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -113,8 +109,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-7",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -126,8 +120,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 4,
@@ -139,8 +131,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-19",
                     "maxclass": "newobj",
                     "numinlets": 2,

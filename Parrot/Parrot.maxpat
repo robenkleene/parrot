@@ -12,8 +12,6 @@
         "openrect": [ 42.0, 79.0, 968.0, 171.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "default_fontsize": 10.0,
-        "default_fontname": "Arial Bold",
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -23,6 +21,7 @@
             {
                 "box": {
                     "id": "obj-2",
+                    "linecount": 2,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -104,6 +103,14 @@
             "obj-1::obj-3": [ "View", "View", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
