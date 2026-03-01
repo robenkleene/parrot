@@ -98,8 +98,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-20",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -111,8 +109,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-7",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -124,8 +120,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 4,
@@ -137,8 +131,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-19",
                     "maxclass": "newobj",
                     "numinlets": 2,

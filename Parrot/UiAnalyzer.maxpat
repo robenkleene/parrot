@@ -1041,8 +1041,6 @@
                     },
                     "patching_rect": [ 136.0, 64.0, 44.0, 20.0 ],
                     "saved_object_attributes": {
-                        "fontname": "Arial Bold",
-                        "fontsize": 10.0
                     },
                     "text": "p styler"
                 }

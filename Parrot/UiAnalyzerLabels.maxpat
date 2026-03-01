@@ -42,8 +42,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-49",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -56,8 +54,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-45",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -70,8 +66,6 @@
             },
             {
                 "box": {
-                    "fontname": "Arial Bold",
-                    "fontsize": 10.0,
                     "id": "obj-40",
                     "maxclass": "comment",
                     "numinlets": 1,
