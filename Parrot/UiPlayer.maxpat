@@ -199,7 +199,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 16.0, 472.0, 36.0, 20.0 ],
+                    "patching_rect": [ 16.0, 472.0, 36.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -210,7 +210,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 64.0, 472.0, 36.0, 20.0 ],
+                    "patching_rect": [ 64.0, 472.0, 36.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -640,7 +640,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 8.0, 136.0, 32.5, 20.0 ],
+                    "patching_rect": [ 8.0, 136.0, 32.5, 22.0 ],
                     "text": "/~ 2"
                 }
             },
@@ -1027,14 +1027,6 @@
             "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"

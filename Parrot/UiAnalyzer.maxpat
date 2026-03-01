@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -29,7 +29,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -39,7 +39,6 @@
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -280,7 +279,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 232.0, 104.0, 49.0, 20.0 ],
+                    "patching_rect": [ 232.0, 104.0, 56.0, 22.0 ],
                     "text": "p Freeze"
                 }
             },
@@ -303,7 +302,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 88.0, 96.0, 62.0, 20.0 ],
+                    "patching_rect": [ 88.0, 96.0, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -320,7 +319,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 1,
+                            "revision": 2,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -334,6 +333,7 @@
                             {
                                 "box": {
                                     "id": "obj-9",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 4,
                                     "numoutlets": 1,
@@ -367,6 +367,7 @@
                             {
                                 "box": {
                                     "id": "obj-14",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
@@ -378,6 +379,7 @@
                             {
                                 "box": {
                                     "id": "obj-22",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
@@ -400,6 +402,7 @@
                             {
                                 "box": {
                                     "id": "obj-11",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
@@ -411,6 +414,7 @@
                             {
                                 "box": {
                                     "id": "obj-10",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -421,6 +425,7 @@
                             {
                                 "box": {
                                     "id": "obj-8",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -431,6 +436,7 @@
                             {
                                 "box": {
                                     "id": "obj-70",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 3,
@@ -442,6 +448,7 @@
                             {
                                 "box": {
                                     "id": "obj-69",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
@@ -453,6 +460,7 @@
                             {
                                 "box": {
                                     "id": "obj-5",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 2,
@@ -464,6 +472,7 @@
                             {
                                 "box": {
                                     "id": "obj-4",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 3,
                                     "numoutlets": 3,
@@ -475,6 +484,7 @@
                             {
                                 "box": {
                                     "id": "obj-59",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -486,6 +496,7 @@
                             {
                                 "box": {
                                     "id": "obj-28",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -497,6 +508,7 @@
                             {
                                 "box": {
                                     "id": "obj-3",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -508,6 +520,7 @@
                             {
                                 "box": {
                                     "id": "obj-30",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -518,6 +531,7 @@
                             {
                                 "box": {
                                     "id": "obj-27",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -528,6 +542,7 @@
                             {
                                 "box": {
                                     "id": "obj-19",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -538,6 +553,7 @@
                             {
                                 "box": {
                                     "id": "obj-53",
+                                    "linecount": 2,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -548,6 +564,7 @@
                             {
                                 "box": {
                                     "id": "obj-38",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
@@ -559,6 +576,7 @@
                             {
                                 "box": {
                                     "id": "obj-35",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -583,6 +601,7 @@
                             {
                                 "box": {
                                     "id": "obj-29",
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
@@ -594,6 +613,7 @@
                             {
                                 "box": {
                                     "id": "obj-25",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -618,6 +638,7 @@
                             {
                                 "box": {
                                     "id": "obj-23",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -642,7 +663,7 @@
                             {
                                 "box": {
                                     "id": "obj-16",
-                                    "linecount": 7,
+                                    "linecount": 8,
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
@@ -675,6 +696,7 @@
                             {
                                 "box": {
                                     "id": "obj-58",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -686,6 +708,7 @@
                             {
                                 "box": {
                                     "id": "obj-57",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -730,6 +753,7 @@
                             {
                                 "box": {
                                     "id": "obj-45",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -741,6 +765,7 @@
                             {
                                 "box": {
                                     "id": "obj-37",
+                                    "linecount": 2,
                                     "maxclass": "newobj",
                                     "numinlets": 4,
                                     "numoutlets": 4,
@@ -1039,9 +1064,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 136.0, 64.0, 44.0, 20.0 ],
-                    "saved_object_attributes": {
-                    },
+                    "patching_rect": [ 136.0, 64.0, 47.0, 22.0 ],
                     "text": "p styler"
                 }
             },
@@ -1076,7 +1099,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 16.0, 64.0, 88.0, 20.0 ],
+                    "patching_rect": [ 16.0, 64.0, 96.0, 22.0 ],
                     "text": "routepass signal"
                 }
             },
