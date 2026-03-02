@@ -9,13 +9,47 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 147.0, 100.0, 1174.0, 945.0 ],
+        "rect": [ 147.0, 100.0, 2078.0, 1186.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "activebgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "annotation": "Select whether to overlay both the audio and the sample, or display only the audio or sample.",
+                    "annotation_name": "Filter Type",
+                    "appearance": 1,
+                    "id": "obj-70",
+                    "maxclass": "live.menu",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 584.0, 48.0, 47.0, 15.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ -8.0, 0.0, 49.0, 15.0 ],
+                    "saved_attribute_attributes": {
+                        "activebgcolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_enum": [ "Both", "Audio", "Sample" ],
+                            "parameter_initial": [ 0 ],
+                            "parameter_initial_enable": 1,
+                            "parameter_linknames": 1,
+                            "parameter_longname": "View",
+                            "parameter_mmax": 2,
+                            "parameter_modmode": 0,
+                            "parameter_shortname": "View",
+                            "parameter_type": 2
+                        }
+                    },
+                    "varname": "View"
+                }
+            },
             {
                 "box": {
                     "id": "obj-48",
@@ -33,7 +67,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 545.0, 352.0, 1000.0, 780.0 ],
+                        "rect": [ 453.0, 183.0, 1000.0, 780.0 ],
                         "gridsize": [ 8.0, 8.0 ],
                         "gridsnaponopen": 2,
                         "objectsnaponopen": 0,
@@ -110,11 +144,11 @@
                                 "box": {
                                     "id": "obj-25",
                                     "maxclass": "newobj",
-                                    "numinlets": 5,
-                                    "numoutlets": 5,
-                                    "outlettype": [ "bang", "bang", "bang", "bang", "" ],
-                                    "patching_rect": [ 8.0, 56.0, 177.0, 22.0 ],
-                                    "text": "select None Both Audio Sample"
+                                    "numinlets": 4,
+                                    "numoutlets": 4,
+                                    "outlettype": [ "bang", "bang", "bang", "" ],
+                                    "patching_rect": [ 8.0, 56.0, 145.0, 22.0 ],
+                                    "text": "select Both Audio Sample"
                                 }
                             },
                             {
@@ -255,96 +289,6 @@
                     },
                     "patching_rect": [ 584.0, 80.0, 49.0, 22.0 ],
                     "text": "p Styler"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-41",
-                    "maxclass": "newobj",
-                    "numinlets": 0,
-                    "numoutlets": 0,
-                    "patcher": {
-                        "fileversion": 1,
-                        "appversion": {
-                            "major": 9,
-                            "minor": 1,
-                            "revision": 2,
-                            "architecture": "x64",
-                            "modernui": 1
-                        },
-                        "classnamespace": "box",
-                        "rect": [ 1299.0, 501.0, 1000.0, 780.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
-                        "subpatcher_template": "roben-kleene-max-for-live",
-                        "boxes": [],
-                        "lines": []
-                    },
-                    "patching_rect": [ 608.0, 616.0, 49.0, 22.0 ],
-                    "text": "p Styler"
-                }
-            },
-            {
-                "box": {
-                    "appearance": 2,
-                    "id": "obj-show-audio",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 663.0, 688.0, 59.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 10.0, 9.0, 59.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_initial": [ 1 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_invisible": 2,
-                            "parameter_longname": "ShowAudio",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_order": 1,
-                            "parameter_shortname": "Audio",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Audio",
-                    "texton": "Audio",
-                    "varname": "ShowAudio"
-                }
-            },
-            {
-                "box": {
-                    "appearance": 2,
-                    "id": "obj-show-sample",
-                    "maxclass": "live.text",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 728.0, 688.0, 59.0, 15.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 73.0, 9.0, 59.0, 15.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "val1", "val2" ],
-                            "parameter_initial": [ 1 ],
-                            "parameter_initial_enable": 1,
-                            "parameter_invisible": 2,
-                            "parameter_longname": "ShowSample",
-                            "parameter_mmax": 1,
-                            "parameter_modmode": 0,
-                            "parameter_order": 1,
-                            "parameter_shortname": "Sample",
-                            "parameter_type": 2
-                        }
-                    },
-                    "text": "Sample",
-                    "texton": "Sample",
-                    "varname": "ShowSample"
                 }
             },
             {
@@ -517,8 +461,6 @@
                         "GainSlider": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "SampleMute": [ 0.0 ],
-                        "ShowAudio": [ 1.0 ],
-                        "ShowSample": [ 1.0 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -691,35 +633,6 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 352.0, 192.0, 35.0, 22.0 ],
                     "text": "clear"
-                }
-            },
-            {
-                "box": {
-                    "annotation": "Select whether to overlay both the audio and the sample, or display only the audio or sample.",
-                    "annotation_name": "Input",
-                    "id": "obj-3",
-                    "maxclass": "live.tab",
-                    "num_lines_patching": 3,
-                    "num_lines_presentation": 3,
-                    "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "float" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 400.0, 32.0, 48.0, 104.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 40.0, 104.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_enum": [ "Both", "Audio", "Sample" ],
-                            "parameter_longname": "View",
-                            "parameter_mmax": 2,
-                            "parameter_modmode": 0,
-                            "parameter_shortname": "View",
-                            "parameter_type": 2,
-                            "parameter_unitstyle": 9
-                        }
-                    },
-                    "varname": "View"
                 }
             },
             {
@@ -1071,12 +984,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-48", 0 ],
-                    "source": [ "obj-3", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-24", 1 ],
                     "order": 0,
                     "source": [ "obj-30", 0 ]
@@ -1183,6 +1090,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-48", 0 ],
+                    "source": [ "obj-70", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-18", 0 ],
                     "source": [ "obj-8", 2 ]
                 }
@@ -1214,11 +1127,9 @@
             "obj-23": [ "Freeze", "Freeze", 0 ],
             "obj-2::obj-23": [ "Decay[1]", "Decay", 0 ],
             "obj-2::obj-24": [ "Attack", "Attack", 0 ],
-            "obj-3": [ "View", "View", 0 ],
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "obj-show-audio": [ "ShowAudio", "Audio", 1 ],
-            "obj-show-sample": [ "ShowSample", "Sample", 1 ],
+            "obj-70": [ "View", "View", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
