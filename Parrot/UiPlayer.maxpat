@@ -9,13 +9,37 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 147.0, 100.0, 2078.0, 1186.0 ],
+        "rect": [ 285.0, 170.0, 1780.0, 1186.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "args": [ "#1" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-4",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiSamplePlayback.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 8.0, 240.0, 328.0, 152.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 40.0, 40.0, 496.0, 112.0 ],
+                    "varname": "UiSamplePlayback",
+                    "viewvisibility": 1
+                }
+            },
             {
                 "box": {
                     "activebgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -30,7 +54,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 584.0, 48.0, 47.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ -8.0, 0.0, 49.0, 15.0 ],
+                    "presentation_rect": [ 40.0, 8.0, 49.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -579,7 +603,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 352.0, 168.0, 44.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 856.0, 152.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 496.0, 16.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
@@ -731,7 +755,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 464.0, 400.0, 496.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 0.0, 496.0, 152.0 ],
+                    "presentation_rect": [ 40.0, 40.0, 496.0, 112.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -759,30 +783,6 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-4",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiSamplePlayback.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 8.0, 240.0, 328.0, 152.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 576.0, 0.0, 320.0, 152.0 ],
-                    "varname": "UiSamplePlayback",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -798,7 +798,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 464.0, 184.0, 496.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 40.0, 0.0, 496.0, 152.0 ],
+                    "presentation_rect": [ 40.0, 40.0, 496.0, 112.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1130,14 +1130,6 @@
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
             "obj-70": [ "View", "View", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"

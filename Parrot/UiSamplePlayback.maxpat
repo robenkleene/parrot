@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
@@ -46,7 +46,7 @@
                     "outlettype": [ "", "float", "float", "float", "float" ],
                     "patching_rect": [ 64.0, 112.0, 320.0, 144.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 416.0, 96.0 ],
                     "varname": "UiSampleView",
                     "viewvisibility": 1
                 }
@@ -153,6 +153,14 @@
         ],
         "parameters": {
             "obj-4::obj-35": [ "Sample", "live.drop", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

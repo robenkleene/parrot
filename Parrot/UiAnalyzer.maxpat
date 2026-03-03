@@ -1105,6 +1105,7 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "domain": [ 20.0, 20000.0 ],
                     "fgcolor": [ 0.38, 1.0, 0.45, 1.0 ],
                     "id": "obj-43",
@@ -1116,7 +1117,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 16.0, 288.0, 465.0, 105.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 496.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 496.0, 112.0 ],
                     "range": [ 0.0, 1.0 ]
                 }
             }

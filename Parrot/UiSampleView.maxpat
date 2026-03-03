@@ -62,7 +62,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 8.0, 344.0, 320.0, 120.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 416.0, 96.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 1,
@@ -83,7 +83,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 768.0, 678.0, 245.0, 22.0 ],
-                    "restore": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "restore": [ 0.0, 0.0, 416.0, 96.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
