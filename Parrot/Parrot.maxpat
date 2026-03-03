@@ -12,9 +12,6 @@
         "openrect": [ 42.0, 79.0, 968.0, 171.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "devicewidth": 968.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -26,7 +23,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 480.0, 192.0, 32.0, 20.0 ],
+                    "patching_rect": [ 480.0, 192.0, 32.0, 35.0 ],
                     "text": "adc~"
                 }
             },
@@ -100,17 +97,9 @@
             "obj-1::obj-23": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-2::obj-23": [ "Decay", "Decay", 0 ],
             "obj-1::obj-2::obj-24": [ "Attack", "Attack", 0 ],
-            "obj-1::obj-3": [ "View", "View", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
+            "obj-1::obj-70": [ "View", "View", 0 ],
             "inherited_shortname": 1
         },
         "autosave": 0

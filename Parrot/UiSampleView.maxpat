@@ -11,9 +11,6 @@
         "classnamespace": "box",
         "rect": [ 238.0, 129.0, 1183.0, 1181.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {

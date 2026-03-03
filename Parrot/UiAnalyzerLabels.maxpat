@@ -11,9 +11,6 @@
         "classnamespace": "box",
         "rect": [ 189.0, 387.0, 1157.0, 659.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {

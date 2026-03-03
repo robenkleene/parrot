@@ -11,9 +11,6 @@
         "classnamespace": "box",
         "rect": [ 345.0, 390.0, 1182.0, 693.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "toolbars_unpinned_last_save": 2,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -35,9 +32,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1087.0, 286.0, 1000.0, 780.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
                         "boxes": [
                             {
@@ -325,9 +319,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 707.0, 173.0, 1135.0, 753.0 ],
-                        "gridsize": [ 8.0, 8.0 ],
-                        "gridsnaponopen": 2,
-                        "objectsnaponopen": 0,
                         "subpatcher_template": "roben-kleene-max-for-live",
                         "boxes": [
                             {
