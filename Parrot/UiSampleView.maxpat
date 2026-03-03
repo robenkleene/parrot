@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 145.0, 1183.0, 1181.0 ],
+        "rect": [ 238.0, 129.0, 1183.0, 1181.0 ],
         "openinpresentation": 1,
         "gridsize": [ 8.0, 8.0 ],
         "gridsnaponopen": 2,
@@ -54,7 +54,7 @@
                     "annotation_name": "Sample Drop",
                     "decodemode": 1,
                     "id": "obj-35",
-                    "legend": "Drop Sample Here!",
+                    "legend": "",
                     "maxclass": "live.drop",
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -444,6 +444,7 @@
             {
                 "box": {
                     "allowdrag": 0,
+                    "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
                     "buffername": "#1-sample",
                     "id": "obj-1",
                     "maxclass": "waveform~",
@@ -772,14 +773,6 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
