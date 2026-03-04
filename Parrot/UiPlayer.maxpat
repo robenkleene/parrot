@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 307.0, 182.0, 1780.0, 1186.0 ],
+        "rect": [ 307.0, 161.0, 1780.0, 1186.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -90,7 +90,6 @@
                         "classnamespace": "box",
                         "rect": [ 453.0, 183.0, 1000.0, 780.0 ],
                         "subpatcher_template": "roben-kleene-max-for-live",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1013,14 +1012,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 2 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-37", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-35", 2 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-37", 0 ]
                 }
             },
@@ -1124,14 +1123,6 @@
             "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
             "obj-70": [ "View", "View", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"
