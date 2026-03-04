@@ -9,10 +9,70 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 189.0, 387.0, 1157.0, 659.0 ],
+        "rect": [ 589.0, 465.0, 1844.0, 775.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.5,
+                    "id": "obj-label100",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 177.0, 88.0, 30.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 68.0, 4.0, 30.0, 18.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
+                        }
+                    },
+                    "text": "100",
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.5,
+                    "id": "obj-label1k",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 217.0, 88.0, 20.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 209.0, 4.0, 20.0, 18.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
+                        }
+                    },
+                    "text": "1k",
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans Medium",
+                    "fontsize": 9.5,
+                    "id": "obj-label10k",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 257.0, 88.0, 30.0, 18.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 339.0, 4.0, 30.0, 18.0 ],
+                    "saved_attribute_attributes": {
+                        "textcolor": {
+                            "expression": "themecolor.live_lcd_control_fg_zombie"
+                        }
+                    },
+                    "text": "10k",
+                    "textcolor": [ 0.6470588235294118, 0.6470588235294118, 0.6470588235294118, 1.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-2",
@@ -35,42 +95,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 24.0, 16.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-49",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 930.0, 420.0, 30.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 448.0, 0.0, 28.0, 20.0 ],
-                    "text": "10k"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-45",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 810.0, 420.0, 23.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 328.0, 0.0, 22.0, 20.0 ],
-                    "text": "1k"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-40",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 690.0, 420.0, 31.0, 20.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 192.0, 0.0, 29.0, 20.0 ],
-                    "text": "100"
                 }
             }
         ],
