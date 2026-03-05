@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 784.0, 141.0, 1482.0, 1186.0 ],
+        "rect": [ 436.0, 92.0, 1184.0, 1186.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -463,30 +463,6 @@
             },
             {
                 "box": {
-                    "args": [ "#1" ],
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-4",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiSamplePlayback.maxpat",
-                    "numinlets": 2,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 24.5, 252.0, 405.0, 108.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
-                    "varname": "UiSamplePlayback",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "activebgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "annotation": "Select whether to overlay both the audio and the sample, or display only the audio or sample.",
                     "annotation_name": "Filter Type",
@@ -597,7 +573,7 @@
                         "Clear": [ 0.0 ],
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
-                        "GainSlider": [ -44.74226804123711 ],
+                        "GainSlider": [ 0.0 ],
                         "Mix": [ 50.0 ],
                         "Play": [ 0.0 ],
                         "View": [ 0.0 ]
@@ -775,7 +751,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 546.0, 647.0, 405.0, 108.0 ],
+                    "patching_rect": [ 555.0, 647.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
                     "viewvisibility": 1
@@ -788,7 +764,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 464.0, 396.0, 32.5, 22.0 ],
+                    "patching_rect": [ 321.0, 733.0, 32.5, 22.0 ],
                     "text": "/~ 2"
                 }
             },
@@ -818,7 +794,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 555.0, 363.0, 405.0, 108.0 ],
+                    "patching_rect": [ 535.0, 310.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
                     "viewvisibility": 1
@@ -850,7 +826,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 555.0, 531.0, 496.0, 16.0 ],
+                    "patching_rect": [ 542.0, 534.0, 496.0, 16.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.0, 137.0, 405.0, 27.0 ],
                     "viewvisibility": 1
@@ -865,9 +841,9 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 747.0, 914.0, 415.0, 160.0 ],
+                    "patching_rect": [ 550.0, 858.0, 415.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 4.0, 415.0, 160.0 ],
+                    "presentation_rect": [ 5.0, 5.0, 415.0, 160.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -896,6 +872,45 @@
                             "expression": "themecolor.live_surface_bg"
                         }
                     }
+                }
+            },
+            {
+                "box": {
+                    "args": [ "#1" ],
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-4",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiSamplePlayback.maxpat",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 109.0, 322.0, 405.0, 108.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
+                    "varname": "UiSamplePlayback",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.68, 0.68, 0.68, 1.0 ],
+                    "id": "obj-bgpanel",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 8.0, 400.0, 490.0, 170.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 0.0, 0.0, 490.0, 170.0 ],
+                    "proportion": 0.39
                 }
             }
         ],
@@ -1141,14 +1156,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-2::obj-23": {
                     "parameter_longname": "Decay[1]"

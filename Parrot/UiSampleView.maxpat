@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 238.0, 129.0, 1183.0, 1181.0 ],
+        "rect": [ 209.0, 363.0, 1183.0, 1181.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -57,9 +57,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 8.0, 344.0, 320.0, 120.0 ],
+                    "patching_rect": [ 8.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 416.0, 96.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 1,
@@ -80,7 +80,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 768.0, 678.0, 245.0, 22.0 ],
-                    "restore": [ 0.0, 0.0, 416.0, 96.0 ],
+                    "restore": [ 0.0, 0.0, 405.0, 108.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -184,7 +184,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 768.0, 528.0, 272.0, 22.0 ],
-                    "restore": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "restore": [ 0.0, 0.0, 405.0, 108.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -257,7 +257,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 712.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 729.5, 8.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -269,7 +269,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 616.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 633.0, 8.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -281,7 +281,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 512.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 536.5, 8.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -313,7 +313,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 656.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 671.6, 728.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -324,7 +324,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 576.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 594.4, 728.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -368,7 +368,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 496.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 517.0, 728.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -379,7 +379,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 424.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 440.0, 728.0, 25.0, 25.0 ]
                 }
             },
             {
@@ -448,9 +448,9 @@
                     "numinlets": 5,
                     "numoutlets": 6,
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
-                    "patching_rect": [ 424.0, 344.0, 400.0, 120.0 ],
+                    "patching_rect": [ 440.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
                     "varname": "Waveform"
                 }
             },
@@ -770,6 +770,14 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
