@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 436.0, 92.0, 1184.0, 1186.0 ],
+        "rect": [ 497.0, 92.0, 1184.0, 1186.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -641,7 +641,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 56.0, 707.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 437.5, 105.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 435.5, 110.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Gain",
@@ -674,7 +674,7 @@
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 25.0, 475.0, 40.0, 96.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 438.0, 4.0, 40.0, 96.0 ],
+                    "presentation_rect": [ 436.0, 9.0, 40.0, 96.0 ],
                     "varname": "UiAdEnv",
                     "viewvisibility": 1
                 }
@@ -864,7 +864,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1235.0, 318.0, 60.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 428.0, 4.0, 60.0, 160.0 ],
+                    "presentation_rect": [ 426.0, 5.0, 60.0, 160.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -907,7 +907,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 8.0, 400.0, 490.0, 170.0 ],
+                    "patching_rect": [ 550.0, 1039.0, 490.0, 170.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 490.0, 170.0 ],
                     "proportion": 0.39
