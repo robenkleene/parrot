@@ -9,10 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 42.0, 79.0, 968.0, 171.0 ],
+        "openrect": [ 134.0, 164.0, 554.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 968.0,
+        "devicewidth": 554.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -91,7 +91,7 @@
         ],
         "parameters": {
             "obj-1::obj-14": [ "Gain", "Gain", 0 ],
-            "obj-1::obj-23": [ "Freeze[1]", "Decay", 0 ],
+            "obj-1::obj-23": [ "Decay", "Decay", 0 ],
             "obj-1::obj-24": [ "Attack", "Attack", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
@@ -105,11 +105,6 @@
                     "name": "",
                     "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "parameter_overrides": {
-                "obj-1::obj-23": {
-                    "parameter_longname": "Freeze[1]"
                 }
             },
             "inherited_shortname": 1
