@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 325.0, 100.0, 1617.0, 1155.0 ],
+        "rect": [ 892.0, 321.0, 1617.0, 1155.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [

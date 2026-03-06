@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 347.0, 143.0, 1188.0, 1181.0 ],
+        "rect": [ 67.0, 152.0, 1188.0, 1181.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -454,6 +454,7 @@
                     "allowdrag": 0,
                     "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
                     "buffername": "#1-sample",
+                    "gridcolor": [ 0.6723935994869865, 0.6723934401587944, 0.6723934817937964, 0.0 ],
                     "id": "obj-1",
                     "maxclass": "waveform~",
                     "numinlets": 5,
@@ -462,7 +463,8 @@
                     "patching_rect": [ 447.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
-                    "varname": "Waveform"
+                    "varname": "Waveform",
+                    "waveformcolor": [ 0.14901960784313725, 0.14901960784313725, 0.14901960784313725, 1.0 ]
                 }
             },
             {
