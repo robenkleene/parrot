@@ -934,27 +934,6 @@
             },
             {
                 "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-15",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiAnalyzer.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 646.0, 736.0, 405.0, 108.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
                     "id": "obj-16",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -973,27 +952,6 @@
                     "outlettype": [ "bang", "bang", "bang" ],
                     "patching_rect": [ 8.0, 178.0, 42.0, 22.0 ],
                     "text": "t b b b"
-                }
-            },
-            {
-                "box": {
-                    "bgmode": 0,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-35",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "UiAnalyzer.maxpat",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "offset": [ 0.0, 0.0 ],
-                    "patching_rect": [ 646.0, 548.0, 405.0, 108.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
-                    "viewvisibility": 1
                 }
             },
             {
@@ -1026,27 +984,6 @@
                     "presentation": 1,
                     "presentation_rect": [ 10.0, 137.0, 405.0, 27.0 ],
                     "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "angle": 270.0,
-                    "bgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
-                    "id": "obj-darkpanel",
-                    "maxclass": "panel",
-                    "mode": 0,
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 1108.0, 62.0, 415.0, 160.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 5.0, 5.0, 415.0, 160.0 ],
-                    "proportion": 0.39,
-                    "rounded": 4,
-                    "saved_attribute_attributes": {
-                        "bgfillcolor": {
-                            "expression": "themecolor.live_lcd_bg"
-                        }
-                    }
                 }
             },
             {
@@ -1092,6 +1029,69 @@
                     "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
                     "varname": "UiSamplePlayback",
                     "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-15",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiAnalyzer.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 646.0, 736.0, 405.0, 108.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-35",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "UiAnalyzer.maxpat",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "offset": [ 0.0, 0.0 ],
+                    "patching_rect": [ 646.0, 548.0, 405.0, 108.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 10.0, 29.0, 405.0, 108.0 ],
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "bgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
+                    "id": "obj-darkpanel",
+                    "maxclass": "panel",
+                    "mode": 0,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1108.0, 62.0, 415.0, 160.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 5.0, 5.0, 415.0, 160.0 ],
+                    "proportion": 0.39,
+                    "rounded": 4,
+                    "saved_attribute_attributes": {
+                        "bgfillcolor": {
+                            "expression": "themecolor.live_lcd_bg"
+                        }
+                    }
                 }
             },
             {
