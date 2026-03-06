@@ -23,7 +23,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 480.0, 192.0, 32.0, 35.0 ],
+                    "patching_rect": [ 5.0, -11.0, 32.0, 35.0 ],
                     "text": "adc~"
                 }
             },
@@ -33,7 +33,7 @@
                     "maxclass": "ezdac~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 472.0, 272.0, 45.0, 45.0 ],
+                    "patching_rect": [ 5.0, 236.0, 45.0, 45.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 8.0, 48.0, 48.0 ]
                 }
@@ -55,7 +55,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 8.0, -8.0, 896.0, 168.0 ],
+                    "patching_rect": [ 5.0, 45.0, 489.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 64.0, 0.0, 489.0, 168.0 ],
                     "varname": "Player",
