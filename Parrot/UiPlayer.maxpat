@@ -267,7 +267,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 922.0, 411.0, 38.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 226.0, 8.0, 38.0, 18.0 ],
+                    "presentation_rect": [ 68.0, 7.5, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -288,7 +288,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 962.0, 411.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 258.0, 9.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 100.0, 8.5, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -313,7 +313,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 334.0, 856.0, 24.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 307.0, 8.0, 24.0, 18.0 ],
+                    "presentation_rect": [ 149.0, 7.5, 24.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -334,7 +334,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 358.0, 856.0, 36.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 329.0, 9.0, 36.0, 15.0 ],
+                    "presentation_rect": [ 171.0, 8.5, 36.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0 ],
