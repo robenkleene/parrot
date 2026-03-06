@@ -57,7 +57,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 8.0, -8.0, 896.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 896.0, 168.0 ],
+                    "presentation_rect": [ 64.0, 0.0, 489.0, 168.0 ],
                     "varname": "Player",
                     "viewvisibility": 1
                 }
@@ -90,16 +90,28 @@
             }
         ],
         "parameters": {
-            "obj-1::obj-10": [ "AudioMute", "Mute", 0 ],
-            "obj-1::obj-12": [ "SampleMute", "Mute", 0 ],
-            "obj-1::obj-13": [ "Clear", "Clear", 0 ],
             "obj-1::obj-14": [ "Gain", "Gain", 0 ],
-            "obj-1::obj-23": [ "Freeze", "Freeze", 0 ],
-            "obj-1::obj-2::obj-23": [ "Decay", "Decay", 0 ],
-            "obj-1::obj-2::obj-24": [ "Attack", "Attack", 0 ],
+            "obj-1::obj-23": [ "Freeze[1]", "Decay", 0 ],
+            "obj-1::obj-24": [ "Attack", "Attack", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
             "obj-1::obj-70": [ "View", "View", 0 ],
+            "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
+            "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
+            "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "parameter_overrides": {
+                "obj-1::obj-23": {
+                    "parameter_longname": "Freeze[1]"
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

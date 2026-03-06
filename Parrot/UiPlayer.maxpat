@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 892.0, 321.0, 1617.0, 1155.0 ],
+        "rect": [ 276.0, 103.0, 1617.0, 1155.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -29,7 +29,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_longname": "Attack[1]",
+                            "parameter_longname": "Attack",
                             "parameter_mmax": 20000.0,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Attack",
@@ -267,7 +267,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 922.0, 411.0, 38.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 213.0, 9.0, 38.0, 18.0 ],
+                    "presentation_rect": [ 226.0, 8.0, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -288,7 +288,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 962.0, 411.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 253.0, 9.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 258.0, 9.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -313,7 +313,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 334.0, 856.0, 24.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 304.0, 9.0, 24.0, 18.0 ],
+                    "presentation_rect": [ 307.0, 8.0, 24.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -334,7 +334,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 358.0, 856.0, 36.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 324.0, 9.0, 36.0, 15.0 ],
+                    "presentation_rect": [ 329.0, 9.0, 36.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0 ],
@@ -690,7 +690,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 723.0, 440.0, 47.0, 15.0 ],
+                    "patching_rect": [ 692.0, 498.0, 47.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.0, 9.0, 49.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -793,7 +793,7 @@
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
-                        "Mix": [ 50.0 ],
+                        "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "View": [ 0.0 ]
                     },
@@ -1365,18 +1365,13 @@
         "parameters": {
             "obj-14": [ "Gain", "Gain", 0 ],
             "obj-23": [ "Decay", "Decay", 0 ],
-            "obj-24": [ "Attack[1]", "Attack", 0 ],
-            "obj-4::obj-4::obj-35": [ "live.drop", "live.drop", 0 ],
+            "obj-24": [ "Attack", "Attack", 0 ],
+            "obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-7": [ "GainSlider", "GainSlider", 0 ],
             "obj-70": [ "View", "View", 0 ],
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameter_overrides": {
-                "obj-4::obj-4::obj-35": {
-                    "parameter_longname": "live.drop"
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
