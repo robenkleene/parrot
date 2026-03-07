@@ -22,32 +22,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 665.0, 164.0, 93.0, 22.0 ],
+                    "patching_rect": [ 122.0, 81.0, 93.0, 22.0 ],
                     "text": "open cello-f2.aif"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-19",
-                    "lastchannelcount": 0,
-                    "maxclass": "live.gain~",
-                    "numinlets": 2,
-                    "numoutlets": 5,
-                    "outlettype": [ "signal", "signal", "", "float", "list" ],
-                    "parameter_enable": 1,
-                    "patching_rect": [ 775.0, 294.0, 48.0, 136.0 ],
-                    "saved_attribute_attributes": {
-                        "valueof": {
-                            "parameter_longname": "live.gain~",
-                            "parameter_mmax": 6.0,
-                            "parameter_mmin": -70.0,
-                            "parameter_modmode": 3,
-                            "parameter_shortname": "live.gain~",
-                            "parameter_type": 0,
-                            "parameter_unitstyle": 4
-                        }
-                    },
-                    "varname": "live.gain~"
                 }
             },
             {
@@ -57,7 +33,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 775.0, 200.0, 29.5, 22.0 ],
+                    "patching_rect": [ 228.0, 49.0, 29.5, 22.0 ],
                     "text": "1"
                 }
             },
@@ -68,7 +44,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 775.0, 244.0, 156.0, 22.0 ],
+                    "patching_rect": [ 228.0, 81.0, 156.0, 22.0 ],
                     "text": "sfplay~ @audiofile vibes-a1"
                 }
             },
@@ -80,7 +56,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 775.0, 163.0, 24.0, 24.0 ]
+                    "patching_rect": [ 228.0, 13.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -90,7 +66,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 5.0, -11.0, 35.0, 22.0 ],
+                    "patching_rect": [ 5.0, 81.0, 35.0, 22.0 ],
                     "text": "adc~"
                 }
             },
@@ -100,7 +76,7 @@
                     "maxclass": "ezdac~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 5.0, 236.0, 45.0, 45.0 ],
+                    "patching_rect": [ 5.0, 328.0, 45.0, 45.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 8.0, 48.0, 48.0 ]
                 }
@@ -122,7 +98,7 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 5.0, 45.0, 489.0, 168.0 ],
+                    "patching_rect": [ 5.0, 137.0, 489.0, 168.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 64.0, 0.0, 489.0, 168.0 ],
                     "varname": "Player",
@@ -169,15 +145,13 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-19", 1 ],
-                    "order": 0,
-                    "source": [ "obj-6", 0 ]
+                    "destination": [ "obj-1", 1 ],
+                    "source": [ "obj-6", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-19", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-1", 0 ],
                     "source": [ "obj-6", 0 ]
                 }
             },
@@ -189,7 +163,6 @@
             }
         ],
         "parameters": {
-            "obj-19": [ "live.gain~", "live.gain~", 0 ],
             "obj-1::obj-14": [ "Gain", "Gain", 0 ],
             "obj-1::obj-23": [ "Decay", "Decay", 0 ],
             "obj-1::obj-24": [ "Attack", "Attack", 0 ],
