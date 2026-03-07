@@ -24,7 +24,7 @@
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "", "float", "list" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 696.0, 385.0, 48.0, 136.0 ],
+                    "patching_rect": [ 775.0, 294.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "live.gain~",
@@ -37,37 +37,6 @@
                         }
                     },
                     "varname": "live.gain~"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-14",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 855.0, 149.0, 24.0, 24.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-13",
-                    "maxclass": "meter~",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "float" ],
-                    "patching_rect": [ 818.0, 309.0, 80.0, 13.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-12",
-                    "maxclass": "meter~",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "float" ],
-                    "patching_rect": [ 765.0, 330.0, 80.0, 13.0 ]
                 }
             },
             {
@@ -86,10 +55,10 @@
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 2,
-                    "numoutlets": 3,
-                    "outlettype": [ "signal", "signal", "bang" ],
-                    "patching_rect": [ 775.0, 244.0, 166.0, 22.0 ],
-                    "text": "sfplay~ 2 @audiofile vibes-a1"
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "bang" ],
+                    "patching_rect": [ 775.0, 244.0, 156.0, 22.0 ],
+                    "text": "sfplay~ @audiofile vibes-a1"
                 }
             },
             {
@@ -171,12 +140,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "source": [ "obj-14", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-3", 1 ],
                     "order": 0,
                     "source": [ "obj-19", 1 ]
@@ -209,15 +172,9 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-12", 0 ],
+                    "destination": [ "obj-19", 1 ],
                     "order": 0,
                     "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-13", 0 ],
-                    "source": [ "obj-6", 1 ]
                 }
             },
             {
@@ -239,6 +196,14 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

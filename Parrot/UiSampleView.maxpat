@@ -268,7 +268,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 737.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 737.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -280,7 +280,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 640.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 640.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -292,7 +292,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 544.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 544.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -324,7 +324,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 679.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 679.0, 728.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -335,7 +335,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 602.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 602.0, 728.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -368,7 +368,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 112.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 112.0, 728.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -379,7 +379,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 524.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 524.0, 728.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -390,7 +390,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 447.0, 728.0, 25.0, 25.0 ]
+                    "patching_rect": [ 447.0, 728.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -402,7 +402,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 360.0, 8.0, 25.0, 25.0 ]
+                    "patching_rect": [ 360.0, 8.0, 30.0, 30.0 ]
                 }
             },
             {
