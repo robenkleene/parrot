@@ -52,7 +52,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 336.0, 296.0, 92.0, 22.0 ],
+                    "patching_rect": [ 462.0, 313.0, 92.0, 22.0 ],
                     "text": "loadmess offset"
                 }
             },
@@ -106,7 +106,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 360.0, 123.0, 57.0, 22.0 ],
+                    "patching_rect": [ 330.0, 130.0, 57.0, 22.0 ],
                     "text": "s #1-size"
                 }
             },
@@ -114,11 +114,11 @@
                 "box": {
                     "id": "obj-33",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 360.0, 66.0, 106.0, 22.0 ],
-                    "text": "route setsize clear"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 330.0, 73.0, 136.0, 22.0 ],
+                    "text": "route setsize clear open"
                 }
             },
             {
@@ -345,7 +345,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 335.0, 261.0, 75.0, 33.0 ],
+                    "patching_rect": [ 461.0, 278.0, 75.0, 33.0 ],
                     "text": "Bug fix for \nNaN error"
                 }
             },
@@ -402,7 +402,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 360.0, 8.0, 30.0, 30.0 ]
+                    "patching_rect": [ 330.0, 15.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -454,7 +454,6 @@
                     "allowdrag": 0,
                     "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
                     "buffername": "#1-sample",
-                    "chanoffset": 0,
                     "gridcolor": [ 0.6723935994869865, 0.6723934401587944, 0.6723934817937964, 0.0 ],
                     "id": "obj-1",
                     "maxclass": "waveform~",
@@ -703,13 +702,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "source": [ "obj-33", 2 ]
+                    "source": [ "obj-33", 3 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
-                    "midpoints": [ 413.0, 108.0, 121.5, 108.0 ],
+                    "midpoints": [ 378.5, 108.0, 121.5, 108.0 ],
                     "source": [ "obj-33", 1 ]
                 }
             },
@@ -717,6 +716,13 @@
                 "patchline": {
                     "destination": [ "obj-32", 0 ],
                     "source": [ "obj-33", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-5", 0 ],
+                    "midpoints": [ 417.5, 345.0, 423.0, 345.0, 423.0, 534.0, 3.0, 534.0, 3.0, 570.0, 16.5, 570.0 ],
+                    "source": [ "obj-33", 2 ]
                 }
             },
             {
@@ -801,14 +807,6 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
