@@ -17,6 +17,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-8",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 665.0, 164.0, 93.0, 22.0 ],
+                    "text": "open cello-f2.aif"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-19",
                     "lastchannelcount": 0,
                     "maxclass": "live.gain~",
@@ -140,20 +151,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 1 ],
-                    "order": 0,
-                    "source": [ "obj-19", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-3", 0 ],
-                    "order": 1,
-                    "source": [ "obj-19", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-1", 1 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -183,6 +180,12 @@
                     "order": 1,
                     "source": [ "obj-6", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-8", 0 ]
+                }
             }
         ],
         "parameters": {
@@ -196,14 +199,6 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
