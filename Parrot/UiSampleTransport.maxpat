@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 247.0, 96.0, 1447.0, 928.0 ],
+        "rect": [ 880.0, 210.0, 1447.0, 928.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -222,7 +222,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 195.0, 270.0, 196.0, 60.0 ],
+                    "patching_rect": [ 195.0, 270.0, 199.0, 60.0 ],
                     "text": "Stop and reset position when playback ends to prevent restarting while dragging the waveform because it's moving into range"
                 }
             },
