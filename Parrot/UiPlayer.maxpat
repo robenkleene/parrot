@@ -758,28 +758,6 @@
             },
             {
                 "box": {
-                    "id": "obj-11",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 86.0, 174.0, 123.0, 20.0 ],
-                    "text": "Test sample playback"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-9",
-                    "maxclass": "button",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 62.0, 174.0, 24.0, 24.0 ],
-                    "varname": "Play"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -805,7 +783,6 @@
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Mix": [ 0.0 ],
-                        "Play": [ 0.0 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -1363,12 +1340,6 @@
                     "destination": [ "obj-4", 0 ],
                     "midpoints": [ 17.5, 266.0, 655.5, 266.0 ],
                     "source": [ "obj-8", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-8", 0 ],
-                    "source": [ "obj-9", 0 ]
                 }
             },
             {

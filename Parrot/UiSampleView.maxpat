@@ -476,7 +476,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 987.0, 112.0, 32.5, 22.0 ],
+                    "patching_rect": [ 1120.0, 87.0, 32.5, 22.0 ],
                     "text": "0."
                 }
             },
@@ -487,7 +487,7 @@
                     "numinlets": 1,
                     "numoutlets": 10,
                     "outlettype": [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
-                    "patching_rect": [ 870.0, 66.0, 127.0, 22.0 ],
+                    "patching_rect": [ 985.0, 87.0, 127.0, 22.0 ],
                     "text": "info~ #1-sample"
                 }
             },
@@ -498,7 +498,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 870.0, 112.0, 104.0, 22.0 ],
+                    "patching_rect": [ 870.0, 87.0, 104.0, 22.0 ],
                     "text": "set #1-sample 1"
                 }
             },
@@ -518,6 +518,7 @@
                     "allowdrag": 0,
                     "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
                     "buffername": "#1-sample",
+                    "chanoffset": 0,
                     "gridcolor": [ 0.6723935994869865, 0.6723934401587944, 0.6723934817937964, 0.0 ],
                     "id": "obj-1",
                     "maxclass": "waveform~",
@@ -579,7 +580,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 3 ],
-                    "midpoints": [ 996.5, 345.0, 801.0, 345.0 ],
+                    "midpoints": [ 1129.5, 345.0, 801.0, 345.0 ],
                     "order": 0,
                     "source": [ "obj-11", 0 ]
                 }
@@ -587,7 +588,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 2 ],
-                    "midpoints": [ 996.5, 345.0, 704.5, 345.0 ],
+                    "midpoints": [ 1129.5, 345.0, 704.5, 345.0 ],
                     "order": 1,
                     "source": [ "obj-11", 0 ]
                 }
@@ -595,7 +596,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
-                    "midpoints": [ 996.5, 345.0, 511.5, 345.0 ],
+                    "midpoints": [ 1129.5, 345.0, 511.5, 345.0 ],
                     "order": 2,
                     "source": [ "obj-11", 0 ]
                 }
@@ -763,7 +764,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
-                    "midpoints": [ 879.5, 55.6640625, 1013.21875, 55.6640625, 1013.21875, 99.0, 996.5, 99.0 ],
                     "order": 0,
                     "source": [ "obj-38", 0 ]
                 }
@@ -771,15 +771,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
-                    "midpoints": [ 879.5, 54.953125, 856.31640625, 54.953125, 856.31640625, 99.0, 879.5, 99.0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-38", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-89", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-38", 0 ]
                 }
             },
@@ -867,7 +866,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 1 ],
-                    "midpoints": [ 951.5, 99.0, 608.0, 99.0 ],
                     "source": [ "obj-89", 6 ]
                 }
             },
@@ -880,6 +878,14 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

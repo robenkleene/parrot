@@ -40,7 +40,7 @@
                     "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "float", "float", "float", "float" ],
-                    "patching_rect": [ 51.0, 109.0, 405.0, 108.0 ],
+                    "patching_rect": [ 88.0, 106.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
                     "varname": "UiSampleView",
@@ -67,7 +67,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 51.0, 343.0, 30.0, 30.0 ]
+                    "patching_rect": [ 51.0, 326.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -78,7 +78,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 16.0, 343.0, 30.0, 30.0 ]
+                    "patching_rect": [ 16.0, 326.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -98,7 +98,7 @@
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "float" ],
-                    "patching_rect": [ 16.0, 247.0, 88.0, 64.0 ],
+                    "patching_rect": [ 16.0, 244.0, 88.0, 64.0 ],
                     "viewvisibility": 1
                 }
             }
@@ -155,14 +155,6 @@
         ],
         "parameters": {
             "obj-4::obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
