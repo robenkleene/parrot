@@ -17,6 +17,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-9",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 91.0, 80.0, 24.0, 24.0 ],
+                    "varname": "Play"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-8",
                     "maxclass": "message",
                     "numinlets": 2,
@@ -161,6 +173,12 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-9", 0 ]
                 }
             }
         ],
