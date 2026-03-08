@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 959.0, 387.0, 1616.0, 1155.0 ],
+        "rect": [ 910.0, 192.0, 1616.0, 1155.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -97,7 +97,6 @@
                         "classnamespace": "box",
                         "rect": [ 563.0, 223.0, 1000.0, 780.0 ],
                         "subpatcher_template": "roben-kleene-max-for-live",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -796,7 +795,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 16.0, 691.0, 36.0, 22.0 ],
+                    "patching_rect": [ 68.0, 726.0, 36.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -807,7 +806,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 64.0, 691.0, 36.0, 22.0 ],
+                    "patching_rect": [ 110.0, 726.0, 36.0, 22.0 ],
                     "text": "*~ 0."
                 }
             },
@@ -820,7 +819,7 @@
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "", "float", "list" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 16.0, 739.0, 48.0, 136.0 ],
+                    "patching_rect": [ 16.0, 761.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_invisible": 2,
@@ -846,7 +845,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 76.0, 739.0, 41.0, 48.0 ],
+                    "patching_rect": [ 16.0, 699.0, 41.0, 48.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 436.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
@@ -1122,7 +1121,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-7", 0 ],
-                    "midpoints": [ 85.5, 788.0, 65.0, 788.0, 65.0, 725.0, 25.5, 725.0 ],
                     "source": [ "obj-14", 0 ]
                 }
             },
@@ -1265,14 +1263,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "midpoints": [ 1041.5, 431.0, 135.0, 431.0, 135.0, 680.0, 73.5, 680.0 ],
+                    "midpoints": [ 1041.5, 431.0, 135.0, 431.0, 135.0, 680.0, 119.5, 680.0 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
-                    "midpoints": [ 655.5, 518.0, 135.0, 518.0, 135.0, 680.0, 25.5, 680.0 ],
+                    "midpoints": [ 655.5, 518.0, 135.0, 518.0, 135.0, 680.0, 77.5, 680.0 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -1371,6 +1369,14 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
