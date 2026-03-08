@@ -19,7 +19,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 159.5, 714.0, 62.0, 22.0 ],
+                    "patching_rect": [ 167.5, 714.0, 62.0, 22.0 ],
                     "text": "t s s s"
                 }
             },
@@ -308,7 +308,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 281.0, 757.0, 37.0, 22.0 ],
+                    "patching_rect": [ 289.0, 757.0, 37.0, 22.0 ],
                     "text": "reset"
                 }
             },
@@ -319,7 +319,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 329.0, 757.0, 87.0, 22.0 ],
+                    "patching_rect": [ 337.0, 757.0, 87.0, 22.0 ],
                     "text": "setduration $1"
                 }
             },
@@ -365,7 +365,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 181.0, 757.0, 92.0, 22.0 ],
+                    "patching_rect": [ 189.0, 757.0, 92.0, 22.0 ],
                     "text": "send #1-reset"
                 }
             },
@@ -876,14 +876,6 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
