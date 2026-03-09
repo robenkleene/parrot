@@ -17,58 +17,24 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-9",
-                    "maxclass": "button",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 91.0, 80.0, 24.0, 24.0 ],
-                    "varname": "Play"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-8",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 122.0, 81.0, 93.0, 22.0 ],
-                    "text": "open cello-f2.aif"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-11",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 228.0, 49.0, 29.5, 22.0 ],
-                    "text": "1"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-6",
-                    "maxclass": "newobj",
+                    "maxclass": "message",
                     "numinlets": 2,
-                    "numoutlets": 2,
-                    "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 228.0, 81.0, 156.0, 22.0 ],
-                    "text": "sfplay~ @audiofile vibes-a1"
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 158.0, 81.0, 61.0, 22.0 ],
+                    "text": "test audio"
                 }
             },
             {
                 "box": {
                     "id": "obj-5",
-                    "maxclass": "button",
-                    "numinlets": 1,
+                    "maxclass": "message",
+                    "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 228.0, 13.0, 24.0, 24.0 ]
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 73.0, 81.0, 70.0, 22.0 ],
+                    "text": "test sample"
                 }
             },
             {
@@ -133,12 +99,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "source": [ "obj-11", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-1", 1 ],
                     "source": [ "obj-2", 1 ]
                 }
@@ -151,34 +111,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-11", 0 ],
+                    "destination": [ "obj-1", 0 ],
                     "source": [ "obj-5", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-1", 1 ],
-                    "order": 0,
+                    "destination": [ "obj-1", 0 ],
                     "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-1", 0 ],
-                    "order": 1,
-                    "source": [ "obj-6", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-1", 0 ],
-                    "source": [ "obj-8", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-1", 0 ],
-                    "source": [ "obj-9", 0 ]
                 }
             }
         ],
@@ -192,6 +132,14 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
