@@ -9,10 +9,21 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 343.0, 150.0, 1750.0, 1057.0 ],
+        "rect": [ 850.0, 194.0, 1750.0, 1057.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-33",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 481.75, 80.0, 150.0, 47.0 ],
+                    "text": "Note due to zero crossing detection, test audio will actually test both"
+                }
+            },
             {
                 "box": {
                     "id": "obj-56",
@@ -40,7 +51,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 329.0, 136.0, 73.0, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "Test sample"
                 }
             },
@@ -192,6 +202,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Attack",
                             "parameter_mmax": 20000.0,
                             "parameter_modmode": 0,
@@ -219,6 +231,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
+                            "parameter_initial": [ 10046.94922775673 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Decay",
                             "parameter_mmax": 60000.0,
                             "parameter_modmode": 0,
@@ -408,6 +422,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Clear",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -454,6 +470,8 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Freeze",
                             "parameter_mmax": 60000.0,
                             "parameter_modmode": 4,
@@ -929,7 +947,7 @@
                     "restore": {
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
-                        "Decay": [ 22808.859475986683 ],
+                        "Decay": [ 10046.94922775673 ],
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
@@ -975,6 +993,8 @@
                     "patching_rect": [ 16.0, 761.0, 48.0, 136.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_invisible": 2,
                             "parameter_longname": "GainSlider",
                             "parameter_mmax": 6.0,
@@ -1003,6 +1023,8 @@
                     "presentation_rect": [ 436.0, 112.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
+                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Gain",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,
@@ -1610,6 +1632,14 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

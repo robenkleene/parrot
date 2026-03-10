@@ -17,12 +17,23 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-13",
+                    "linecount": 3,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 220.0, 68.5, 150.0, 47.0 ],
+                    "text": "Note due to zero crossing detection, test audio will actually test both"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-6",
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 158.0, 81.0, 61.0, 22.0 ],
+                    "patching_rect": [ 154.0, 81.0, 61.0, 22.0 ],
                     "text": "test audio"
                 }
             },
