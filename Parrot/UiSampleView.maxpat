@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 441.0, 163.0, 1689.0, 870.0 ],
+        "rect": [ 166.0, 152.0, 1689.0, 870.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -538,6 +538,7 @@
                     "patching_rect": [ 502.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
+                    "selectioncolor": [ 0.7437319834870796, 0.543460613873714, 0.09678811987423075, 0.0 ],
                     "varname": "Waveform",
                     "waveformcolor": [ 0.14901960784313725, 0.14901960784313725, 0.14901960784313725, 1.0 ]
                 }
@@ -887,14 +888,6 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
