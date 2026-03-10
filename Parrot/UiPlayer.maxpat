@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 463.0, 158.0, 1750.0, 1057.0 ],
+        "rect": [ 576.0, 192.0, 1750.0, 1057.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1237,6 +1237,24 @@
             },
             {
                 "box": {
+                    "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
+                    "domain": [ 20.0, 20000.0 ],
+                    "fgcolor": [ 0.38, 1.0, 0.45, 1.0 ],
+                    "id": "obj-38",
+                    "logfreq": 1,
+                    "markercolor": [ 0.28, 0.28, 0.28, 1.0 ],
+                    "maxclass": "spectroscope~",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1066.0, 540.0, 405.0, 108.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 10.0, 30.0, 405.0, 108.0 ],
+                    "range": [ 0.0, 1.0 ]
+                }
+            },
+            {
+                "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.1411764705882353, 0.1411764705882353, 0.1411764705882353, 1.0 ],
                     "id": "obj-darkpanel",
@@ -1632,14 +1650,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
