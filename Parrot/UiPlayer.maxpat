@@ -15,6 +15,27 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-40",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 329.0, 136.0, 73.0, 20.0 ],
+                    "presentation_linecount": 2,
+                    "text": "Test sample"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-39",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 481.75, 136.0, 63.0, 20.0 ],
+                    "text": "Test audio"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-32",
                     "maxclass": "newobj",
                     "numinlets": 2,
