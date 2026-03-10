@@ -17,13 +17,13 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-13",
-                    "linecount": 3,
+                    "id": "obj-33",
+                    "linecount": 5,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 220.0, 68.5, 150.0, 47.0 ],
-                    "text": "Note due to zero crossing detection, test audio will actually test both"
+                    "patching_rect": [ 225.0, 29.0, 150.0, 74.0 ],
+                    "text": "Note due to zero crossing detection, test audio will actually test both (but a sample won't be loaded until test sample is fired.)"
                 }
             },
             {
@@ -143,14 +143,6 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

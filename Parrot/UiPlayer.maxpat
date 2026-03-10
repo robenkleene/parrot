@@ -9,19 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 850.0, 194.0, 1750.0, 1057.0 ],
+        "rect": [ 463.0, 158.0, 1750.0, 1057.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
                 "box": {
                     "id": "obj-33",
-                    "linecount": 3,
+                    "linecount": 5,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 481.75, 80.0, 150.0, 47.0 ],
-                    "text": "Note due to zero crossing detection, test audio will actually test both"
+                    "patching_rect": [ 481.75, 53.0, 150.0, 74.0 ],
+                    "text": "Note due to zero crossing detection, test audio will actually test both (but a sample won't be loaded until test sample is fired.)"
                 }
             },
             {
