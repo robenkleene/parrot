@@ -9,10 +9,30 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 799.0, 172.0, 1750.0, 1057.0 ],
+        "rect": [ 343.0, 150.0, 1750.0, 1057.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-56",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 614.0, 136.0, 150.0, 33.0 ],
+                    "text": "DAC must be on for testing"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-54",
+                    "maxclass": "ezdac~",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "patching_rect": [ 561.5, 136.0, 45.0, 45.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-40",
@@ -909,7 +929,7 @@
                     "restore": {
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
-                        "Decay": [ 0.0 ],
+                        "Decay": [ 22808.859475986683 ],
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
