@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 304.0, 553.0, 949.0, 398.0 ],
+        "rect": [ 887.0, 469.0, 1339.0, 581.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 2,
         "subpatcher_template": "roben-kleene-max-for-live",
@@ -279,18 +279,6 @@
             },
             {
                 "box": {
-                    "id": "obj-18",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patching_rect": [ 212.0, 109.0, 67.0, 22.0 ],
-                    "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-                    "text": "thispatcher"
-                }
-            },
-            {
-                "box": {
                     "comment": "(bang, signal) play, mono",
                     "id": "obj-36",
                     "index": 0,
@@ -316,7 +304,6 @@
                 "box": {
                     "bgcolor": [ 0.0, 0.0, 0.0, 0.0 ],
                     "domain": [ 20.0, 20000.0 ],
-                    "fgcolor": [ 0.38, 1.0, 0.45, 1.0 ],
                     "id": "obj-43",
                     "logfreq": 1,
                     "markercolor": [ 0.28, 0.28, 0.28, 0.0 ],
@@ -340,14 +327,14 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-18", 0 ],
-                    "source": [ "obj-35", 3 ]
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-35", 2 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-19", 0 ],
-                    "source": [ "obj-35", 2 ]
+                    "destination": [ "obj-43", 0 ],
+                    "source": [ "obj-35", 3 ]
                 }
             },
             {
