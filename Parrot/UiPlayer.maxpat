@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 175.0, 136.0, 1882.0, 1181.0 ],
+        "rect": [ 70.0, 114.0, 1882.0, 1181.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1044,7 +1044,7 @@
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
                         "Decay": [ 10046.94922775673 ],
-                        "Freeze": [ 3.6614246456839425 ],
+                        "Freeze": [ 119.9775627897725 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Mix": [ 0.0 ],

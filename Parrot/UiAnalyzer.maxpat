@@ -31,7 +31,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 821.0, 318.0, 1000.0, 780.0 ],
+                        "rect": [ 1243.0, 567.0, 1000.0, 780.0 ],
                         "subpatcher_template": "roben-kleene-max-for-live",
                         "boxes": [
                             {
@@ -333,6 +333,13 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "order": 0,
+                    "source": [ "obj-35", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-43", 0 ],
                     "source": [ "obj-35", 3 ]
                 }
@@ -346,6 +353,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-43", 0 ],
+                    "order": 1,
                     "source": [ "obj-35", 0 ]
                 }
             },
