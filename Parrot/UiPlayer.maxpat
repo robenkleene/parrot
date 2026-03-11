@@ -1044,7 +1044,7 @@
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
                         "Decay": [ 10046.94922775673 ],
-                        "Freeze": [ 119.9775627897725 ],
+                        "Freeze": [ 21.35342853362922 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Mix": [ 0.0 ],
@@ -1343,7 +1343,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1061.0, 461.0, 405.0, 108.0 ],
+                    "patching_rect": [ 1108.0, 425.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.0, 30.0, 405.0, 108.0 ],
                     "range": [ 0.0, 1.0 ]
