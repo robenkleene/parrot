@@ -361,7 +361,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 10046.94922775673 ],
+                            "parameter_initial": [ 10 ],
                             "parameter_initial_enable": 1,
                             "parameter_longname": "Decay",
                             "parameter_mmax": 60000.0,
@@ -600,7 +600,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 0.0 ],
+                            "parameter_initial": [ 0 ],
                             "parameter_initial_enable": 1,
                             "parameter_longname": "Freeze",
                             "parameter_mmax": 60000.0,
@@ -1077,8 +1077,8 @@
                     "restore": {
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
-                        "Decay": [ 10046.94922775673 ],
-                        "Freeze": [ 1.8746494185901783 ],
+                        "Decay": [ 9.999999999999995 ],
+                        "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
                         "Mix": [ 0.0 ],
@@ -1876,14 +1876,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
