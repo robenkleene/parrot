@@ -9,10 +9,10 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 134.0, 164.0, 554.0, 169.0 ],
+        "openrect": [ 134.0, 161.0, 544.0, 175.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 554.0,
+        "devicewidth": 544.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -87,9 +87,9 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 5.0, 137.0, 489.0, 168.0 ],
+                    "patching_rect": [ 5.0, 137.0, 476.0, 168.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 489.0, 168.0 ],
+                    "presentation_rect": [ 64.0, 0.0, 480.0, 168.0 ],
                     "varname": "Player",
                     "viewvisibility": 1
                 }
@@ -143,6 +143,14 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

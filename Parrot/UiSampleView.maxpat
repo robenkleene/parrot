@@ -135,7 +135,9 @@
                 "box": {
                     "annotation": "Drop the sample here to overlay with the audio input.",
                     "annotation_name": "Sample Drop",
+                    "bordercolor": [ 0.3137254901960784, 0.3137254901960784, 0.3137254901960784, 0.0 ],
                     "decodemode": 1,
+                    "focusbordercolor": [ 0.3137254901960784, 0.3137254901960784, 0.3137254901960784, 0.0 ],
                     "id": "obj-35",
                     "legend": "",
                     "maxclass": "live.drop",
@@ -145,8 +147,14 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 28.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 405.0, 116.0 ],
                     "saved_attribute_attributes": {
+                        "bordercolor": {
+                            "expression": ""
+                        },
+                        "focusbordercolor": {
+                            "expression": ""
+                        },
                         "valueof": {
                             "parameter_invisible": 1,
                             "parameter_longname": "Sample",
@@ -166,7 +174,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 830.0, 709.0, 245.0, 22.0 ],
-                    "restore": [ 0.0, 0.0, 405.0, 108.0 ],
+                    "restore": [ 0.0, 0.0, 405.0, 116.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -529,6 +537,7 @@
                     "allowdrag": 0,
                     "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
                     "buffername": "#1-sample",
+                    "chanoffset": 0,
                     "gridcolor": [ 0.6723935994869865, 0.6723934401587944, 0.6723934817937964, 0.0 ],
                     "id": "obj-1",
                     "maxclass": "waveform~",

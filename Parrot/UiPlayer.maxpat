@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 422.0, 130.0, 1634.0, 1182.0 ],
+        "rect": [ 238.0, 224.0, 1944.0, 1001.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1274,7 +1274,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 649.0, 1035.0, 405.0, 27.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 133.0, 405.0, 27.0 ],
+                    "presentation_rect": [ 5.0, 140.0, 405.0, 27.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1289,7 +1289,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1533.0, 62.0, 60.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 418.0, 0.0, 60.0, 162.0 ],
+                    "presentation_rect": [ 418.0, 0.0, 60.0, 168.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -1316,7 +1316,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 1069.0, 847.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 25.0, 405.0, 108.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1337,7 +1337,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 649.0, 847.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 25.0, 405.0, 108.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1360,7 +1360,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 646.0, 280.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 25.0, 405.0, 108.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
                     "varname": "UiSamplePlayback",
                     "viewvisibility": 1
                 }
@@ -1379,7 +1379,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1108.0, 425.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 26.0, 405.0, 108.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
                     "range": [ 0.0, 1.0 ]
                 }
             },
@@ -1394,7 +1394,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1108.0, 62.0, 415.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 415.0, 160.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 415.0, 168.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
