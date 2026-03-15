@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 589.0, 465.0, 1844.0, 775.0 ],
+        "rect": [ 682.0, 572.0, 1844.0, 775.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -23,7 +23,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 177.0, 88.0, 30.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 150.0, 4.0, 30.0, 18.0 ],
+                    "presentation_rect": [ 152.0, 4.0, 30.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -43,7 +43,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 217.0, 88.0, 20.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 263.0, 4.0, 20.0, 18.0 ],
+                    "presentation_rect": [ 265.0, 4.0, 20.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -63,7 +63,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 257.0, 88.0, 30.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 362.0, 4.0, 30.0, 18.0 ],
+                    "presentation_rect": [ 364.0, 4.0, 30.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"

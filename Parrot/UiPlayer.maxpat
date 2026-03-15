@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 749.0, 629.0, 1875.0, 1068.0 ],
+        "rect": [ 320.0, 140.0, 1875.0, 1068.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1289,7 +1289,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1533.0, 62.0, 60.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 418.0, 0.0, 60.0, 168.0 ],
+                    "presentation_rect": [ 418.0, 0.0, 60.0, 169.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -1394,7 +1394,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1108.0, 62.0, 415.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 415.0, 170.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 415.0, 169.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
