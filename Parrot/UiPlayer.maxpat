@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 258.0, 104.0, 1875.0, 1068.0 ],
+        "rect": [ 749.0, 629.0, 1875.0, 1068.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -548,7 +548,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 646.0, 208.0, 40.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 370.0, 5.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 371.0, 5.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
@@ -575,7 +575,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 649.0, 461.0, 38.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 63.0, 4.0, 38.0, 18.0 ],
+                    "presentation_rect": [ 60.0, 4.0, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -596,7 +596,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 689.0, 461.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 95.0, 5.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 92.0, 5.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -623,7 +623,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 526.0, 888.0, 24.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 144.0, 4.0, 24.0, 18.0 ],
+                    "presentation_rect": [ 141.0, 4.0, 24.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -644,7 +644,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 550.0, 888.0, 36.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 166.0, 5.0, 36.0, 15.0 ],
+                    "presentation_rect": [ 163.0, 5.0, 36.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0 ],
@@ -1002,7 +1002,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 825.0, 574.0, 47.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 6.0, 49.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 6.0, 49.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1316,7 +1316,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 1069.0, 847.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 25.0, 407.0, 120.0 ],
+                    "presentation_rect": [ 4.0, 25.0, 406.0, 120.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1337,7 +1337,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 649.0, 847.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 25.0, 407.0, 120.0 ],
+                    "presentation_rect": [ 4.0, 25.0, 406.0, 120.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1360,7 +1360,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 646.0, 280.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 25.0, 407.0, 120.0 ],
+                    "presentation_rect": [ 4.0, 25.0, 406.0, 120.0 ],
                     "varname": "UiSamplePlayback",
                     "viewvisibility": 1
                 }
@@ -1379,7 +1379,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1108.0, 425.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 4.0, 25.0, 407.0, 120.0 ],
+                    "presentation_rect": [ 4.0, 25.0, 406.0, 120.0 ],
                     "range": [ 0.0, 1.0 ]
                 }
             },
@@ -1861,14 +1861,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
