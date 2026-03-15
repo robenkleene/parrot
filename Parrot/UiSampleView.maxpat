@@ -147,7 +147,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 28.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 120.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 406.0, 120.0 ],
                     "saved_attribute_attributes": {
                         "bordercolor": {
                             "expression": ""
@@ -545,7 +545,7 @@
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
                     "patching_rect": [ 502.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 120.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 406.0, 120.0 ],
                     "selectioncolor": [ 0.7437319834870796, 0.543460613873714, 0.09678811987423075, 0.0 ],
                     "varname": "Waveform",
                     "waveformcolor": [ 0.14901960784313725, 0.14901960784313725, 0.14901960784313725, 1.0 ]

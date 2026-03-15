@@ -42,7 +42,7 @@
                     "outlettype": [ "", "float", "float", "float", "float" ],
                     "patching_rect": [ 88.0, 106.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 120.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 406.0, 120.0 ],
                     "varname": "UiSampleView",
                     "viewvisibility": 1
                 }
