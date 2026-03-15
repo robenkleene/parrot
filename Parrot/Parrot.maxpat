@@ -9,10 +9,11 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 134.0, 161.0, 544.0, 175.0 ],
+        "rect": [ 136.0, 159.0, 544.0, 175.0 ],
+        "openrect": [ 0.0, 0.0, 480.0, 175.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 544.0,
+        "devicewidth": 480.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -143,14 +144,6 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

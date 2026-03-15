@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 238.0, 224.0, 1037.0, 381.0 ],
+        "rect": [ 238.0, 224.0, 1875.0, 1068.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1274,7 +1274,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 649.0, 1035.0, 405.0, 27.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 140.0, 405.0, 27.0 ],
+                    "presentation_rect": [ 5.0, 144.0, 405.0, 24.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1316,7 +1316,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 1069.0, 847.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 120.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1337,7 +1337,7 @@
                     "offset": [ 0.0, 0.0 ],
                     "patching_rect": [ 649.0, 847.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 120.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -1379,7 +1379,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 1108.0, 425.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 5.0, 25.0, 405.0, 116.0 ],
+                    "presentation_rect": [ 5.0, 25.0, 405.0, 120.0 ],
                     "range": [ 0.0, 1.0 ]
                 }
             },
@@ -1394,7 +1394,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1108.0, 62.0, 415.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 415.0, 168.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 415.0, 170.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -1861,14 +1861,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0

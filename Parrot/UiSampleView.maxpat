@@ -147,7 +147,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 28.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 116.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 405.0, 120.0 ],
                     "saved_attribute_attributes": {
                         "bordercolor": {
                             "expression": ""
@@ -174,7 +174,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 830.0, 709.0, 245.0, 22.0 ],
-                    "restore": [ 0.0, 0.0, 405.0, 116.0 ],
+                    "restore": [ 0.0, 0.0, 405.0, 120.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -278,7 +278,7 @@
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 830.0, 495.0, 272.0, 22.0 ],
-                    "restore": [ 0.0, 0.0, 405.0, 108.0 ],
+                    "restore": [ 0.0, 0.0, 405.0, 120.0 ],
                     "saved_object_attributes": {
                         "parameter_enable": 0,
                         "parameter_mappable": 0
@@ -537,7 +537,6 @@
                     "allowdrag": 0,
                     "bgcolor": [ 0.8117647058823529, 0.8117647058823529, 0.8117647058823529, 0.0 ],
                     "buffername": "#1-sample",
-                    "chanoffset": 0,
                     "gridcolor": [ 0.6723935994869865, 0.6723934401587944, 0.6723934817937964, 0.0 ],
                     "id": "obj-1",
                     "maxclass": "waveform~",
@@ -546,7 +545,7 @@
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
                     "patching_rect": [ 502.0, 358.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 405.0, 120.0 ],
                     "selectioncolor": [ 0.7437319834870796, 0.543460613873714, 0.09678811987423075, 0.0 ],
                     "varname": "Waveform",
                     "waveformcolor": [ 0.14901960784313725, 0.14901960784313725, 0.14901960784313725, 1.0 ]
@@ -897,6 +896,14 @@
         ],
         "parameters": {
             "obj-35": [ "Sample", "live.drop", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

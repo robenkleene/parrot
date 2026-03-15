@@ -42,7 +42,7 @@
                     "outlettype": [ "", "float", "float", "float", "float" ],
                     "patching_rect": [ 88.0, 106.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 405.0, 116.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 405.0, 120.0 ],
                     "varname": "UiSampleView",
                     "viewvisibility": 1
                 }
@@ -155,14 +155,6 @@
         ],
         "parameters": {
             "obj-4::obj-35": [ "Sample", "live.drop", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
