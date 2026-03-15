@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 238.0, 224.0, 1944.0, 1001.0 ],
+        "rect": [ 238.0, 224.0, 1037.0, 381.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -328,7 +328,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 73.0, 546.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 427.0, 6.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 428.5, 6.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -357,7 +357,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 121.0, 546.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 425.0, 59.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 427.5, 60.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1150,7 +1150,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 55.0, 675.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 424.0, 111.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 427.5, 114.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -1861,6 +1861,14 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0
