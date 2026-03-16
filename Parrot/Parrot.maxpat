@@ -144,12 +144,10 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+            "parameter_overrides": {
+                "obj-1::obj-23": {
+                    "parameter_initial": 10000.000000000002,
+                    "parameter_initial_enable": 1
                 }
             },
             "inherited_shortname": 1

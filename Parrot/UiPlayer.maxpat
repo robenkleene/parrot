@@ -361,7 +361,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 10 ],
+                            "parameter_initial": [ 10000.000000000002 ],
                             "parameter_initial_enable": 1,
                             "parameter_longname": "Decay",
                             "parameter_mmax": 60000.0,
@@ -1077,7 +1077,7 @@
                     "restore": {
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
-                        "Decay": [ 9.999999999999998 ],
+                        "Decay": [ 10000.000000000002 ],
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
