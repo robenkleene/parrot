@@ -43,17 +43,12 @@ Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpa
 
 ## Interface
 
-### Parrot
-
-#### Analyzer
+The input audio is shown green in the graph, and the sample is shown orange.
 
 - `Both` / `Audio` / `Sample`: Select whether to overlay the audio and sample (`Both`), or display only the audio or the sample.
-
-#### Sample Playback
-
-- `Attack`: The sample envelope attack.
-- `Clear`: Clear the sample.
-- `Decay`: The sample envelope decay.
 - `Freeze`: Freeze the output of  spectral analyzer after this number of `ms` (this is useful for matching short sounds).
+- `A/S`: Cross fade between audio and sample (`0` outputs only audio; `50` outputs half audio, half sample; `100` outputs only sample).
+- `Clear`: Clear the sample.
+- `Attack`: The sample envelope attack.
+- `Decay`: The sample envelope decay.
 - `Gain`: The sample playback volume.
-- `Mute`: The left mute toggles whether the audio's output is muted, the right mute does the same for the sample.
