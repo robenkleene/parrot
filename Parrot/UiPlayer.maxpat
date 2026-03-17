@@ -538,6 +538,7 @@
             },
             {
                 "box": {
+                    "annotation": "Clear the loaded sample.",
                     "appearance": 2,
                     "id": "obj-clear",
                     "maxclass": "live.text",
@@ -587,6 +588,7 @@
             },
             {
                 "box": {
+                    "annotation": "Number of milliseconds to freeze the output of the spectral analyzer after (`0` disables freezing).",
                     "appearance": 4,
                     "id": "obj-freeze",
                     "maxclass": "live.numbox",
@@ -1861,14 +1863,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
