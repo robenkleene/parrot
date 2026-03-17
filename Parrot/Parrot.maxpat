@@ -9,11 +9,11 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 136.0, 159.0, 544.0, 170.0 ],
-        "openrect": [ 0.0, 0.0, 544.0, 170.0 ],
+        "rect": [ 543.0, 443.0, 631.0, 213.0 ],
+        "openrect": [ 0.0, 0.0, 541.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "devicewidth": 544.0,
+        "devicewidth": 541.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
@@ -88,9 +88,9 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 5.0, 137.0, 476.0, 168.0 ],
+                    "patching_rect": [ 5.0, 137.0, 477.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 480.0, 168.0 ],
+                    "presentation_rect": [ 64.0, 0.0, 477.0, 169.0 ],
                     "varname": "Player",
                     "viewvisibility": 1
                 }
@@ -144,6 +144,14 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-1::obj-23": {
                     "parameter_initial": 10000.000000000002,
@@ -152,6 +160,12 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }

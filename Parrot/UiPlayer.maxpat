@@ -328,7 +328,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 73.0, 546.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 428.5, 6.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 427.0, 6.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -357,7 +357,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 121.0, 546.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 427.5, 60.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 426.0, 60.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1150,7 +1150,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 55.0, 675.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 427.5, 114.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 426.0, 114.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -1289,7 +1289,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1533.0, 62.0, 60.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 418.0, 0.0, 60.0, 169.0 ],
+                    "presentation_rect": [ 417.0, 0.0, 60.0, 169.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -1861,8 +1861,22 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
