@@ -4,27 +4,23 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 134.0, 165.0, 1007.0, 784.0 ],
+        "rect": [ 458.0, 539.0, 1320.0, 798.0 ],
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
         "boxes": [
             {
                 "box": {
-                    "comment": "(message) control messages",
-                    "id": "obj-1",
-                    "index": 0,
-                    "maxclass": "inlet",
-                    "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 64.0, 40.0, 24.0, 24.0 ]
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 16.0, 59.0, 91.0, 22.0 ],
+                    "text": "routepass bang"
                 }
             },
             {
@@ -44,9 +40,9 @@
                     "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "float", "float", "float", "float" ],
-                    "patching_rect": [ 64.0, 112.0, 320.0, 144.0 ],
+                    "patching_rect": [ 88.0, 106.0, 405.0, 108.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 0.0, 0.0, 320.0, 152.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 406.0, 120.0 ],
                     "varname": "UiSampleView",
                     "viewvisibility": 1
                 }
@@ -60,7 +56,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 16.0, 40.0, 25.0, 25.0 ]
+                    "patching_rect": [ 16.0, 11.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -71,7 +67,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 80.0, 440.0, 25.0, 25.0 ]
+                    "patching_rect": [ 51.0, 326.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -82,7 +78,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 16.0, 440.0, 25.0, 25.0 ]
+                    "patching_rect": [ 16.0, 326.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -102,7 +98,7 @@
                     "numoutlets": 3,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal", "float" ],
-                    "patching_rect": [ 16.0, 344.0, 88.0, 64.0 ],
+                    "patching_rect": [ 16.0, 244.0, 88.0, 64.0 ],
                     "viewvisibility": 1
                 }
             }
@@ -110,13 +106,7 @@
         "lines": [
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-2", 0 ],
+                    "destination": [ "obj-3", 0 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
@@ -130,6 +120,18 @@
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "source": [ "obj-2", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-3", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-3", 1 ]
                 }
             },
             {

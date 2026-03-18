@@ -9,24 +9,54 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "openrect": [ 42.0, 79.0, 968.0, 171.0 ],
+        "rect": [ 543.0, 443.0, 631.0, 213.0 ],
+        "openrect": [ 0.0, 0.0, 541.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
-        "gridsize": [ 8.0, 8.0 ],
-        "gridsnaponopen": 2,
-        "objectsnaponopen": 0,
-        "devicewidth": 968.0,
+        "devicewidth": 541.0,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
             {
                 "box": {
+                    "id": "obj-33",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 225.0, 29.0, 150.0, 74.0 ],
+                    "text": "Note due to zero crossing detection, test audio will actually test both (but a sample won't be loaded until test sample is fired.)"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 154.0, 81.0, 61.0, 22.0 ],
+                    "text": "test audio"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-5",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 73.0, 81.0, 70.0, 22.0 ],
+                    "text": "test sample"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-2",
-                    "linecount": 2,
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 480.0, 192.0, 32.0, 20.0 ],
+                    "patching_rect": [ 5.0, 81.0, 35.0, 22.0 ],
                     "text": "adc~"
                 }
             },
@@ -36,7 +66,7 @@
                     "maxclass": "ezdac~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 472.0, 272.0, 45.0, 45.0 ],
+                    "patching_rect": [ 5.0, 328.0, 45.0, 45.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 8.0, 8.0, 48.0, 48.0 ]
                 }
@@ -58,9 +88,9 @@
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 8.0, -8.0, 896.0, 168.0 ],
+                    "patching_rect": [ 5.0, 137.0, 477.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 896.0, 168.0 ],
+                    "presentation_rect": [ 64.0, 0.0, 477.0, 169.0 ],
                     "varname": "Player",
                     "viewvisibility": 1
                 }
@@ -90,19 +120,30 @@
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-2", 0 ]
                 }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-5", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-1", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
             }
         ],
         "parameters": {
-            "obj-1::obj-10": [ "AudioMute", "Mute", 0 ],
-            "obj-1::obj-12": [ "SampleMute", "Mute", 0 ],
-            "obj-1::obj-13": [ "Clear", "Clear", 0 ],
             "obj-1::obj-14": [ "Gain", "Gain", 0 ],
-            "obj-1::obj-23": [ "Freeze", "Freeze", 0 ],
-            "obj-1::obj-2::obj-23": [ "Decay", "Decay", 0 ],
-            "obj-1::obj-2::obj-24": [ "Attack", "Attack", 0 ],
-            "obj-1::obj-3": [ "View", "View", 0 ],
+            "obj-1::obj-23": [ "Decay", "Decay", 0 ],
+            "obj-1::obj-24": [ "Attack", "Attack", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
+            "obj-1::obj-70": [ "View", "View", 0 ],
+            "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
+            "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
+            "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
@@ -111,8 +152,20 @@
                     "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
                 }
             },
+            "parameter_overrides": {
+                "obj-1::obj-23": {
+                    "parameter_initial": 10000.000000000002,
+                    "parameter_initial_enable": 1
+                }
+            },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "saved_attribute_attributes": {
+            "locked_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            }
+        }
     }
 }
