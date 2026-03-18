@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 320.0, 140.0, 1875.0, 1068.0 ],
+        "rect": [ 233.0, 129.0, 1875.0, 1068.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -588,7 +588,7 @@
             },
             {
                 "box": {
-                    "annotation": "Number of milliseconds to freeze the output of the spectral analyzer after (`0` disables freezing).",
+                    "annotation": "The number of milliseconds after which to freeze the output of the spectral analyzer (inactive for 0).",
                     "appearance": 4,
                     "id": "obj-freeze",
                     "maxclass": "live.numbox",
@@ -637,6 +637,8 @@
             },
             {
                 "box": {
+                    "annotation": "Crossfade between audio and sample (0% outputs only the audio; 50% outputs half the audio, half the sample; and 100% outputs only the sample).",
+                    "annotation_name": "Mix",
                     "appearance": 4,
                     "id": "obj-mix",
                     "maxclass": "live.numbox",
@@ -993,8 +995,8 @@
             {
                 "box": {
                     "activebgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
-                    "annotation": "Select whether to overlay both the audio and the sample, or display only the audio or sample.",
-                    "annotation_name": "Filter Type",
+                    "annotation": "Select between displaying both the audio and the sample, or just one or the other.",
+                    "annotation_name": "View",
                     "appearance": 1,
                     "id": "obj-70",
                     "maxclass": "live.menu",
@@ -1369,9 +1371,11 @@
             },
             {
                 "box": {
+                    "annotation": "",
                     "bgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "domain": [ 20.0, 20000.0 ],
                     "fgcolor": [ 0.38, 1.0, 0.45, 1.0 ],
+                    "hint": "",
                     "id": "obj-38",
                     "logfreq": 1,
                     "markercolor": [ 0.28, 0.28, 0.28, 1.0 ],

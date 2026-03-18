@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 887.0, 469.0, 1339.0, 581.0 ],
+        "rect": [ 369.0, 395.0, 1339.0, 581.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 2,
         "subpatcher_template": "roben-kleene-max-for-live",
@@ -302,8 +302,10 @@
             },
             {
                 "box": {
+                    "annotation": "Spectrogram showing the input audio and the sample overlayed.",
                     "bgcolor": [ 0.0, 0.0, 0.0, 0.0 ],
                     "domain": [ 20.0, 20000.0 ],
+                    "hint": "",
                     "id": "obj-43",
                     "logfreq": 1,
                     "markercolor": [ 0.28, 0.28, 0.28, 0.0 ],
@@ -314,7 +316,8 @@
                     "patching_rect": [ 16.0, 151.0, 405.0, 108.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 0.0, 405.0, 108.0 ],
-                    "range": [ 0.0, 1.0 ]
+                    "range": [ 0.0, 1.0 ],
+                    "varname": "Spectrogram"
                 }
             }
         ],
