@@ -15,6 +15,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-41",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 8.0, 105.0, 47.0, 22.0 ],
+                    "text": "t signal"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-74",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1496,12 +1507,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-31", 0 ],
-                    "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-32", 0 ],
                     "source": [ "obj-2", 3 ]
                 }
@@ -1511,6 +1516,12 @@
                     "destination": [ "obj-4", 0 ],
                     "midpoints": [ 108.83333333333333, 267.0, 655.5, 267.0 ],
                     "source": [ "obj-2", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-41", 0 ],
+                    "source": [ "obj-2", 0 ]
                 }
             },
             {
@@ -1668,6 +1679,12 @@
                     "destination": [ "obj-6", 0 ],
                     "midpoints": [ 655.5, 447.0, 174.0, 447.0, 174.0, 687.0, 116.5, 687.0 ],
                     "source": [ "obj-4", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-31", 0 ],
+                    "source": [ "obj-41", 0 ]
                 }
             },
             {
@@ -1867,14 +1884,6 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
