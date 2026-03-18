@@ -588,7 +588,7 @@
             },
             {
                 "box": {
-                    "annotation": "The number of milliseconds after which to freeze the output of the spectral analyzer (inactive for 0).",
+                    "annotation": "The number of milliseconds after which to freeze the output of the spectral analyzer (0 ms disables freeze).",
                     "appearance": 4,
                     "id": "obj-freeze",
                     "maxclass": "live.numbox",
@@ -637,8 +637,8 @@
             },
             {
                 "box": {
-                    "annotation": "Crossfade between audio and sample (0% outputs only the audio; 50% outputs half the audio, half the sample; and 100% outputs only the sample).",
-                    "annotation_name": "Mix",
+                    "annotation": "Crossfade between audio and sample (0% outputs only the audio, 50% outputs half the audio and half the sample, and 100% outputs only the sample).",
+                    "annotation_name": "A/S",
                     "appearance": 4,
                     "id": "obj-mix",
                     "maxclass": "live.numbox",
@@ -1867,6 +1867,14 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
