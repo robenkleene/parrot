@@ -693,7 +693,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 844.0, 430.0, 1000.0, 780.0 ],
+                        "rect": [ 921.0, 403.0, 1000.0, 780.0 ],
                         "subpatcher_template": "roben-kleene-max-for-live",
                         "boxes": [
                             {
@@ -829,7 +829,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 272.0, 40.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 270.0, 40.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -841,7 +841,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "signal" ],
-                                    "patching_rect": [ 342.0, 40.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 348.25, 40.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -882,7 +882,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-45", 0 ],
+                                    "destination": [ "obj-42", 0 ],
                                     "source": [ "obj-11", 0 ]
                                 }
                             },
@@ -936,7 +936,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-42", 0 ],
+                                    "destination": [ "obj-45", 0 ],
                                     "source": [ "obj-7", 0 ]
                                 }
                             },
@@ -1884,6 +1884,14 @@
             "obj-clear": [ "Clear", "Clear", 0 ],
             "obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-mix": [ "Mix", "A/S", 50 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
