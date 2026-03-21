@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 543.0, 443.0, 631.0, 213.0 ],
+        "rect": [ 543.0, 443.0, 1192.0, 493.0 ],
         "openrect": [ 0.0, 0.0, 541.0, 169.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -68,7 +68,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 5.0, 328.0, 45.0, 45.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 8.0, 8.0, 48.0, 48.0 ]
+                    "presentation_rect": [ 485.0, 0.0, 48.0, 48.0 ]
                 }
             },
             {
@@ -90,7 +90,7 @@
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 5.0, 137.0, 477.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 64.0, 0.0, 477.0, 169.0 ],
+                    "presentation_rect": [ 0.0, 0.0, 477.0, 169.0 ],
                     "varname": "Player",
                     "viewvisibility": 1
                 }
@@ -144,14 +144,6 @@
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-1::obj-23": {
                     "parameter_initial": 10000.000000000002,
