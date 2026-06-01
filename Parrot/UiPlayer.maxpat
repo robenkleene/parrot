@@ -4,12 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 4,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 233.0, 129.0, 1875.0, 1068.0 ],
+        "rect": [ 723.0, 620.0, 611.0, 251.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -339,7 +339,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 73.0, 546.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 427.0, 6.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 420.0, 5.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -368,7 +368,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 121.0, 546.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 426.0, 60.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 420.0, 60.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -397,7 +397,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -688,7 +688,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 2,
+                            "revision": 4,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1165,7 +1165,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 55.0, 675.0, 41.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 426.0, 114.0, 41.0, 48.0 ],
+                    "presentation_rect": [ 420.0, 115.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
@@ -1304,7 +1304,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1533.0, 62.0, 60.0, 160.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 417.0, 0.0, 60.0, 169.0 ],
+                    "presentation_rect": [ 417.0, 0.0, 47.0, 169.0 ],
                     "proportion": 0.39,
                     "rounded": 4,
                     "saved_attribute_attributes": {
@@ -1896,7 +1896,11 @@
         },
         "autosave": 0,
         "bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
+        "editing_bgcolor": [ 0.7372549019607844, 0.7372549019607844, 0.7372549019607844, 1.0 ],
         "saved_attribute_attributes": {
+            "editing_bgcolor": {
+                "expression": "themecolor.live_macro_title"
+            },
             "locked_bgcolor": {
                 "expression": "themecolor.live_macro_title"
             }
