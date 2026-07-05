@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 723.0, 620.0, 611.0, 251.0 ],
+        "rect": [ 420.0, 389.0, 1621.0, 856.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1514,7 +1514,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
-                    "midpoints": [ 108.83333333333333, 267.0, 655.5, 267.0 ],
                     "source": [ "obj-2", 2 ]
                 }
             },
@@ -1527,7 +1526,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "midpoints": [ 63.166666666666664, 291.0, 3.0, 291.0, 3.0, 411.0, 17.5, 411.0 ],
                     "source": [ "obj-2", 1 ]
                 }
             },
@@ -1546,7 +1544,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "midpoints": [ 308.0, 414.0, 17.5, 414.0 ],
                     "source": [ "obj-21", 0 ]
                 }
             },
@@ -1650,7 +1647,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 17.5, 366.0, 633.0, 366.0, 633.0, 834.0, 658.5, 834.0 ],
                     "order": 1,
                     "source": [ "obj-34", 0 ]
                 }
@@ -1670,14 +1666,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "midpoints": [ 1041.5, 687.0, 158.5, 687.0 ],
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
-                    "midpoints": [ 655.5, 447.0, 174.0, 447.0, 174.0, 687.0, 116.5, 687.0 ],
                     "source": [ "obj-4", 0 ]
                 }
             },
@@ -1838,14 +1832,12 @@
             {
                 "patchline": {
                     "destination": [ "obj-18", 0 ],
-                    "midpoints": [ 40.5, 467.0, 655.5, 467.0 ],
                     "source": [ "obj-8", 2 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
-                    "midpoints": [ 17.5, 450.0, 633.0, 450.0, 633.0, 276.0, 655.5, 276.0 ],
                     "source": [ "obj-8", 0 ]
                 }
             },
