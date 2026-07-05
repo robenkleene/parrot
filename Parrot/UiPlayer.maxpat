@@ -28,7 +28,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 491.25, 396.0, 44.0, 15.0 ],
+                    "patching_rect": [ 123.0, 398.0, 44.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 329.0, 5.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -43,6 +43,8 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
+                            "parameter_initial": [ 1.0 ],
+                            "parameter_initial_enable": 1,
                             "parameter_longname": "Edge",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -63,7 +65,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 386.0, 546.0, 51.0, 18.0 ],
+                    "patching_rect": [ 73.0, 378.0, 51.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 258.0, 4.0, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
@@ -85,13 +87,13 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 442.75, 547.5, 45.0, 15.0 ],
+                    "patching_rect": [ 76.0, 398.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 283.0, 5.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 293.0, 5.0, 25.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 0 ],
+                            "parameter_initial": [ 0.020000000000000007 ],
                             "parameter_initial_enable": 1,
                             "parameter_longname": "Threshold",
                             "parameter_mmax": 1.0,
@@ -101,6 +103,7 @@
                             "parameter_unitstyle": 1
                         }
                     },
+                    "textjustification": 0,
                     "varname": "Threshold"
                 }
             },
@@ -112,7 +115,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 339.0, 471.5, 38.0, 18.0 ],
+                    "patching_rect": [ 29.0, 378.0, 38.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 190.0, 4.0, 29.0, 18.0 ],
                     "saved_attribute_attributes": {
@@ -134,13 +137,13 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 379.0, 471.5, 45.0, 15.0 ],
+                    "patching_rect": [ 29.0, 398.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 213.0, 5.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 216.0, 5.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 0 ],
+                            "parameter_initial": [ 40.000000000000014 ],
                             "parameter_initial_enable": 1,
                             "parameter_longname": "Gate",
                             "parameter_mmax": 60000.0,
@@ -150,6 +153,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
+                    "textjustification": 0,
                     "varname": "Gate"
                 }
             },
@@ -349,7 +353,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 29.0, 224.0, 150.0, 74.0 ],
+                                    "patching_rect": [ 29.0, 224.0, 151.0, 74.0 ],
                                     "text": "Since a signal goes positive and negative, use `abs~` to detect amplitude changes, instead of waveform cycles. "
                                 }
                             },
@@ -526,7 +530,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 8.0, 379.0, 119.0, 22.0 ],
+                    "patching_rect": [ 8.0, 420.0, 119.0, 22.0 ],
                     "text": "p TransientDetection"
                 }
             },
@@ -1147,7 +1151,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 689.0, 461.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 86.0, 5.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 89.0, 5.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1161,6 +1165,7 @@
                             "parameter_unitstyle": 2
                         }
                     },
+                    "textjustification": 0,
                     "varname": "Freeze"
                 }
             },
@@ -1197,7 +1202,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 550.0, 888.0, 36.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 152.0, 5.0, 36.0, 15.0 ],
+                    "presentation_rect": [ 154.0, 5.0, 36.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0 ],
@@ -1211,6 +1216,7 @@
                             "parameter_unitstyle": 5
                         }
                     },
+                    "textjustification": 0,
                     "varname": "Mix"
                 }
             },
@@ -1620,14 +1626,14 @@
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
                         "Decay": [ 10000.000000000002 ],
-                        "Edge": [ 0.0 ],
+                        "Edge": [ 1.0 ],
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
-                        "Gate": [ 0.0 ],
+                        "Gate": [ 40.000000000000014 ],
                         "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
-                        "Threshold": [ 0.0 ],
+                        "Threshold": [ 0.020000000000000007 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -1787,7 +1793,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "bang" ],
-                    "patching_rect": [ 8.0, 417.0, 42.0, 22.0 ],
+                    "patching_rect": [ 8.0, 458.0, 42.0, 22.0 ],
                     "text": "t b b b"
                 }
             },
@@ -2245,8 +2251,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-57", 1 ],
+                    "source": [ "obj-59", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-7", 0 ],
                     "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 2 ],
+                    "source": [ "obj-63", 0 ]
                 }
             },
             {
@@ -2347,6 +2365,12 @@
                 "patchline": {
                     "destination": [ "obj-68", 0 ],
                     "source": [ "obj-72", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-57", 3 ],
+                    "source": [ "obj-73", 0 ]
                 }
             },
             {
