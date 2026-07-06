@@ -547,16 +547,6 @@
             },
             {
                 "box": {
-                    "id": "obj-42",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 420.0, 415.0, 32.0, 22.0 ],
-                    "text": "print"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-41",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1630,7 +1620,7 @@
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
-                        "Gate": [ 40.000000000000014 ],
+                        "Gate": [ 40.00000000000003 ],
                         "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "Threshold": [ 0.020000000000000007 ],
@@ -2237,15 +2227,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-42", 0 ],
-                    "order": 0,
-                    "source": [ "obj-57", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-8", 0 ],
-                    "order": 1,
                     "source": [ "obj-57", 0 ]
                 }
             },
