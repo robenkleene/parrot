@@ -160,6 +160,10 @@
                     "parameter_initial": 10000.000000000002,
                     "parameter_initial_enable": 1
                 },
+                "obj-1::obj-59": {
+                    "parameter_initial": 300.00000000000034,
+                    "parameter_initial_enable": 1
+                },
                 "obj-1::obj-63": {
                     "parameter_initial": 0.20000000000000004,
                     "parameter_initial_enable": 1
