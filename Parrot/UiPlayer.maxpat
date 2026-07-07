@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 630.0, 263.0, 1126.0, 856.0 ],
+        "rect": [ 263.0, 211.0, 1738.0, 954.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -54,8 +54,6 @@
                         },
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_initial": [ 1.0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Edge",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -104,8 +102,6 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 0.020000000000000007 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Threshold",
                             "parameter_mmax": 1.0,
                             "parameter_modmode": 4,
@@ -154,8 +150,6 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 40.000000000000014 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Gate",
                             "parameter_mmax": 60000.0,
                             "parameter_modmode": 4,
@@ -886,7 +880,6 @@
                         "valueof": {
                             "parameter_exponent": 3.0,
                             "parameter_initial": [ 0.0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Attack",
                             "parameter_mmax": 20000.0,
                             "parameter_modmode": 0,
@@ -914,8 +907,6 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 10000.000000000002 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Decay",
                             "parameter_mmax": 60000.0,
                             "parameter_modmode": 0,
@@ -1107,7 +1098,6 @@
                         "valueof": {
                             "parameter_enum": [ "val1", "val2" ],
                             "parameter_initial": [ 0.0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Clear",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -1155,8 +1145,6 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
-                            "parameter_initial": [ 0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Freeze",
                             "parameter_mmax": 60000.0,
                             "parameter_modmode": 4,
@@ -1205,8 +1193,6 @@
                     "presentation_rect": [ 154.0, 5.0, 36.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_initial": [ 0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Mix",
                             "parameter_mmax": 100.0,
                             "parameter_modmode": 0,
@@ -1569,7 +1555,6 @@
                         "valueof": {
                             "parameter_enum": [ "Both", "Audio", "Sample" ],
                             "parameter_initial": [ 0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_linknames": 1,
                             "parameter_longname": "View",
                             "parameter_mmax": 2,
@@ -1625,15 +1610,15 @@
                     "restore": {
                         "Attack": [ 0.0 ],
                         "Clear": [ 0.0 ],
-                        "Decay": [ 10000.000000000002 ],
-                        "Edge": [ 1.0 ],
+                        "Decay": [ 0.0 ],
+                        "Edge": [ 0.0 ],
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
-                        "Gate": [ 300.00000000000017 ],
+                        "Gate": [ 0.0 ],
                         "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
-                        "Threshold": [ 0.020000000000000007 ],
+                        "Threshold": [ 0.0 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
@@ -1675,7 +1660,6 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_initial": [ 0.0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_invisible": 2,
                             "parameter_longname": "GainSlider",
                             "parameter_mmax": 6.0,
@@ -1704,8 +1688,6 @@
                     "presentation_rect": [ 420.0, 115.0, 41.0, 48.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_initial": [ 0.0 ],
-                            "parameter_initial_enable": 1,
                             "parameter_longname": "Gain",
                             "parameter_mmax": 6.0,
                             "parameter_mmin": -70.0,

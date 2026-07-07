@@ -156,16 +156,52 @@
                 }
             },
             "parameter_overrides": {
-                "obj-1::obj-23": {
-                    "parameter_initial": 10000.000000000002,
+                "obj-1::obj-14": {
+                    "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 },
+                "obj-1::obj-23": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-24": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-4::obj-4::obj-35": {
+                    "parameter_initial": "",
+                    "parameter_initial_enable": 0
+                },
                 "obj-1::obj-59": {
-                    "parameter_initial": 300.00000000000034,
+                    "parameter_initial": 300.00000000000017,
                     "parameter_initial_enable": 1
                 },
                 "obj-1::obj-63": {
                     "parameter_initial": 0.20000000000000004,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-7": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-70": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-73": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-clear": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-freeze": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-mix": {
+                    "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 }
             },
