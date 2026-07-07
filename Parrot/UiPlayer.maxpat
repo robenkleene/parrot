@@ -1619,7 +1619,7 @@
                         "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "Threshold": [ 0.20000000000000004 ],
-                        "View": [ 2.0 ]
+                        "View": [ 0.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u895019474"
