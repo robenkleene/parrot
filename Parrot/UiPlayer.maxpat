@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 263.0, 211.0, 1738.0, 954.0 ],
+        "rect": [ 263.0, 211.0, 883.0, 421.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -76,7 +76,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 77.66666666666669, 353.0, 51.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 258.0, 4.0, 38.0, 18.0 ],
+                    "presentation_rect": [ 243.0, 4.0, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -98,7 +98,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 80.66666666666669, 373.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 293.0, 5.0, 25.0, 15.0 ],
+                    "presentation_rect": [ 278.0, 5.0, 25.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -124,7 +124,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 29.0, 378.0, 38.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 190.0, 4.0, 29.0, 18.0 ],
+                    "presentation_rect": [ 182.0, 4.0, 29.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -146,7 +146,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 29.0, 398.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 216.0, 5.0, 40.0, 15.0 ],
+                    "presentation_rect": [ 207.0, 5.0, 40.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1119,7 +1119,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 649.0, 461.0, 38.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 55.0, 4.0, 38.0, 18.0 ],
+                    "presentation_rect": [ 50.0, 4.0, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -1141,7 +1141,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 689.0, 461.0, 45.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 89.0, 5.0, 45.0, 15.0 ],
+                    "presentation_rect": [ 84.0, 5.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_exponent": 3.0,
@@ -1167,7 +1167,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 526.0, 888.0, 24.0, 18.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 131.0, 4.0, 24.0, 18.0 ],
+                    "presentation_rect": [ 124.0, 4.0, 24.0, 18.0 ],
                     "saved_attribute_attributes": {
                         "textcolor": {
                             "expression": "themecolor.live_lcd_control_fg_zombie"
@@ -1190,7 +1190,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 550.0, 888.0, 36.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 154.0, 5.0, 36.0, 15.0 ],
+                    "presentation_rect": [ 146.0, 5.0, 36.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_longname": "Mix",
@@ -1547,7 +1547,7 @@
                     "parameter_enable": 1,
                     "patching_rect": [ 825.0, 574.0, 47.0, 15.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 2.0, 6.0, 49.0, 15.0 ],
+                    "presentation_rect": [ 2.0, 6.0, 47.0, 15.0 ],
                     "saved_attribute_attributes": {
                         "activebgcolor": {
                             "expression": ""
@@ -1615,11 +1615,11 @@
                         "Freeze": [ 0.0 ],
                         "Gain": [ 0.0 ],
                         "GainSlider": [ 0.0 ],
-                        "Gate": [ 300.00000000000034 ],
+                        "Gate": [ 300.0000000000004 ],
                         "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
                         "Threshold": [ 0.20000000000000004 ],
-                        "View": [ 0.0 ]
+                        "View": [ 2.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u895019474"
