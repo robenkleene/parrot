@@ -4,7 +4,7 @@
 
 Parrot is a [Max for Live](https://www.ableton.com/en/live/max-for-live/) audio effect to assist in recreating sampled sounds with a synthesizer.
 
-It overlays the spectral output of an instrument (e.g., a synthesizer) over a sample. The idea is to then manually manipulate the controls of the synthesizer until the spectral output matches the sample.  For example, to synthesize a snare drum, you'd add a snare sample to Parrot and then adjust the synthesizer until the spectral output matches the sample.
+It overlays the spectral output of an instrument (e.g., a synthesizer) over a sample. The idea is to then manually manipulate the controls of the synthesizer until the spectral output matches the sample. For example, to synthesize a snare drum, you'd add a snare sample to Parrot and then adjust the synthesizer until the spectral output matches the sample.
 
 The technique of using the spectral output of a sound to replicate it through synthesis is inspired by [*Welsh's Synthesizer Cookbook*](http://synthesizer-cookbook.com/).
 
@@ -31,7 +31,7 @@ The device can be frozen manually by following these steps:
 1. Click the disclosure icon in the upper right of each device and choose `Edit in Max`.
 2. In the Max window, click the `Freeze Device` icon in the bottom bar that looks like a snow flake, then choose `File > Save As...` to save the frozen device to a temporary location.
 
-Note that the frozen files can be deleted after the devices has been added to the `User Library`.
+Note that the frozen files can be deleted after the device has been added to the `User Library`.
 
 ### Installing in Ableton Live
 
@@ -39,7 +39,7 @@ Drag the frozen `Parrot.amxd` to `Ableton/User Library/Presets/Audio Effects/Max
 
 ### Standalone Mode
 
-Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpat`  outside of Ableton Live.
+Parrot can also be opened in standalone mode by opening the `Parrot/Parrot.maxpat` outside of Ableton Live.
 
 ## Interface
 
@@ -55,7 +55,7 @@ The input audio is shown green in the graph, and the sample is shown orange.
 
 ### Transient Detection
 
-Parrot has several controls that work together to determine when a transient is detected to replay the loaded sample. **Edge** is simplest approach, but only relying on it means the sample will never retrigger until the sample has finished playing (i.e., it's amplitude has gone to `0`). **Gate** and **Thresh** allow detecting a transient (sudden increase in amplitude) in order to replay the sample more frequently.
+Parrot has several controls that work together to determine when a transient is detected to replay the loaded sample. **Edge** is the simplest approach, but only relying on it means the sample will never retrigger until the sample has finished playing (i.e., its amplitude has gone to `0`). **Gate** and **Thresh** allow detecting a transient (sudden increase in amplitude) in order to replay the sample more frequently.
 
 - **Gate:** Minimum amount before the sample is allowed to play again.
 - **Thresh:** Threshold for detecting a transient in the delta between samples.
