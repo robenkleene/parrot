@@ -139,8 +139,11 @@
             "obj-1::obj-23": [ "Decay", "Decay", 0 ],
             "obj-1::obj-24": [ "Attack", "Attack", 0 ],
             "obj-1::obj-4::obj-4::obj-35": [ "Sample", "live.drop", 0 ],
+            "obj-1::obj-59": [ "Gate", "Gate", 0 ],
+            "obj-1::obj-63": [ "Threshold", "Threshold", 0 ],
             "obj-1::obj-7": [ "GainSlider", "GainSlider", 0 ],
             "obj-1::obj-70": [ "View", "View", 0 ],
+            "obj-1::obj-73": [ "Edge", "Edge", 0 ],
             "obj-1::obj-clear": [ "Clear", "Clear", 0 ],
             "obj-1::obj-freeze": [ "Freeze", "Freeze", 0 ],
             "obj-1::obj-mix": [ "Mix", "A/S", 50 ],
@@ -153,8 +156,52 @@
                 }
             },
             "parameter_overrides": {
+                "obj-1::obj-14": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
                 "obj-1::obj-23": {
-                    "parameter_initial": 10000.000000000002,
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-24": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-4::obj-4::obj-35": {
+                    "parameter_initial": "",
+                    "parameter_initial_enable": 0
+                },
+                "obj-1::obj-59": {
+                    "parameter_initial": 300.00000000000017,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-63": {
+                    "parameter_initial": 0.20000000000000004,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-7": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-70": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-73": {
+                    "parameter_initial": 1.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-clear": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-freeze": {
+                    "parameter_initial": 0.0,
+                    "parameter_initial_enable": 1
+                },
+                "obj-1::obj-mix": {
+                    "parameter_initial": 0.0,
                     "parameter_initial_enable": 1
                 }
             },
