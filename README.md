@@ -52,3 +52,11 @@ The input audio is shown green in the graph, and the sample is shown orange.
 - `Attack`: The sample envelope attack.
 - `Decay`: The sample envelope decay.
 - `Gain`: The sample playback volume.
+
+### Transient Detection
+
+Parrot has several controls that work together to determine when a transient is detected to replay the loaded sample. **Edge** is simplest approach, but only relying on it means the sample will never retrigger until the sample has finished playing (i.e., it's amplitude has gone to `0`). **Gate** and **Thresh** allow detecting a transient (sudden increase in amplitude) in order to replay the sample more frequently.
+
+- **Gate:** Minimum amount before the sample is allowed to play again.
+- **Thresh:** Threshold for detecting a transient in the delta between samples.
+- **Edge:** Toggles whether to *always* play the sample when a `0` to `1` amplitude is detected.
