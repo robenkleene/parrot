@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 263.0, 211.0, 883.0, 421.0 ],
+        "rect": [ 263.0, 211.0, 1451.0, 1104.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "roben-kleene-max-for-live",
         "boxes": [
@@ -1117,7 +1117,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 649.0, 461.0, 38.0, 18.0 ],
+                    "patching_rect": [ 649.0, 484.0, 38.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 50.0, 4.0, 38.0, 18.0 ],
                     "saved_attribute_attributes": {
@@ -1139,7 +1139,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "float" ],
                     "parameter_enable": 1,
-                    "patching_rect": [ 689.0, 461.0, 45.0, 15.0 ],
+                    "patching_rect": [ 689.0, 484.0, 45.0, 15.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 84.0, 5.0, 45.0, 15.0 ],
                     "saved_attribute_attributes": {
@@ -1586,17 +1586,6 @@
                     "outlettype": [ "bang", "bang" ],
                     "patching_rect": [ 646.0, 557.0, 32.0, 22.0 ],
                     "text": "t b b"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-36",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 689.0, 483.0, 39.0, 22.0 ],
-                    "text": "round"
                 }
             },
             {
@@ -2171,12 +2160,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-37", 0 ],
-                    "source": [ "obj-36", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "source": [ "obj-37", 0 ]
                 }
@@ -2397,7 +2380,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-36", 0 ],
+                    "destination": [ "obj-37", 0 ],
                     "source": [ "obj-freeze", 0 ]
                 }
             },
