@@ -58,5 +58,5 @@ The input audio is shown green in the graph, and the sample is shown orange.
 Parrot has several controls that work together to determine when a transient is detected to replay the loaded sample. **Edge** is the simplest approach, but only relying on it means the sample will never retrigger until the sample has finished playing (i.e., its amplitude has gone to `0`). **Gate** and **Thresh** allow detecting a transient (sudden increase in amplitude) in order to replay the sample more frequently.
 
 - **Gate:** Minimum amount before the sample is allowed to play again.
-- **Thresh:** Threshold for detecting a transient in the delta between samples.
+- **Thresh:** Threshold for detecting a transient in the delta between samples. A **Thresh** of `0` disables transient detection entirely.
 - **Edge:** Toggles whether to *always* play the sample when a `0` to `1` amplitude is detected.
