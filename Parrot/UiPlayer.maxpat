@@ -270,7 +270,6 @@
                         "classnamespace": "box",
                         "rect": [ 733.0, 289.0, 1000.0, 780.0 ],
                         "subpatcher_template": "roben-kleene-max-for-live",
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1726,7 +1725,7 @@
                         "Gate": [ 300.0000000000004 ],
                         "Mix": [ 0.0 ],
                         "Play": [ 0.0 ],
-                        "Threshold": [ 0.20000000000000004 ],
+                        "Threshold": [ 0.3 ],
                         "View": [ 0.0 ]
                     },
                     "text": "autopattr",
