@@ -1053,9 +1053,65 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 563.0, 223.0, 1000.0, 780.0 ],
+                        "rect": [ 1121.0, 229.0, 1000.0, 780.0 ],
                         "subpatcher_template": "roben-kleene-max-for-live",
+                        "visible": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "id": "obj-6",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "patching_rect": [ 8.0, 219.0, 116.0, 22.0 ],
+                                    "text": "rampsmooth~ 0 100"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 8.0, 139.0, 119.0, 22.0 ],
+                                    "text": "0, $1 $2 $3 $4 $5 $6"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-5",
+                                    "maxclass": "newobj",
+                                    "numinlets": 6,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 8.0, 107.0, 125.0, 22.0 ],
+                                    "text": "pack 1. 0. 0. 0. 0. -0.5"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-9",
+                                    "maxclass": "newobj",
+                                    "numinlets": 3,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "signal", "bang" ],
+                                    "patching_rect": [ 8.0, 171.0, 45.0, 22.0 ],
+                                    "text": "curve~"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "id": "obj-10",
+                                    "linecount": 6,
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 136.0, 107.0, 161.0, 87.0 ],
+                                    "text": "Go to `1` over the attack time, and `0` over the decay time. `-0.5` is the curve for the decay, this means the envelope spends less time \"loud\" than a linear ramp."
+                                }
+                            },
                             {
                                 "box": {
                                     "comment": "(float, ms) decay",
@@ -1104,39 +1160,6 @@
                             },
                             {
                                 "box": {
-                                    "id": "obj-7",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 8.0, 184.0, 87.0, 22.0 ],
-                                    "text": "0, $1 $2 $3 $4"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-16",
-                                    "maxclass": "newobj",
-                                    "numinlets": 4,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 8.0, 144.0, 89.0, 22.0 ],
-                                    "text": "pack 1. 0. 0. 0."
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-19",
-                                    "maxclass": "newobj",
-                                    "numinlets": 2,
-                                    "numoutlets": 2,
-                                    "outlettype": [ "signal", "bang" ],
-                                    "patching_rect": [ 8.0, 224.0, 36.0, 22.0 ],
-                                    "text": "line~"
-                                }
-                            },
-                            {
-                                "box": {
                                     "comment": "(bang) play env",
                                     "id": "obj-3",
                                     "index": 1,
@@ -1151,25 +1174,13 @@
                         "lines": [
                             {
                                 "patchline": {
-                                    "destination": [ "obj-16", 1 ],
+                                    "destination": [ "obj-5", 1 ],
                                     "source": [ "obj-1", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-7", 0 ],
-                                    "source": [ "obj-16", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-2", 0 ],
-                                    "source": [ "obj-19", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-16", 0 ],
+                                    "destination": [ "obj-5", 0 ],
                                     "source": [ "obj-20", 0 ]
                                 }
                             },
@@ -1181,14 +1192,32 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-16", 3 ],
+                                    "destination": [ "obj-5", 4 ],
                                     "source": [ "obj-4", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-19", 0 ],
-                                    "source": [ "obj-7", 0 ]
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "source": [ "obj-6", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-9", 0 ],
+                                    "source": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-6", 0 ],
+                                    "source": [ "obj-9", 0 ]
                                 }
                             }
                         ]
