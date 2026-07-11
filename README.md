@@ -51,7 +51,7 @@ The input audio is shown green in the graph, and the sample is shown orange.
 - `Clear`: Clear the sample.
 - `Attack`: The sample envelope attack.
 - `Decay`: The sample envelope decay.
-- `Gain`: The sample playback volume.
+- `Gain`: The sample volume.
 
 ### Transient Detection
 
